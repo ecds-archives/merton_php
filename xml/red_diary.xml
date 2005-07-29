@@ -1,3 +1,4 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI.2//EN" "./merton-tei.dtd">
 <TEI.2>
    <teiHeader type="text">
       <fileDesc>
@@ -50,6 +51,12 @@
          <creation>
             <date>1653</date>
          </creation>
+	<langUsage>
+ 	  <language id="eng">English</language>
+	  <language id="grc">Ancient Greek</language>
+	  <language id="fre">French</language>
+	  <language id="lat">Latin</language>
+	</langUsage>
       </profileDesc>
       <revisionDesc>
          <change>
@@ -75,10 +82,9 @@ included.</item>
    </teiHeader>
    <text>
       <front>
-         <div1 type="Preface">
+         <div type="Preface">
             <head>
-               <hi rend="Bold">Thomas Merton's Journal #10,&quot;The Red
-Diary&quot;</hi>
+               <hi rend="Bold">Thomas Merton's Journal #10,&quot;The Red Diary&quot;</hi>
             </head>
             <head>
                <hi>Foreword</hi>
@@ -107,9 +113,8 @@ was begun after November, 1964 and either completed or abandoned in
 early1965. It is difficult, though admittedly not impossible, to
 assume that, during a six year period, Merton would have filled only
 63pages in the diary. And since all the journal's entries are
-similar,what can be described as an anthology or <hi>florilegium</hi>
-of favorite passages from Merton's <hi>lectio</hi> 
-               <hi>divina</hi>,
+similar,what can be described as an anthology or <foreign lang="lat">florilegium</foreign>
+of favorite passages from Merton's <foreign lang="lat">lectio divina</foreign>,
 the entries in the journal are assumed to be more accurately
 dated1964-65 than 1959. Given this assumption, Merton saves or
 finds unused a red-leather diary for 1959 which becomes another journal
@@ -142,12 +147,94 @@ of this transcription are reserved by the provisions of the Thomas
 Merton Legacy Trust and by Bellarmine College.</p>
             <p>Erasmo Leiva-Merikakis,San Francisco, California Jonathan
 Montaldo,Collingswood, New Jersey January 31, 1989</p>
-         </div1>
+         </div>
       </front>
       <body>
-         <div1 n="X(5)" type="Preface">
-            <docAuthor>Merton, Thomas.  RED DIARY.  </docAuthor>
+<pb n="4"/>
+         <div n="X(4)" id="p04" type="page">
+	<dateline>
+	  <date value="1959-01-03">1959<lb/>
+		Saturday 3 January<lb/>
+	  </date>
+	<lb/>3rd day - 362 days to come
+	</dateline> 
+	<cit>
+	<quote lang="grc" id="p04.q01">
+	<p>&#x03A0;&#x03AC;&#x03C4;&#x03B5;&#x03C1; <!-- Pater -->
+	&#x1F25;&#x03BC;&#x03C9;&#x03BD;  <!-- emon -->
+	&#x1F78; <!-- o -->
+	&#x03B5;&#x03BD; <!-- en --> 
+	&#x03C4;&#x03BF;&#x03B9;&#x03C2; <!-- tois --> 
+	&#x03BF;&#x1F50;&#x03C1;&#x03B1;&#x03BD;&#x03BF;&#x03B9;&#x03C2; <!-- ouranois -->
+	&#x1F01;&#x03B3;&#x03B9;&#x03B1;&#x03C1;&#x03B8;&#x03AE;&#x03C4;&#x03C9; <!-- agiartheto -->
+	&#x03C4;&#x1F78; <!-- to --> 
+	&#x1F44;&#x03BD;&#x03BF;&#x03BC;&#x03AC;   <!-- onoma  -->
+	&#x03C3;&#x03BF;&#x03C5; <!-- sou -->
+	&#x1F10;&#x03BB;&#x03B8;&#x03AC;&#x03C4;&#x03C9;<!-- elthato  -->
+	&#x1F21; <!-- h -->
+        &#x03B2;&#x03B1;&#x03C3;&#x03B9;&#x03BB;&#x03B5;&#x03AF;&#x03B1; <!-- basileia -->
+	&#x03C3;&#x03BF;&#x03C5; <!-- sou -->
+	&#x03B3;&#x03B5;&#x03BD;&#x03B7;&#x03B8;&#x03AE;&#x03C4;&#x03C9; <!-- genetheto -->
+	&#x03C4;&#x03BF; <!-- to -->
+	&#x03B8;&#x03AD;&#x03BB;&#x03B5;&#x03BC;&#x03AC; <!-- thelema -->
+	&#x03C3;&#x03BF;&#x03C5; <!-- sou -->
+	&#x1F61;&#x03C2; <!-- os --> &#x03B5;&#x03BD; <!-- en -->
+	&#x03BF;&#x1F50;&#x03C1;&#x03B1;&#x03BD;&#x1FF7; <!-- ourano  -->
+	&#x03BA;&#x03B1;&#x1F76; <!-- kai -->
+	&#x1F10;&#x03C0;&#x1F76; <!-- epi -->
+	&#x03B3;&#x1FC6;&#x03C2; &#x0387; <!-- ges ; -->
+	&#x03C4;&#x03BF;&#x03BD; <!-- ton -->
+	&#x1F04;&#x03C1;&#x03C4;&#x03BF;&#x03BD; <!-- arton -->
+	&#x1F21;&#x03BC;&#x03C9;&#x03BD;  <!-- emon -->
+	&#x03C4;&#x03CC;&#x03C5; <!-- tou -->
+	&#x1F10;&#x03C0;&#x03B9;&#x03BF;&#x03CD;&#x03C0;&#x03BF;&#x03BD;</p>
+	<p>
+	&#x03B4;&#x03CC;&#x03C2; <!-- dos -->
+	&#x1F20;&#x03BC;&#x03B9;&#x03BD; <!-- emin -->
+	&#x03C3;&#x03AE;&#x03BC;&#x03B5;&#x03C1;&#x03BF;&#x03BD; &#x0387; <!-- semeron ; -->
+        &#x03BA;&#x03B1;&#x1F76; <!-- kai -->
+	&#x1F04;&#x03C6;&#x03B5;&#x03C2; <!-- aphes -->
+	&#x1F20;&#x03BC;&#x03AF;&#x03BD; <!-- emin -->
+	&#x03AF;&#x03B1; <!-- ia -->
+	&#x03BF;&#x03C6;&#x03B5;&#x03B9;&#x03BB;&#x03AE;&#x03BC;&#x03B1;&#x03C4;&#x03B1; <!-- opheilemata -->
+	&#x1F20;&#x03BC;&#x03C9;&#x03BD; <!-- emon -->
+	&#x1F61;&#x03C2; <!-- os -->
+	&#x03BA;&#x03B1;&#x1F76; <!-- kai -->
+	&#x1F21;&#x03BC;&#x03B5;&#x1FD1;&#x03C2; <!-- emeis -->
+	&#x1F00;&#x03C6;&#x1F74;&#x03BA;&#x03B1;&#x03BC;&#x03B5;&#x03C5; <!-- aphekameu -->
+	&#x03C4;&#x03BF;&#x1FD1;&#x03C2; <!-- tois --></p>
+	<p>
+	&#x1F40;&#x03C6;&#x03B5;&#x03B9;&#x03BB;&#x03AD;&#x03C4;&#x03B1;&#x03B9;&#x03C2; <!-- opheiletais -->
+	&#x1F21;&#x03BC;&#x03C9;&#x03BD; &#x0387; <!-- emon ; -->
+	&#x03BA;&#x03B1;&#x03B9; <!-- kai -->
+	&#x03BC;&#x03B7; <!-- me -->
+	&#x03B5;&#x1F30;&#x03C4;&#x03B5;&#x03BD;&#x03AD;&#x03B3;&#x03BA;&#x1FC3;&#x03C2; <!-- eitenegkes -->
+        &#x1F21;&#x03BC;&#x03B1;&#x03C2; <!-- emas -->
+	&#x03B5;&#x1F30;&#x03C2; <!-- eis -->
+	&#x03C0;&#x03B5;&#x03B9;&#x03C1;&#x03B1;&#x03C3;&#x03BC;&#x03BF;&#x03BD;, <!-- peirasmon -->
+	&#x1F00;&#x03BB;&#x03BB;&#x1F70; <!-- alla -->
+	&#x1FE5;&#x1FE6;&#x03C3;&#x03B1;&#x03B9; <!-- resai -->
+	&#x1F21;&#x03BC;&#x1FB6;&#x03C2; <!-- emas -->
+	&#x1F00;&#x03C0;&#x1F78; <!-- apo -->
+	&#x03C4;&#x03BF;&#x03C5; <!-- tou -->
+	&#x03C0;&#x03BF;&#x03BD;&#x03B7;&#x03C1;&#x03BF;&#x1FE6; . <!-- ponerou -->
+	</p>
+
+	</quote>
+	</cit>
+	</div>
+<pb n="5"/>	
+         <div n="X(5)" id="p05" type="page">
+	<dateline>
+	  <date value="1959-01-04"><dateStruct>1959<lb/>
+		Sunday 4 January<lb/>
+	    <occasion>Second Sunday after Christmas</occasion>
+	  </dateStruct></date>
+	<lb/>4th day - 361 days to come
+	</dateline> 
             <head>X (5)</head>
+	<cit>
+	<quote id="p05.q01">
             <lg>
                <l>O Lord and Master of my life, give me</l>
                <l>not a spirit of sloth, of despondency, of lust or</l>
@@ -156,66 +243,106 @@ Montaldo,Collingswood, New Jersey January 31, 1989</p>
                <l>of patience and love. You, O Lord and</l>
                <l>King, grant to me to see my own errors</l>
                <l>&amp; not to judge my brother, for blessed</l>
-               <l>art thou unto ages of ages.</l>
+               <l>art thou unto ages of ages.<ref target="p05.q01.n01">&#x02c7;</ref></l>
             </lg>
-            <note anchored="yes">(Popular in C<hi>19 </hi>Russia)</note>
-            <bibl>St. Ephrem</bibl>
-            <p>All the essence of Xtianity is contained in this prayer.</p>
-            <bibl>Dostoievsky.</bibl>
-         </div1>
-         <div1 n="X(6)" type="Preface">
-            <docAuthor>Merton, Thomas.  RED DIARY.  </docAuthor>
+            <note id="p05.q01.n01" resp="auth" place="inline">(Popular in C<hi rend="superscript underline">19</hi>Russia)</note>
+	</quote>
+            <bibl><author><name key="Ephrem" reg="Ephraem, Syrus, Saint">St. Ephrem</name></author></bibl>
+	</cit>
+	<cit>
+	<quote id="p05.q02">
+            <p>"All the essence of Xtianity is contained in this
+prayer."</p>
+	</quote>
+            <bibl><author><name key="Dostoyevsky" reg="Dostoyevsky, Fyodor">Dostoievsky</name></author>.</bibl>
+	</cit>
+         </div>
+<pb n="6"/>
+         <div n="X(6)" id="p06" type="page">
+	<dateline>
+	  <date value="1959-01-05">1959<lb/>
+		Monday 5 January<lb/>
+	  </date>
+	<lb/>5th day - 360 days to come
+	</dateline> 
             <head>X (6)</head>
-            <lg>
-               <l>The one who is offended can forgive; the</l>
-               <l>offender never forgives; from his crime sprouts</l>
-               <l>hatred. A Christian can be a serf but</l>
-               <l> must not be a slave-owner.</l>
-            </lg>
-            <bibl>Khomiakov </bibl>
-            <p>Christianity does not touch but
-illuminates.</p>
-            <bibl> I. Aksakov.</bibl>
-         </div1>
-         <div1 n="X(7)" type="Preface">
-            <docAuthor>Merton, Thomas.  RED DIARY.  </docAuthor>
+	<cit>
+	 <quote id="p06.q01">"The one who is offended can forgive; the offender never
+forgives; from his crime sprouts hatred. A Christian can be a serf but must not be a slave-owner.</quote>
+            <bibl><author><name  key="Khomiakov">Khomiakov</name></author></bibl>
+	</cit>
+	<cit>
+            <quote id="p06.q02">"Christianity does not touch but illuminates."</quote>
+            <bibl><author><name key="Aksakov" reg="Aksakov, I. S. (Ivan Sergeevich)">I. Aksakov</name></author>.</bibl>
+	</cit>	
+        </div>
+<pb n="7"/>
+         <div n="X(7)" id="p07" type="page">
+	<dateline>
+	  <date value="1959-01-06"><dateStruct>1959<lb/>
+		Tuesday 6 January<lb/>
+	    <occasion>Feast of the Epiphany</occasion>
+	  </dateStruct></date>
+	<lb/>6th day - 359 days to come
+	</dateline> 
             <head>X (7)</head>
-            <q direct="unspecified">Few men are Johnsons; yet how many men  at this
+	<cit>
+            <quote id="p07.q01">Few men are Johnsons; yet how many men  at this
 day are assailed by incessant  demands on their mental powers which
 only  a productiveness like his could suitably supply!  There is a
 demand for reckless originality  of thought &amp; a sparkling
 plausibility of  agreement which he would have despised even if he
 could have displayed; a demand for crude theory &amp; unsound
-philosophy rather than none at all.</q>
-            <bibl>Newman.</bibl>
-            <q direct="unspecified">What must be the toil of those whose intellects are to be flaunted
+philosophy rather than none at all.</quote>
+            <bibl><author><name key="Newman" reg="Newman, John Henry">Newman</name></author>.</bibl>
+	</cit>
+	<cit>
+            <quote id="p07.q02">What must be the toil of those whose intellects are to be flaunted
 daily before the public in full dress, &amp; underdress ever new &amp;
 varied, &amp; spun, like the silkworm's, out of themselves.
-<note anchored="yes">Merton identified with John Henry Newman. Of Newman Merton wrote
-elsewhere: &quot;There are people one meets in books or in life whom
-one does not merely observe, meet, or know.  A deep resonance of one's
-entire being is immediately set up with the entire being of the other
-(<hi>Cor ad cor loquitur</hi>)--heart speaks to heart in the wholeness
-of the language of music; true friendship is a kind of
-singing.&quot;:<hi>Conjectures of A Guilty Bystander</hi>. (New York:
-Image Books, 1968), p. 188.</note> 
-            </q>
-            <bibl>Newman.</bibl>
-         </div1>
-         <div1 n="X(8)" type="Preface">
-            <docAuthor>Merton, Thomas.  RED DIARY.  </docAuthor>
+
+<note resp="editor" anchored="yes">Merton identified with John Henry
+Newman. Of Newman Merton wrote elsewhere: <cit><quote id="p07.q03">&quot;There are people one
+meets in books or in life whom one does not merely observe, meet, or
+know.  A deep resonance of one's entire being is immediately set up
+with the entire being of the other (<hi lang="lat">Cor ad cor
+loquitur</hi>)--heart speaks to heart in the wholeness of the language
+of music; true friendship is a kind of singing.&quot;</quote><bibl>:<title><rs type="title" key="Conjectures" reg="Conjectures of a Guilty Bystander">Conjectures of A Guilty Bystander</rs></title>. (<pubPlace>New York</pubPlace>: <publisher>Image Books</publisher>, <date>1968</date>),
+p. 188.</bibl></cit></note>
+</quote>
+            <bibl><author><name key="Newman" reg="Newman, John Henry">Newman</name></author>.</bibl>
+	</cit>
+         </div>
+<pb n="8"/>
+         <div n="X(8)" id="p08" type="page">
+	<dateline>
+	  <date value="1959-01-07">1959<lb/>
+		Wednesday 7 January<lb/>
+	  </date>
+	<lb/>7th day - 358 days to come
+	</dateline> 
             <head>X (8) </head>
-            <q direct="unspecified">Let meekness, simplicity, condescension to
+	<cit>
+            <quote id="p08.q01">"Let meekness, simplicity, condescension to
 those lower than yourselves, condescension which would put you on an
 equal level with the lowest among them, let quietness in humiliation,
 patience which no offence could overwhelm, let all this become your
-mind as it was of Christ Jesus.</q>
-            <bibl>Met.[tropolitan] Filaret</bibl>
-         </div1>
-         <div1 n="X(9)" type="Preface">
-            <docAuthor>Merton, Thomas.  RED DIARY.  </docAuthor>
+mind as it was of Christ Jesus."</quote>
+            <bibl><author><name key="Filaret" reg="Filaret, Metropolitan of Moscow">Met.<ref type="inline-note" target="p09.q01.n01" targType="note"/> Filaret</name></author> 
+	<note id="p09.q01.n01" place="inline" resp="editor">[tropolitan]</note></bibl>
+	</cit>
+         </div>
+<pb n="9"/>
+	<div n="X(9)" id="p09" type="page">
+	<dateline>
+	  <date value="1959-01-08">1959<lb/>
+		Thursday 8 January<lb/>
+	  </date>
+	<lb/>8th day - 357 days to come
+	</dateline> 
             <head>X (9)</head>
-            <q direct="unspecified">As fellow workers of the loving Christ's Spirit,
+	<cit>
+            <quote id="p09.q01">"As fellow workers of the loving Christ's Spirit,
 the holy men of God bear, by the grace of Christ, human sinful
 weaknesses &amp; humiliations as if they were themselves liable to
 spiritual foolishness. According to such heroism of faith &amp; love,
@@ -225,13 +352,21 @@ patiently He brings them to the path of Truth. Ordinary men pass
 gradually from their childish mind into the life of sane intelligence
 because these others, in their gracious love offer themselves to the
 hard death of frank madness in the eyes of men. Such is the mystery
-&amp; significance of foolishness for Christ's sake.</q>
-            <bibl>A. M. Bukharev.</bibl>
-         </div1>
-         <div1 n="X(10)" type="Preface">
-            <docAuthor>Merton, Thomas.  RED DIARY.  </docAuthor>
+&amp; significance of foolishness for Christ's sake."</quote>
+            <bibl><author><name key="Bukharev" reg="Bukharev, A. M. (Aleksandr Matveevich)">A. M. Bukharev</name></author>.</bibl>
+	</cit>
+         </div>
+	<pb n="10"/>
+<div n="X(10)" id="p10" type="page">
+	<dateline>
+	  <date value="1959-01-09">1959<lb/>
+		Friday 9 January<lb/>
+	  </date>
+	<lb/>9th day - 356 days to come
+	</dateline> 
             <head>X (10)</head>
-            <q direct="unspecified">The heavenly Father uttered His hypostatic or personal Word &amp;
+	<cit>
+            <quote id="p10.q01">The heavenly Father uttered His hypostatic or personal Word &amp;
 all came into being; but uttering His thought &amp; His will about the
 existence of creation, He, at the same time, was determining for His
 own personal Word or Son to take upon him the burden of all - already
@@ -240,236 +375,447 @@ creating according to the thought of His Father but already He was
 dooming Himself to the immeasurable self-sacrifice in order to keep
 this new created world in the meaning &amp; designation given to it --
 even in spite of the foreseen infidelity of the world to its meaning
-&amp; designation.</q>
-            <bibl>A. M. Bukharev (on Job)</bibl>
-         </div1>
-         <div1 n="X(11)" type="Preface">
-            <docAuthor>Merton, Thomas.  RED DIARY.  </docAuthor>
+&amp; designation.</quote>
+            <bibl><author><name key="Bukharev" reg="Bukharev, A. M. (Aleksandr Matveevich)">A. M. Bukharev</name></author> (on Job)</bibl>
+	</cit>
+         </div>
+         <pb n="11"/>
+<div n="X(11)" id="p11" type="page">
+	<dateline>
+	  <date value="1959-01-10">1959<lb/>
+		Saturday 10 January<lb/>
+	  </date>
+	<lb/>10th day - 355 days to come
+	</dateline> 
             <head>X (11) </head>
-            <q direct="unspecified">As for the secular world for the sake of which Bukharev left his
+	<cit>
+            <quote id="p11.q01">"As for the secular world for the sake of which Bukharev left his
 monastery, it did not hear his voice &amp; did not realize that he was
 suffering in order to redeem &amp; to unite with Christ the secular
-art &amp; thought so often suspected by the clergy as an enemy.</q>
-            <bibl>Govodetzky.</bibl>
-         </div1>
-         <div1 n="X(12)" type="Preface">
-            <docAuthor>Merton, Thomas.  RED DIARY.  </docAuthor>
+art &amp; thought so often suspected by the clergy as an enemy."</quote>
+            <bibl><author><name key="Govodetzky">Govodetzky</name></author>.</bibl>
+	</cit>
+         </div>
+         <pb n="12"/>
+<div n="X(12)" id="p12" type="page">
+	<dateline>
+	  <date value="1959-01-11"><dateStruct>1959<lb/>
+		Sunday 11 January<lb/>
+	    <occasion>First Sunday after Epiphany</occasion> --
+	<occasion>Alexander Hamilton, born 1757</occasion>
+	  </dateStruct></date>
+	<lb/>11th day - 354 days to come
+	</dateline> 
             <head>X (12) </head>
-            <q direct="unspecified">Christ suffers and is crucified in the world because the sacrifice
+	<cit>
+            <quote id="p12.q01">Christ suffers and is crucified in the world because the sacrifice
 of Golgatha is still repeated in the world until he comes. The Lord in
 His glorified manhood is sitting at the right hand of the Father, but
 in the earthly manhood of which He is the new Adam, in His Body the
 Church, which is still in the state of Christ militant, Christ dwells
-not only in His glorification but in His kenosis also.</q>
-            <bibl>Boulgakov</bibl>
-         </div1>
-         <div1 n="X(13)" type="Preface">
-            <docAuthor>Merton, Thomas.  RED DIARY.  </docAuthor>
+not only in His glorification but in His kenosis also.</quote>
+            <bibl><author><name key="Boulgakov" reg="Boulgakov, Serge">Boulgakov</name></author></bibl>
+	</cit>
+         </div>
+         <pb n="13"/>
+<div type="section" n="Heraclitus">
+  <div n="X(13)" id="p13" type="page">
+	<dateline>
+	  <date value="1959-01-12">1959<lb/>
+		Monday 12 January<lb/>
+	  </date>
+	<lb/>12th day - 353 days to come
+	</dateline> 
             <head>X (13) </head>
-            <bibl>
-               <hi>HERACLITUS</hi>
-            </bibl>
-            <q direct="unspecified">Aion is a child at play, playing
-draughts; the Kingship is a child's. -- Fr 52I sought for myself. Fr
-101 His opinions were in general that all things are composed from
-fire &amp; into this they are resolved;Everything comes to be through
-fate and existing things are connected through this turning in
-opposite directions.All things are full of souls &amp; daimons...He
-called conflict a sacred disease and seeing, being deceived.</q>
-         </div1>
-         <div1 n="X(14)" type="Preface">
-            <docAuthor>Merton, Thomas.  RED DIARY.  </docAuthor>
+            <bibl><author rend="underline"><name key="Heraclitus" reg="Heraclitus">HERACLITUS</name></author></bibl>
+	<cit>
+            <quote id="p13.q01">Aion is a child at play, playing
+draughts; the Kingship is a child's.</quote>
+	<bibl><rs key="Heraclitus"/>-- <biblScope type="part">Fr 52</biblScope></bibl>
+	</cit>
+	<cit>
+	  <quote id="p13.q02">I sought for myself.</quote>
+	  <bibl><rs key="Heraclitus"/><biblScope type="part">Fr. 101</biblScope></bibl>
+	</cit>
+
+<!-- this bit seems to be Merton, not a quote... -->
+	<p>His opinions were in general that all things are composed from
+fire &amp; into this they are resolved;<lb/>
+	Everything comes to be through fate and existing things are
+	connected through this turning in opposite directions.All
+	things are full of souls &amp; daimons...</p>
+	<p>He called conflict a sacred disease and seeing, being deceived.</p>
+
+         </div>
+         <pb n="14"/>
+<div n="X(14)" id="p14" type="page">
+	<dateline>
+	  <date value="1959-01-13">1959<lb/>
+		Tuesday 13 January<lb/>
+	  </date>
+	<lb/>13th day - 352 days to come
+	</dateline> 
             <head>X (14)</head>
-            <q direct="unspecified"> They say that when asked why he was silent, he replied -&quot;That
-you may babble.</q>
-            <q direct="unspecified">Do not be in a hurry to unwind to the center stick the roll of
+	<cit>
+            <bibl><author rend="underline"><name key="Heraclitus">Heraclitus</name></author></bibl>
+            <bibl>(Diog.<note place="inline"
+resp="editor">[enes]</note>)</bibl>
+	<quote id="p14.q01">They say that when asked why he was silent,
+he replied - "That you may babble." .</quote>
+	<milestone unit="section" rend="plus"/>
+            <quote id="p14.q02">Do not be in a hurry to unwind to the center stick the roll of
 Heraclitus the Ephesian; the path is hard indeed to traverse. There is
 gloom and unrelieved darkness; but if an initiate leads you it shines
-more brightly than the shining sun.</q>
-            <q direct="unspecified">Those who speak with sense
+more brightly than the shining sun.</quote>
+	<milestone unit="section" rend="plus"/>
+            <quote id="p14.q03">Those who speak with sense
 must rely on what is common to all, as a city must rely on its law...
-<note anchored="yes">  (nb. common remains unknown to most)</note>
-            </q>
-            <q direct="unspecified">The divine
-law has as much power as it wishes &amp; is sufficient for all / is
-still left over.</q>
-            <bibl>(Diog.[enes]) Frag 114</bibl>
-         </div1>
-         <div1 n="X(15)" type="Preface">
-            <docAuthor>Merton, Thomas.  RED DIARY.  </docAuthor>
+<note place="inline" resp="auth" anchored="yes">(nb. common remains unknown to most)</note>
+            </quote>
+            <quote id="p14.q04">The divine law has as much power as it wishes &amp;
+is sufficient for all &amp; is still left over.</quote>
+            <bibl><biblScope type="part">Frag 114</biblScope></bibl>
+	</cit>
+         </div>
+         <pb n="15"/>
+<div n="X(15)" id="p15" type="page">
+	<dateline>
+	  <date value="1959-01-14">1959<lb/>
+		Wednesday 14 January<lb/>
+	  </date>
+	<lb/>14th day - 351 days to come
+	</dateline> 
             <head>X (15)</head>
-            <q direct="unspecified">Therefore it is necessary to follow the common: but although the
+	<cit>
+            <bibl><author><name key="Heraclitus" reg="Heraclitus">Heraklitus</name></author></bibl>
+            <quote id="p15.q01">Therefore it is necessary to follow the common: but although the
 logos is common the many live as though they had a private
-understanding.  Fr. 2</q>
-            <q direct="unspecified">To god all things are beautiful &amp; good and just; but men have
-supposed some things to be unjust, others just.  Fr 102</q>
-            <q direct="unspecified">The up &amp; the down is one and the same. Fr 60.
-The beginning &amp; end of a circle are common. (70.b)  (Fr 103)</q>
-            <bibl>Heraklitus</bibl>
-         </div1>
-         <div1 n="X(16)" type="Preface">
-            <docAuthor>Merton, Thomas.  RED DIARY.  </docAuthor>
+understanding.</quote> <bibl rend="circled"><biblScope
+type="part">Fr. 2</biblScope></bibl>
+	</cit>
+	<cit>
+            <quote id="p15.q02">To god all things are beautiful &amp; good and just; but men have
+supposed some things to be unjust, others just.</quote>
+<bibl><rs key="Heraclitus"/><biblScope type="part">Fr 102</biblScope></bibl>
+	</cit>
+	<cit>
+            <quote id="p15.q03">The up &amp; the down is one and the
+same.</quote><bibl><rs key="Heraclitus"/><biblScope type="part">Fr 60</biblScope>.</bibl>
+	</cit>
+	<cit>
+	    <quote id="p15.q04">The beginning &amp; end of a circle are
+common.</quote>
+	<bibl><rs key="Heraclitus"/>(70.b)  (<biblScope type="part">Fr 103</biblScope>)</bibl>
+	</cit>
+         </div>
+</div> <!-- end section: Heraclitus -->
+         <pb n="16"/>
+<div n="X(16)" id="p16" type="page">
+	<dateline>
+	  <date value="1959-01-15">1959<lb/>
+		Thursday 15 January<lb/>
+	  </date>
+	<lb/>15th day - 350 days to come
+	</dateline> 
             <head>X (16) </head>
-            <q direct="unspecified">Celui qui cherche et trouve l'Esprit du Christ en agissant bien,
-celui[-]la progresse beaucoup plus s&ucirc;rement que celui [qui] ne vaque
-qu'&aacute; la seule pri&egrave;re: oui, celui qui atteint le Christ dans
-l'action et celui qui l'atteint dans la pri&egrave;re son souvent comme celui
-qui l'atteint en r&eacute;alit&eacute; et celui qui l'atteint en d&eacute;sir.
-<note anchored="yes">Whoever seeks and finds the Spirit of Christ through right
-action makes much surer progress than whoever dedicates himself solely
-to prayer: indeed, the person who attains to Christ through action and
-the person who attains to him through prayer are often like one who
-attains to him in reality and one who attains to him in
-desire.</note>
-            </q>
-            <bibl>B1. Peter Favre, S.J. (1)</bibl>
-         </div1>
-         <div1 n="X(17)" type="Preface">
-            <docAuthor>Merton, Thomas.  RED DIARY.  </docAuthor>
+	<cit>
+            <quote lang="fre" id="p16.q01">"Celui qui cherche et trouve l'Esprit du Christ en agissant bien, 
+celui<note place="inline" resp="editor">[-]</note>l&#x00E0; progresse
+beaucoup plus s&#x00FB;rement que celui <note place="inline" resp="editor">[qui]</note> ne vaque
+qu'&#x00E0; la seule pri&#x00E8;re: oui, celui qui atteint le Christ dans
+l'action et celui qui l'atteint dans la pri&#x00E8;re son souvent comme celui
+qui l'atteint en r&#x00E9;alit&#x00E9; et celui qui l'atteint en d&#x00E9;sir."
+
+<note type="trans" lang="eng" resp="editor">Whoever seeks and finds
+the Spirit of Christ through right action makes much surer progress
+than whoever dedicates himself solely to prayer: indeed, the person
+who attains to Christ through action and the person who attains to him
+through prayer are often like one who attains to him in reality and
+one who attains to him in desire.</note>
+            </quote>
+            <bibl>B1. <author><name key="Favre" reg="Favre, Pierre">Peter Favre, S.J.</name></author> (1)</bibl>
+	</cit>
+         </div>
+         <pb n="17"/>
+<div n="X(17)" id="p17" type="page">
+	<dateline>
+	  <date value="1959-01-16">1959<lb/>
+		Friday 16 January<lb/>
+	  </date>
+	<lb/>16th day - 349 days to come
+	</dateline> 
             <head>X (17)</head>
-            <q direct="unspecified">Nous serons merveilleusement encourag&eacute;s si nous nous rappelons
-souvent et serieusement que nous sommes mandates aupr&egrave;s du prochain,
-non seulement par le Sup&eacute;rieur mais par le Christ lui-m&ecirc;me.  <note anchored="yes">We
-would derive wonderful encouragement from remembering, often and
-seriously, that we have received our mission toward our neighbor not
-only from our Superior but from Christ himself.</note>
-            </q>
-            <bibl>St. Peter Canisius [S.J.]</bibl>
-         </div1>
-         <div1 n="X(18)" type="Preface">
-            <docAuthor>Merton, Thomas.  RED DIARY.  </docAuthor>
+	<cit>
+            <quote lang="fre" id="p17.q01">"Nous serons merveilleusement encourag&#x00E9;s si nous nous rappelons
+souvent et serieusement que nous sommes mandat&#x00E9;s aupr&#x00E8;s du prochain,
+non seulement par le Sup&#x00E9;rieur mais par le Christ
+lui-m&#x00E9;me."
+ <note type="trans" resp="editor">We would derive wonderful
+encouragement from remembering, often and seriously, that we have
+received our mission toward our neighbor not only from our Superior
+but from Christ himself.</note> 
+            </quote>
+            <bibl><author><name key="Canisius" reg="Canisius, Petrus, Saint">St. Peter Canisius</name></author> <note  place="inline" resp="editor">[S.J.]</note></bibl>
+	</cit>
+         </div>
+         <pb n="18"/>
+<div n="X(18)" id="p18" type="page">
+	<dateline>
+	  <date value="1959-01-17"><dateStruct>1959<lb/>
+		Saturday 17 January<lb/>
+	    <occasion>Benjamin Franklin--Born 1706</occasion>
+	  </dateStruct></date>
+	<lb/>17th day - 348 days to come
+	</dateline> 
             <head>X (18) </head>
-            <q direct="unspecified">L'Eternel semble tenir a cela en nous par quoi nous differons de
-Lui.Durables, nous lui serions peut[-]etre comme les pierres nous
-sont: indifferents.    Lanza del VastoIls ne sauront jamais ce qutest
-la Beaute, ceux qui la cherchent a leur aise et la prennent pour un
-plaisir de plus .Lanza del Vasto</q>
-            <note anchored="yes">[The Eternal [God] seems to be especially keen on that part of
+	<cit>
+            <quote lang="fre" id="p18.q01">L'Eternel semble tenir &#x00E0; cela en nous par quoi nous diff&#x00E9;rons de
+Lui.  Durables, nous lui serions peut<note place="inline" resp="editor">[-]</note>&#x00EA;tre comme les pierres nous
+sont: indiff&#x00E9;rents.
+ <note type="trans" resp="editor">The Eternal [God] seems to be especially keen on that part of
 us that makes us different from Himself. If we had permanence, we
 would probably be toward him what the stones are toward us:
-indifferent.][What Beauty is will never be known by those who search
-for it on their own comfortable terms and take it to be but one more
-pleasure.]</note>
-         </div1>
-         <div1 n="X(19)" type="Preface">
-            <docAuthor>Merton, Thomas.  RED DIARY.  </docAuthor>
+indifferent.</note></quote>
+	<bibl><author><name key="Lanza" reg="Lanza del Vasto">Lanza del Vasto</name></author></bibl>
+	</cit>
+	<cit>
+	<quote lang="fre" id="p18.q02">Ils ne sauront jamais ce qu'est
+la Beaut&#x00E9;, ceux qui la cherchent &#x00E0; leur aise et la prennent pour un
+plaisir de plus.
+     <note type="trans" resp="editor">What Beauty is will never be known by those who search
+	for it on their own comfortable terms and take it to be but one more pleasure.</note>
+</quote><bibl><author><name key="Lanza" reg="Lanza del Vasto">Lanza del Vasto</name></author></bibl>
+	</cit>
+         </div>
+         <pb n="19"/>
+<div n="X(19)" id="p19" type="page">
+	<dateline>
+	  <date value="1959-01-18"><dateStruct>1959<lb/>
+		Sunday 18 January<lb/>
+  	    <occasion>Second Sunday after Epiphany--Transfiguarion (Lutheran)</occasion>
+	  </dateStruct></date>
+	<lb/>18th day - 347 days to come
+	</dateline> 
             <head>X (19) </head>
-            <q direct="unspecified">When a man finds it is his destiny to suffer he will have to accept
+	<cit>
+            <quote id="p19.q01">When a man finds it is his destiny to suffer he will have to accept
 suffering as His Task, his single and unique task. He will have to
 acknowledge the fact that even in suffering he is unique &amp; alone
 in the universe. No one can relieve him of his suffering or suffer in
 his stead. His unique opportunity lies in the way in which he bears
-his burden.</q>
-            <bibl>V. Frankl.  <hi>From Death Camp to
-Existentialism</hi>p. 78 Boston: Beacon Press, 1959.</bibl>
-         </div1>
-         <div1 n="X(20)" type="Preface">
-            <docAuthor>Merton, Thomas.  RED DIARY. </docAuthor>
+his burden.</quote>
+            <bibl><author><name key="Frankl" reg="Frankl, Victor">V. Frankl</name></author>.<lb/>
+	  <title><rs type="title" key="DeathCamp" reg="From Death Camp to Existentialism">Death Camp to Existentialism</rs></title> <lb/>
+		<biblScope type="pages">p. 78</biblScope></bibl>
+</cit>
+         </div>
+         <pb n="20"/>
+<div n="X(20)" id="p20" type="page">
+	<dateline>
+	  <date value="1959-01-19"><dateStruct>1959<lb/>
+		Monday 19 January<lb/>
+	    <occasion>Robert E. Lee--Born 1807</occasion>
+	  </dateStruct></date>
+	<lb/>19th day - 346 days to come
+	</dateline> 
             <head>X (20) </head>
-            <q direct="unspecified">There is also purpose in that life which is
+	<cit>
+            <quote id="p20.q01">There is also purpose in that life which is
 almost barren of both creation and enjoyment &amp; which admits of but
 one possibility of high moral behavior, namely in man's attitude to
-his existence.</q>
-         </div1>
-         <div1 n="X (21)" type="Preface">
-            <docAuthor>Merton, Thomas.  RED DIARY</docAuthor>
+his existence.</quote>
+	</cit>
+         </div>
+         <pb n="21"/>
+
+<div n="X(21)" id="p21" type="page">
+	<dateline>
+	  <date value="1959-01-20">1959<lb/>
+		Tuesday 20 January<lb/>
+	  </date>
+	<lb/>20th day - 345 days to come
+	</dateline> 
             <head>X(21)</head>
-            <q direct="unspecified">BLANK</q>
-         </div1>
-         <div1 n="X (22)" type="Preface">
-            <docAuthor>Merton, Thomas.  RED DIARY.  </docAuthor>
+<p> <!-- blank page --> </p>
+         </div>
+
+         <pb n="22"/>
+<div n="X(22)" id="p22" type="page">
+	<dateline>
+	  <date value="1959-01-21"><dateStruct>1959<lb/>
+		Wednesday 21 January<lb/>
+	    <occasion>Stonewall Jackson--Born 1824</occasion>
+	  </dateStruct></date>
+	<lb/>21st day - 344 days to come
+	</dateline> 
             <head>X(22)</head>
-            <q direct="unspecified"> In the presence of Rabbi Hanina one went to the praying desk to
-say the prayer. He said&quot;God, thou great, strong, terrible,
-mighty, feared, powerful, real &amp; adorable.  He waited until the
-other had finished &amp; then said to him:&quot;Have you ended with
+	<cit>
+            <quote id="p22.q01">In the presence of Rabbi Hanina one went to the praying desk to
+say the prayer. He said 'God, thou great, strong, terrible,
+mighty, feared, powerful, real &amp; adorable.'  He waited until the
+other had finished &amp; then said to him: 'Have you ended with
 the praise of your God? What is the meaning of all this? It is as if
 one were to praise a king of this world who has millions of pieces of
-gold for having one piece of silver.</q>
-            <note anchored="yes"> quoted in Scholem. Main
-Trends in Jewish Mysticism p. 60</note>
-            <bibl>Scholem, Gershom
-G. <hi>Major Trends in Jewish Mysticism</hi>. New York: Schocken
-Books, Inc.., 1946.</bibl>
-         </div1>
-         <div1 n="X(23)" type="Preface">
-            <docAuthor>Merton, Thomas.  RED DIARY.  </docAuthor>
+gold for having one piece of silver.'</quote>
+            <bibl>quoted in <author><name key="Scholem" reg="Scholem, Gershom Gerhard">Scholem</name></author>. <title><rs type="title" key="JewishMysticism" reg="Major Trends in Jewish Mysticism">Main Trends in Jewish Mysticism</rs></title> <biblScope
+type="pages">p. 60</biblScope>
+<note resp="editor" type="bibliographic"><bibl><author>Scholem, Gershom G.</author>
+	<title><rs type="title" key="JewishMysticism" reg="Major Trends in Jewish Mysticism">Major Trends in Jewish Mysticism</rs></title>. 
+	<pubPlace>New York</pubPlace>: <publisher>Schocken Books,
+Inc.</publisher>, <date>1946</date>.</bibl></note>
+	  </bibl>
+	 </cit>
+       </div>
+         <pb n="23"/>
+<div n="X(23)" id="p23" type="page">
+	<dateline>
+	  <date value="1959-01-22">1959<lb/>
+		Thursday 22 January<lb/>
+	  </date>
+	<lb/>22nd day - 343 days to come
+	</dateline> 
             <head>X (23) </head>
-            <q direct="unspecified">La personnalite n'est pas seulement une chance [chose?] fragile a
-favoriser ou a defendre: [elle] est le mystere le plus profond de
-l'univers ontologique.  <note anchored="yes">[The personality is not only a fragile
-thing [?] to be either fostered or forbidden: it is the deepest
-mystery of the ontological universe.]</note>
-            </q>
-            <bibl>H. Bars
-Maritain en Notre Temps</bibl>
-            <bibl>Bars, Henry. <hi>Maritain en Notre Temps</hi>. Paris: Editions
-Bernard Grasset, 1959.</bibl>
-            <q direct="unspecified">Une philosophie qui n'est pas antique est tout de suite vieille.</q>
-            <note anchored="yes">[A philosophy which is not ancient is immediately old.]</note>
-            <bibl>J. Maritain</bibl>
-         </div1>
-         <div1 n="X(24)" type="Preface">
-            <docAuthor>Merton, Thomas.  RED DIARY.  </docAuthor>
+	<cit>
+            <quote lang="fre" id="p23.q01">La personnalit&#x00E9; n'est pas seulement une
+chance <note place="inline" resp="editor">[chose?]</note> fragile &#x00E0;
+favoriser ou &#x00E0; defendre: <note place="inline"
+resp="editor">[elle]</note> est le mystere le plus profond de 
+l'univers ontologique.  
+    <note type="trans" lang="eng" resp="editor">The personality is not only a fragile
+thing [?] to be either fostered or forbidden: it is the deepest mystery of the ontological universe.</note>
+            </quote>
+            <bibl><author><name key="Bars" reg="Bars, Henry">H. Bars</name></author><lb/>
+<title><rs type="title" key="Maritain-NT" reg="Maritain en Notre Temps">Maritain en Notre Temps</rs></title>
+<note type="bibliographic" resp="editor"><bibl><author>Bars, Henry</author>. 
+	<title><rs type="title" key="Maritain-NT" reg="Maritain en Notre Temps">Maritain en Notre Temps</rs></title>. 
+	<pubPlace>Paris</pubPlace>: <publisher>Editions Bernard
+Grasset</publisher>, <date>1959</date>.</bibl></note>
+</bibl>
+	</cit>
+	<cit>
+            <quote lang="fre" id="p23.q02">Une philosophie qui n'est pas antique est tout de suite vieille.
+            <note type="trans" lang="eng" resp="editor"
+anchored="yes">A philosophy which is not ancient is immediately
+old.</note> </quote>
+            <bibl><author><name key="Maritain" reg="Maritain, Jacques">J. Maritain</name></author></bibl>
+	</cit>
+         </div>
+         <pb n="24"/>
+<div type="section" n="Chuang-Tzu">
+  <div n="X(24)" id="p24" type="page">
+	<dateline>
+	  <date value="1959-01-23">1959<lb/>
+		Friday 23 January<lb/>
+	  </date>
+	<lb/>23rd day - 342 days to come
+	</dateline> 
             <head>X (24) </head>
-            <bibl>Chuang Tzu. V. 1.2 </bibl>
-            <q direct="unspecified">The true men of old did not reject
+	<cit>
+            <bibl><author><name key="Chuang-Tzu" reg="Chuang-Tzu">Chuang Tzu</name></author>.</bibl>
+            <quote id="p24.q01">The true men of old did not reject
 the views of the few; they did not seek to accomplish their ends like
-heroes, they did not lay plans to attain those ends. Being such,
-though they might [make] mistakes, yet they had no occasion for
-repentance ; though they might succede [sic], they had no
-complacency...So it was that by their knowledge they ascended to &amp;
-reached the Tao.</q>
-         </div1>
-         <div1 n="X(25)" type="Preface">
-            <docAuthor>Merton, Thomas.  RED DIARY.  </docAuthor>
+heroes; they did not lay plans to attain those ends. Being such,
+though they might <note place="inline" resp="editor">[make]</note> mistakes, yet they had no occasion for
+repentance; though they might succede <note place="inline" resp="editor">[sic]</note>, they had no
+complacency... So it was that by their knowledge they ascended to &amp;
+reached the Tao.</quote>
+	<bibl><biblScope type="part">V. 1.2</biblScope> </bibl>
+	</cit>
+         </div>
+         <pb n="25"/>
+<div n="X(25)" id="p25" type="page">
+	<dateline>
+	  <date value="1959-01-24">1959<lb/>
+		Saturday 24 January<lb/>
+	  </date>
+	<lb/>24th day - 341 days to come
+	</dateline> 
             <head>X (25) </head>
-            <q direct="unspecified">The true men of old knew nothing of the love of life &amp; the
-hatred of death...They accepted their life &amp; rejoiced in it, they
-forgot all fear of death...Thus there was in them what is called the
-<hi>want of any</hi> 
-               <hi>mind to resist the Tao</hi> &amp; <hi>of all
-attempts </hi>
-               <hi>by means of the human to assist the</hi>
-               <hi>Heavenly</hi>.</q>
-            <bibl>Chuang Tzu  V1. 2.</bibl>
-            <q direct="unspecified">Their minds were free from all thought, their demeanor was still &amp; unmoved ...They did in regard to all things what was suitable &amp; no one could know how far their action would go.</q>
-            <bibl>V. 1. 3.</bibl>
-         </div1>
-         <div1 n="X(26)" type="Preface">
-            <docAuthor>Merton, Thomas.  RED DIARY.  </docAuthor>
+	<cit>
+      <bibl><author><name key="Chuang-Tzu" reg="Chuang-Tzu">Chuang Tzu</name></author>.</bibl>
+            <quote id="p25.q01">The true men of old knew nothing of the love of life &amp; the
+hatred of death ... They accepted their life &amp; rejoiced in it, they
+forgot all fear of death ... Thus there was in them what is called the
+<hi rend="underline">want of any mind to resist the Tao</hi> &amp; 
+<hi rend="underline">of all attempts by means of the human to assist theHeavenly</hi>.</quote>
+            <bibl><biblScope type="part">V1. 2.</biblScope></bibl>
+	</cit>
+	<cit>
+            <quote id="p25.q02">Their minds were free from all thought, their demeanor was still &amp; unmoved ...They did in regard to all things what was suitable &amp; no one could know how far their action would go.</quote>
+            <bibl><rs key="Chuang-Tzu"/><biblScope type="part">V. 1. 3.</biblScope></bibl>
+	</cit>
+         </div>
+         <pb n="26"/>
+<div n="X(26)" id="p26" type="page">
+	<dateline>
+	  <date value="1959-01-25"><dateStruct>1959<lb/>
+		Sunday 25 January<lb/>
+	    <occasion>Septuagesima</occasion>
+	  </dateStruct></date>
+	<lb/>25th day - 340 days to come
+	</dateline> 
             <head>X (26) </head>
-            <bibl>Chuang Tzu</bibl>
-            <q direct="unspecified">He who tries to share his joys with others
+	<cit>
+            <bibl><author><name key="Chuang-Tzu" reg="Chuang-Tzu">Chuang Tzu</name></author></bibl>
+            <quote id="p26.q01">He who tries to share his joys with others
 is not a sagely man; he who manifests affection is not benevolent; he
 who observes times &amp; seasons is not a man of wisdom; he to whom
-profit &amp; injury are not the same is not a superior man...V1.3.When
-the springs are dried up the fishes collect together on the land. Then
-that they should moisten one another there by the damp about them...it
-were better for them to forget one another in the rivers &amp;
-lakes. V1. 5. </q>
-         </div1>
-         <div1 n="X(27)" type="Preface">
+profit &amp; injury are not the same is not a superior man...</quote><lb/>
+	<bibl><biblScope type="part">V1.3.</biblScope></bibl>
+	</cit>
+	<cit>
+	<quote id="p26.q02">When the springs are dried up the fishes collect
+together on the land. Then that they should moisten one another there
+by the damp about them ... it  were better for them to forget one
+another in the rivers &amp; lakes.</quote>	
+	<bibl><rs key="Chuang-Tzu"/><biblScope type="part">V1. 5.</biblScope></bibl>
+	</cit>
+         </div>
+         <pb n="27"/>
+<div n="X(27)" id="p27" type="page">
+	<dateline>
+	  <date value="1959-01-26"><dateStruct>1959<lb/>
+		Monday 26 January<lb/>
+	    <occasion>Conversion of St. Paul (From Jan. 25th)</occasion>
+	  </dateStruct></date>
+	<lb/>26th day - 339 days to come
+	</dateline> 
             <head>X (27) </head>
-            <q direct="unspecified">The Tao is a thing which accompanies all other
+	<cit>
+	<bibl><author><name key="Chuang-Tzu" reg="Chuang-Tzu">Chuang Tzu</name></author></bibl>
+           <quote id="p27.q01">The Tao is a thing which accompanies all other
 things &amp; meets them, which is present when they are overthrown
 &amp; when they obtain their completion. Its name is Tranquillity amid
 all disturbances, meaning that such disturbances lead to its
-perfection.</q>
-            <bibl>Chuang Tzu V1. 8.</bibl>
-         </div1>
-         <div1 n="X(28)" type="Preface">
-            <docAuthor>Merton, Thomas.  RED DIARY.  </docAuthor>
+perfection.</quote><lb/>
+            <bibl><biblScope type="part">V1-8</biblScope></bibl>
+	</cit>
+         </div>
+         <pb n="28"/>
+<div n="X(28)" id="p28" type="page">
+	<dateline>
+	  <date value="1959-01-27">1959<lb/>
+		Tuesday 27 January<lb/>
+	  </date>
+	<lb/>27th day - 338 days to come
+	</dateline> 
             <head>X (28) </head>
-            <q direct="unspecified">Fishes forget one another in the rivers and lakes, men forget one
-another in the acts of the Tao.</q>
-            <bibl> Chuang Tzu V1. 11.</bibl>
-            <q direct="unspecified">When one rests in what has been arranged &amp; puts away all
+	<cit>
+	<bibl><author><name key="Chuang-Tzu" reg="Chuang-Tzu">Chuang Tzu</name></author></bibl>
+            <quote id="p28.q01">"Fishes forget one another in the rivers and lakes, men forget one
+another in the acts of the Tao."</quote>
+            <bibl><biblScope type="part">V1. 11.</biblScope></bibl>
+	</cit>
+	<cit>
+            <quote id="p28.q02">When one rests in what has been arranged &amp; puts away all
 thought of the transformation, he is in unity with the mysterious
-heaven. </q>
-            <bibl>Chuang Tzu V1. 12</bibl>
-            <note anchored="yes"> In the light of these and the preceding Merton selections from
-Chuang Tzu, this: Reading Chuang Tzu, I wonder seriously if the wisest
+heaven.</quote><lb/>
+	     <bibl><rs key="Chuang-Tzu"/><biblScope type="part">V1. 12.</biblScope></bibl>
+	</cit>
+
+            <note resp="editor" anchored="yes"> In the light of these
+and the preceding Merton selections from 
+Chuang Tzu, this: <cit><quote id="p28.q03">Reading Chuang Tzu, I wonder seriously if the wisest
 answer (on the human level, apart from the answer of faith) is not
 beyond both ethics and politics. It is a hidden answer, it defies
 analysis and cannot be embodied in a program. Ethics and politics, of
@@ -483,167 +829,305 @@ continue to act simply because once, a long time ago, it made a great
 deal of sense? As if one were always getting somewhere? There is a
 time to listen, in the active life as everywhere else, and the better
 part of action is waiting, not knowing what next, and not having a
-glib answer.<hi>Conjectures of A Guilty Bystander</hi>, p. 173.</note>
-         </div1>
-         <div1 n="X(29)" type="Preface">
-            <docAuthor>Merton, Thomas.  RED DIARY.  </docAuthor>
+glib answer.</quote><bibl><title><rs type="title" key="Conjectures" reg="Conjectures of a Guilty Bystander">Conjectures of A Guilty 
+Bystander</rs></title>, <biblScope type="pages">p. 173.</biblScope></bibl></cit></note> 
+         </div>
+</div> <!-- end section: Chuang-Tzu -->
+         <pb n="29"/>
+<div n="X(29)" id="p29" type="page">
+	<dateline>
+	  <date value="1959-01-28">1959<lb/>
+		Wednesday 28 January<lb/>
+	  </date>
+	<lb/>28th day - 337 days to come
+	</dateline> 
             <head>X (29) </head>
-            <q direct="unspecified">O Wisdom, gone away, gone, gone to the other shore, landed on the
-other shore Suatra!</q>
-            <bibl>Prajnaparamita Sutra</bibl>
-            <q direct="unspecified">Le secret de nos coeurs est une seule vierge que ni l'imagination
-du reveur ni le penser du penseur ne deflore ... Le secret du coeur
-c'est ce pour quoi Dieu stest cachea ses creatures et ce pour quoi il
-s'en rapproche.</q>
-            <note anchored="yes"> [The secret of our hearts is a solitary virgin
+	<cit>
+            <quote id="p29.q01">"O Wisdom, gone away, gone, gone to the other shore, landed on the
+other shore Suatra!"</quote>
+            <bibl><title><rs type="title" key="Sutra" reg="Prajnaparamita Sutra">Prajnaparamita Sutra</rs></title></bibl>
+	</cit>
+	<cit>
+            <quote lang="fre" id="p29.q02">Le secret de nos coeurs est une seule vierge que ni l'imagination
+du reveur ni le penser du penseur ne d&#x00E9;flore ... Le secret du coeur
+c'est ce pour quoi Dieu s'est cach&#x00E9; &#x00E0; ses cr&#x00E9;atures et ce pour quoi il
+s'en rapproche.
+<note type="trans" lang="eng" resp="editor">The secret of our hearts is a solitary virgin
 which neither the dreamer's imagination nor the thinker's thoughts
 succeed in deflowering ... The secret of the heart is that for which
 God has hidden himself from his creatures and that for which he comes
-close to them.]</note>
-            <bibl>Haleqsee Giulio Basetti-Sani OFM. Mohammed et St. Francois p 268 n 35</bibl>
-            <bibl>Basetti-Sani, Giulio. <hi>Mohammed et Saint
-Francois</hi>. Ottawa: Commissariat De Terre-Sainte, 1959.</bibl>
-         </div1>
-         <div1 n="X(30)" type="Preface">
-            <docAuthor>Merton, Thomas.  RED DIARY.  </docAuthor>
+close to them.</note>
+</quote>
+            <bibl><author><name key="Haleqsee" reg="Haleqsee">Haleqsee</name></author>.<lb/> see
+<author><name key="Basetti-Sani" reg="Basetti-Sani, Giulio">Giulio Basetti-Sani OFM</name></author><lb/>
+	<title><rs type="title" key="Mohammed" reg="Mohammed et St. Francois">Mohammed et St. Francois</rs></title>, <biblScope type="pages">p 268 n 35</biblScope>.
+<note type="bibliographic" resp="editor"><bibl><author>Basetti-Sani, Giulio</author>.
+	<title><rs type="title" key="Mohammed" reg="Mohammed et St. Francois">Mohammed et Saint Francois</rs></title>.
+	<pubPlace>Ottawa</pubPlace>: <publisher>Commissariat De Terre-Sainte</publisher>, <date>1959</date>.</bibl></note>
+</bibl>
+	</cit>
+         </div>
+         <pb n="30"/>
+<div n="X(30)" id="p30" type="page">
+	<dateline>
+	  <date value="1959-01-29">1959<lb/>
+		Thursday 29 January<lb/>
+	  </date>
+	<lb/>29th day - 336 days to come
+	</dateline> 
             <head>X (30) </head>
-            <q direct="unspecified"> Silence &amp; longsuffering are the most perfect acts that a man
+	<cit>
+            <quote id="p30.q01">Silence &amp; longsuffering are the most perfect acts that a man
 may have. For it is by this silence &amp; patience that he lives and,
 if he wants to speak, or if he wants to let others speak through him,
 it makes him mortal. If he really wants to live, he should always
 remain silent &amp; suffer God alone to speak, for what God utters is
-life.</q>
-            <bibl>The Book of the Poor in Spirit p 131</bibl>
-            <bibl/>
-            <bibl>A Friend of God (14th Century). <hi>The Book of the Poor
-in Spirit</hi>. Edited by C.F. Kelley. New York: Harper Brothers,
-1954.</bibl>
-         </div1>
-         <div1 n="X(31)" type="Preface">
-            <docAuthor>Merton, Thomas.  RED DIARY.  </docAuthor>
+life.</quote>
+            <bibl><title><rs type="title" key="PoorinSpirit" reg="The Book of the Poor in Spirit">The Book of the Poor in Spirit</rs></title>:
+<lb/><biblScope type="pages">p 131</biblScope>
+<note type="bibliographic" resp="editor"><bibl><author>A Friend of God
+(14th Century)</author>. 
+	<title><rs type="title" key="PoorinSpirit" reg="The Book of the Poor in Spirit">The Book of the Poor in Spirit</rs></title>.
+	 Edited by <editor>C.F. Kelley</editor>.
+	<pubPlace>New York</pubPlace>: <publisher>Harper
+	Brothers</publisher>, <date>1954</date>.</bibl></note>
+</bibl>
+	</cit>
+         </div>
+         <pb n="31"/>
+<div n="X(31)" id="p31" type="page">
+	<dateline>
+	  <date value="1959-01-30">1959<lb/>
+		Friday 30 January<lb/>
+	  </date>
+	<lb/>30th day - 335 days to come
+	</dateline> 
             <head>X (31) </head>
-            <bibl>Chuang Tzu.  XVIII 1.</bibl>
-            <q direct="unspecified">Perfect enjoyment is to be
-without enjoyment; the highest praise is to be without praise. .Heaven
+	<cit>
+            <bibl><author><name key="Chuang-Tzu" reg="Chuang-Tzu">Chuang Tzu</name></author></bibl>
+            <quote id="p31.q01">Perfect enjoyment is to be
+without enjoyment; the highest praise is to be without praise.</quote>
+	<bibl><biblScope type="chapter">XVIII. 1.</biblScope></bibl>
+	</cit>
+	<cit>
+<quote id="p31.q02">Heaven
 does nothing &amp; thence comes its security; Earth does nothing &amp;
 thence comes its rest. By the union of these two inactivities all
 things are produced.... All things in their variety come from this
-inaction. id.</q>
-         </div1>
-         <div1 n="X(32)" type="Preface">
-            <docAuthor>Merton, Thomas.  RED DIARY.  </docAuthor>
+inaction.</quote><lb/>
+	<bibl><rs key="Chuang-Tzu">id.</rs></bibl>
+	</cit>
+         </div>
+         <pb n="32"/>
+<div n="X(32)" id="p32" type="page">
+	<dateline>
+	  <date value="1959-01-31">1959<lb/>
+		Saturday 31 January<lb/>
+	  </date>
+	<lb/>31st day - 334 days to come
+	</dateline> 
             <head>X (32) </head>
-            <q direct="unspecified">La saintete est douloureuse, tant qu'elle n'estpas de tous. </q>
-            <bibl>O. Clement</bibl>
-            <q direct="unspecified">Every reverse is a pointer to some spiritual truth that we were in
+	<cit>
+            <quote lang="fre" id="p32.q01">La saintet&#x00E9; est douloureuse, tant
+qu'elle n'est pas de tous.
+<note type="trans" lang="eng" resp="editor">Holiness is painful as long as it is not shared by all.</note>
+</quote>
+            <bibl><author><name key="Clement" reg="Clement, O.">O. Clement</name></author></bibl>
+	</cit>
+	<cit>
+            <quote id="p32.q02">Every reverse is a pointer to some spiritual truth that we were in
 danger of forgetting. You therefore should strive calmly to settle
 down &amp; examine from this point of view the reverse that has so
-deeply shocked you.</q>
-            <bibl> Staretz Macarius of Optino</bibl>
-            <q direct="unspecified">The wood of this cross that now breaks your back first grew in the
-soil of your heart. </q>
-            <bibl>Staretz Macarius of Opt[ino]</bibl>
-            <q direct="unspecified">[Holiness is painful as long as it is not shared by all.]</q>
-         </div1>
-         <div1 n="X(33)" type="Preface">
-            <docAuthor>Merton, Thomas.  RED DIARY.  </docAuthor>
+deeply shocked you.</quote>
+            <bibl><author><name key="Macarius" reg="Macarius, Staretz of Optino">Staretz Macarius of Optino</name></author></bibl>
+	</cit>
+	<cit>
+            <quote id="p32.q03">The wood of this cross that now breaks your back first grew in the
+soil of your heart.</quote>
+            <bibl><author><name key="Macarius" reg="Macarius, Staretz of Optino">Staretz Macarius of Opt<ref type="inline-note" target="p32.q03.n01" targType="note"/></name></author>
+<note id="p32.q03.n01" place="inline" resp="editor">[ino]</note>
+</bibl>
+	</cit>
+
+         </div>
+         <pb n="33"/>
+<div n="X(33)" id="p33" type="page">
+	<dateline>
+	  <date value="1959-02-01"><dateStruct>1959<lb/>
+		Sunday 1 February<lb/>
+	    <occasion>Sexagesima</occasion>
+	  </dateStruct></date>
+	<lb/>32nd day - 333 days to come
+	</dateline> 
             <head>X (33) </head>
-            <q direct="unspecified">When we are incapable of scaling the peaks of virtue, all we have
+	<cit>
+            <quote id="p33.q01">When we are incapable of scaling the peaks of virtue, all we have
 to do is descend into the ravine of humility. Our humility is our
-great intecessor before the face of the Lord. Macarious of OptinoIf
+great intecessor before the face of the Lord.</quote><lb/>
+	<bibl><author><name key="Macarius" reg="Macarius, Staretz of Optino">Macarious of Optino</name></author></bibl> 
+	</cit>
+	<cit>
+	<quote id="p33.q02">If
 the soul loves and pities the people its prayer is not
-interrupted. Staretz SilouanSalvation lies in Christ like
-humility. id.  In <hi>Conjectures,</hi> p. 164, Merton mistakenly
+interrupted.</quote><bibl><author><name key="Silouan" reg="Silouan, Staretz">Staretz Silouan</name></author></bibl>
+	</cit>
+	<cit>
+	<quote id="p33.q03">Salvation lies in Christ like humility.</quote><lb/>
+	<bibl><rs key="Silouan">id.</rs></bibl>
+	</cit>
+
+<note resp="editor">In <title><rs type="title" key="Conjectures" reg="Conjectures of a Guilty Bystander">Conjectures</rs></title>, p. 164, Merton mistakenly
 ascribes the following extended quotation from Staretz Silouan to a
-Staretz Sylvan:He said:&quot;I became steward as an act of obedience
-blessed by the Abbot, so I pray better at my task than I prayed at the
-Old Rossikon [where he had a solitary hut] where I asked to go for the
-sake of interior silence. If the soul loves and pities the people,
-prayer is not interrupted. <q direct="unspecified">from <hi>The Undistorted Image</hi>,
-biography of Staretz Sylvan (sic), by Archimandrite Sophrony.The
-correct reference for this quotation of Staretz Silouan, both in
-<hi>Conjectures</hi> and&quot;The Red Diary <q direct="unspecified"> is:Sofrony,
-Archimandrite. <hi>The Undistorted Image</hi>. Translated by Rosemary
-Edmonds from the Russian. London: The Faith Press, 1958.</q>
-               </q>
-            </q>
-         </div1>
-         <div1 n="X(34)" type="Preface">
+Staretz Sylvan: He said: 
+
+<quote id="p33.q04">I became steward as an act of obedience blessed by the Abbot,
+so I pray better at my task than I prayed at the Old Rossikon [where
+he had a solitary hut] where I asked to go for the sake of interior
+silence. If the soul loves and pities the people, prayer is not
+interrupted. <bibl>from <title><rs type="title" key="Undistorted" reg="The Undistorted Image">The Undistorted Image</rs></title>,
+biography of Staretz Sylvan (sic), by <author>Archimandrite
+Sophrony</author>.</bibl></quote>
+
+The correct reference for this quotation of Staretz Silouan, both in
+<title><rs type="title" key="Conjectures" reg="Conjectures of a Guilty Bystander">Conjectures</rs></title> and &quot;The Red Diary 
+is: <bibl><author>Sofrony, Archimandrite</author>. <title><rs type="title" key="Undistorted" reg="The Undistorted Image">The Undistorted Image</rs></title>. Translated
+by <editor role="translator">Rosemary Edmonds</editor> from the
+Russian. <pubPlace>London</pubPlace>: <publisher>The Faith
+Press</publisher>, <date>1958</date>.</bibl></note>
+
+         </div>
+         <pb n="34"/>
+<div n="X(34)" id="p34" type="page">
+	<dateline>
+	  <date value="1959-02-02"><dateStruct>1959<lb/>
+		Monday 2 February<lb/>
+	    <occasion>Purification B. V. Mary</occasion>--<occasion>Groundhog Day</occasion>
+	  </dateStruct></date>
+	<lb/>33rd day - 332 days to come
+	</dateline> 
             <head>X (34) </head>
-            <docAuthor>Merton, Thomas.  RED DIARY.  </docAuthor>
-            <q direct="unspecified"> Not one of us can boast of having acquired humility: our actions,
+	<cit>
+            <quote id="p34.q01"> Not one of us can boast of having acquired humility: our actions,
 the whole of our life, prove the contrary. And where there is lack of
 humility pride is always present. Where light is wanting, darkness
-reigns.</q>
-            <bibl>Staretz Macarius of Opt[ino]</bibl>
-            <q direct="unspecified">In the vast sea which is the life of the church the true tradition
+reigns.</quote> <lb/>
+            <bibl><author><name key="Macarius" reg="Macarius, Staretz of Optino">Staretz Macarius of Opt<ref type="inline-note" target="p34.q01.n01" targType="note"/></name></author><note id="p34.q01.n01" place="inline" resp="editor">[ino]</note></bibl>
+	</cit>
+	<cit>
+            <quote id="p34.q02">In the vast sea which is the life of the church the true tradition
 of the Spirit flows like a clear pure stream &amp; he who would be in
 this stream must renounce argument. When anything of self is
 introduced the waters no longer run clear, for God's supreme wisdom
 &amp; truth are the opposite of human wisdom &amp; truth. Such
 renun-ciation appears intolerable, insane, to the self-willed, but the
-man who is not afraid to bcome[sic] a fool has found true life &amp;
-true wisdom.</q>
-            <bibl>Arch[imandrite] Sophrony</bibl>
-         </div1>
-         <div1 n="X(35)" type="Preface">
-            <docAuthor>Merton, Thomas.  RED DIARY.  </docAuthor>
+man who is not afraid to become a fool has found true life &amp;
+true wisdom.</quote>
+            <bibl><author><name key="Sophrony" reg="Sophrony, Archimandrite">Arch.<ref type="inline-note" target="p34.q02.n01" targType="note"/> Sophrony</name></author>
+<note id="p34.q02.n01" place="inline" resp="editor">[imandrite]</note>
+</bibl>
+	</cit>
+         </div>
+         <pb n="35"/>
+<div n="X(35)" id="p35" type="page">
+	<dateline>
+	  <date value="1959-02-03">1959<lb/>
+		Tuesday 3 February<lb/>
+	  </date>
+	<lb/>34th day - 331 days to come
+	</dateline> 
             <head>X (35) </head>
-            <q direct="unspecified"> The praying mind does not think, does not reason--it lives. Its
+	<cit>
+            <quote id="p35.q01"> The praying mind does not think, does not reason--it lives. Its
 activity does not consist in the manipulation of abstract concepts but
 in participating in being. It is concerned with actual existence, an
 existence which cannot be included within the narrow framework of
-human concepts.</q>
-            <bibl>Archimandrite Sophrony</bibl>
-            <q direct="unspecified">The certain sign by which to recognize good from evil is not so
+human concepts.</quote>
+            <bibl><author><name key="Sophrony" reg="Sophrony, Archimandrite">Archimandrite Sophrony</name></author></bibl>
+	</cit>
+	<cit>
+            <quote id="p35.q02">The certain sign by which to recognize good from evil is not so
 much the end, which may appear to be holy and sublime, as the means
-selected to achieve the end.</q>
-            <bibl> Archimandrite Sophrony</bibl>
-         </div1>
-         <div1 n="X(36)" type="Preface">
-            <docAuthor>Merton, Thomas.  RED DIARY.  </docAuthor>
+selected to achieve the end.</quote>
+            <bibl><author><name key="Sophrony" reg="Sophrony, Archimandrite">Archimandrite Sophrony</name></author></bibl>
+	</cit>
+         </div>
+         <pb n="36"/>
+<div n="X(36)" id="p36" type="page">
+	<dateline>
+	  <date value="1959-02-04">1959<lb/>
+		Wednesday 4 February<lb/>
+	  </date>
+	<lb/>35th day - 330 days to come
+	</dateline> 
             <head>X (36) </head>
-            <q direct="unspecified"> Blessed are the meek... To understand who the meek are we shall
+	<cit>
+            <quote id="p36.q01"> Blessed are the meek... To understand who the meek are we shall
 have to hold fast to Jesus... The meek are those who have truly
 humbled themselves, those who have been truly humiliated, those who
-have truly fallen from the height to the depths.</q>
-            <bibl>K. Barth</bibl>
-         </div1>
-         <div1 n="X(37)" type="Preface">
-            <docAuthor>Merton, Thomas.  RED DIARY.  </docAuthor>
+have truly fallen from the height to the depths.</quote>
+            <bibl><author><name key="Barth" reg="Barth, Karl">K. Barth</name></author></bibl>
+	</cit>
+         </div>
+         <pb n="37"/>
+<div n="X(37)" id="p37" type="page">
+	<dateline>
+	  <date value="1959-02-05">1959<lb/>
+		Thursday 5 February<lb/>
+	  </date>
+	<lb/>36th day - 329 days to come
+	</dateline> 
             <head>X (37) </head>
-            <q direct="unspecified">Ultimate meaning and
+	<cit>
+<bibl>(<author><name key="Heschel" reg="Heschel, Abraham Joshua">Heschel</name></author> - <title><rs type="title" key="Between" reg="Between God and Man">Between God &amp; Man</rs></title>)</bibl>
+            <quote id="p37.q01">Ultimate meaning and
 ultimate wisdom are not found within the world but in God &amp; the
 only way to wisdom is through our relationship to God. This
-relationship is <hi>awe</hi>. Awe in this sense is more than an
+relationship is <hi rend="underline">awe</hi>. Awe in this sense is more than an
 emotion; it is away of understanding. Knowledge is fostered by
-curiosity, wisdom [p 52] is fostered by awe.</q>
-            <bibl>A. Heschel (Heschel - Between God &amp; Man)</bibl>
-            <q direct="unspecified"> The secret of every being is the divine care &amp; concern that
-are invested in it.</q>
-            <bibl>A. Heschel</bibl>
-            <q direct="unspecified">We must be guided by awe to be worthy of faith.</q>
-            <bibl>A. Heschel,  id. 53.</bibl>
-            <note anchored="yes"> Heschel, Abraham J. <hi>Between God and Man</hi>. Edited by
-Fritz A. Rothschild. Toronto: Collier-Macmillan, 1959.</note>
-         </div1>
-         <div1 n="X(38)" type="Preface">
-            <docAuthor>Merton, Thomas.  RED DIARY.  </docAuthor>
+curiosity, wisdom <note place="margin" resp="auth">p 52</note> is fostered by awe.</quote>
+            <bibl><author><name key="Heschel" reg="Heschel, Abraham Joshua">A. Heschel</name></author></bibl> 
+	</cit>
+	<cit>
+            <quote id="p37.q02"> The secret of every being is the divine care &amp; concern that
+are invested in it.</quote>
+            <bibl><rs key="Heschel"/>id.</bibl>
+	</cit>
+	<cit>
+            <quote id="p37.q03">We must be guided by awe to be worthy of faith.</quote>
+            <bibl><rs key="Heschel"/>id. <biblScope type="pages">53</biblScope>.
+</bibl>
+	</cit>
+
+	<p><note type="bilbliographic"><bibl><author>Heschel, Abraham J.</author> <title><rs type="title" key="Between" reg="Between God and Man">Between God and Man</rs></title>. Edited by
+<editor>Fritz A. Rothschild</editor>. <pubPlace>Toronto</pubPlace>: <publisher>Collier-Macmillan</publisher>, <date>1959</date>.</bibl></note></p>
+
+         </div>
+         <pb n="38"/>
+<div n="X(38)" id="p38" type="page">
+	<dateline>
+	  <date value="1959-02-06">1959<lb/>
+		Friday 6 February<lb/>
+	  </date>
+	<lb/>37th day - 328 days to come
+	</dateline> 
             <head>X (38) </head>
-            <q direct="unspecified">The truth as it is contained in Christian revelation includes the
+	<cit>
+            <quote id="p38.q01">The truth as it is contained in Christian revelation includes the
 cognition that it is neither possible to know the truth fully nor to
 avoid the error of pretending that he does. It is recognized that
 'grace' always remains in partial contradiction to 'nature' &amp; is
-not merely its fulfillment. </q>
-            <bibl>R. Niebuhr</bibl>
-            <note anchored="yes">In the light of this Niebuhr passage, this from Merton's private
-journal entry of October 20, 1964:
-<q direct="unspecified">At the same time I am beginning to see that <hi>the question of
+not merely its fulfillment. </quote>
+            <bibl><author><name key="Niebuhr" reg="Niebuhr, Reinhold">R. Niebuhr</name></author></bibl>
+	</cit>
+            <note resp="editor" anchored="yes">In the light of this
+Niebuhr passage, this from <bibl><author>Merton</author>'s private 
+journal entry of <date>October 20, 1964</date></bibl>:
+<quote id="p38.q02">At the same time I am beginning to see that <hi>the question of
 solitude for me is finally getting to be no longer a question of
 desire but of decision</hi>. I still do not know what scope for
 decision may be given me, but I do know that I must prepare to face a
 serious decision and one about which I had more or less given up
-thinking and hoping. It seems to be a real&quot;encounter with the
+thinking and hoping. It seems to be a real encounter with the
 Word that I must not evade. Yet as in all such things, I am not too
 sure just where the encounter is except that <hi>my heart tells me
 that in this question of the solitary life there is for me a special
@@ -651,178 +1135,319 @@ truth to be embraced. A truth which is not capable of fully logical
 explanation. A truth which is not rooted in ms own nature or in my own
 biography, but is something deeper</hi> and something that may also
 cut clean through the whole network of my own recent works, ideas,
-writing, experiences and so forth... .  <note anchored="yes"> [emphasis added]</note>
+writing, experiences and so forth... .  </quote>[emphasis added]
                   <bibl>
-                     <hi>A Vow of Conversation</hi>. Edited &amp; introduced by Naomi
-Burton Stone. New York: Farrar, Straus, Giroux, 1988. p. 88</bibl>
-               </q>
+<title><rs type="title" key="Vow" reg="A Vow of Conversation">A Vow of Conversation</rs></title>. Edited &amp; introduced by <editor>Naomi
+Burton Stone</editor>. <pubPlace>New York</pubPlace>:
+<publisher>Farrar, Straus, Giroux</publisher>,
+<date>1988</date>. <biblScope type="pages">p. 88</biblScope></bibl> 
             </note>
-         </div1>
-         <div1 n="X(39)" type="Preface">
-            <docAuthor>Merton, Thomas.  RED DIARY.  </docAuthor>
+         </div>
+         <pb n="39"/>
+<div n="X(39)" id="p39" type="page">
+	<dateline>
+	  <date value="1959-02-07">1959<lb/>
+		Saturday 7 February<lb/>
+	  </date>
+	<lb/>38th day - 327 days to come
+	</dateline> 
             <head>X (39) </head>
-            <q direct="unspecified"> Individualism understands only a part of man; collectivism
+	<cit>
+            <quote id="p39.q01">Individualism understands only a part of man; collectivism
 understands man only as a part. Neither advances to the wholeness of
 man, to man as a whole. Individualism sees man only in relation to
-himself, but collectivism does not see <hi>man</hi> at all, it sees
-only&quot;society <q direct="unspecified">.Martin Buber The individual is not an end in
+himself, but collectivism does not see '<hi rend="underline">man</hi>' at all, it sees
+only 'society'.</quote>
+	<bibl><author><name key="Buber" reg="Buber, Martin">Martin Buber</name></author></bibl>
+	</cit>
+	<cit>
+ <quote id="p39.q02"> The individual is not an end in
 himself &amp; cannot live within himself. Love is the law of his
-existence.R. Niebuhr</q>
-            </q>
-         </div1>
-         <div1 n="X(40)" type="Preface">
-            <docAuthor>Merton, Thomas.  RED DIARY.  </docAuthor>
+existence.</quote> <bibl><author><name key="Niebuhr" reg="Niebuhr, Reinhold">R. Niebuhr</name></author></bibl>
+	</cit>
+         </div>
+         <pb n="40"/>
+<div n="X(40)" id="p40" type="page">
+	<dateline>
+	  <date value="1959-02-08"><dateStruct>1959<lb/>
+		Sunday 8 February<lb/>
+	    <occasion>Quinquagesima</occasion>
+	  </dateStruct></date>
+	<lb/>39th day - 326 days to come
+	</dateline> 
             <head>X (40) </head>
-            <q direct="unspecified">The problem of the individual &amp; the community cannot
+	<cit>
+            <quote id="p40.q01">The problem of the individual &amp; the community cannot
 be solved at all if the height is not achieved where the sovereign
 source &amp; end of both individual &amp; communal existence are
 discerned; &amp; where the limits are set against the idolatrous
-selfworship of both individuals and communities.
-<bibl>R. Niebuhr</bibl>
-            </q>
-         </div1>
-         <div1 n="X(41)" type="Preface">
-            <docAuthor>Merton, Thomas.  RED DIARY.  </docAuthor>
+selfworship of both individuals and communities.</quote>
+	<bibl><author><name key="Niebuhr" reg="Niebuhr, Reinhold">R. Niebuhr</name></author></bibl>
+	</cit>
+         </div>
+         <pb n="41"/>
+<div n="X(41)" id="p41" type="page">
+	<dateline>
+	  <date value="1959-02-09">1959<lb/>
+		Monday 9 February<lb/>
+	  </date>
+	<lb/>40th day - 325 days to come
+	</dateline> 
             <head>X (41) </head>
-            <q direct="unspecified">If modern churches were to symbolize their true faith, they would
+	<cit>
+            <quote id="p41.q01">If modern churches were to symbolize their true faith, they would
 take the crucifix from their altars and substitute the three little
-monkeys who counsel men to&quot;speak no evil, hear no evil, see no
-evil.  </q>
-            <bibl>R. Niebuhr</bibl>
-            <q direct="unspecified">Racial pride is revealed today to be man's primary collective
-sin.</q>
-            <bibl>R. Niebuhr</bibl>
-            <note anchored="yes">Merton incorporates the second Niebuhr quotation in a journal
+monkeys who counsel men to 'speak no evil, hear no evil, see no
+evil.'</quote>
+            <bibl><author><name key="Nieburh" reg="Niebuhr, Reinhold">R. Niebuhr</name></author></bibl>
+	</cit>
+	<cit>
+            <quote id="p41.q02">Racial pride is revealed today to be man's primary collective
+sin.</quote>
+            <bibl><author><name key="Niebuhr" reg="Niebuhr, Reinhold">R. Niebuhr</name></author></bibl>
+	</cit>
+
+            <note resp="editor">Merton incorporates the second Niebuhr quotation in a journal
 entry. This is a good example of how Merton's reading became a
-springboard for his own expression: Someone has come out with the
+springboard for his own expression:
+<quote id="p41.q03">Someone has come out with the
 theory that racial injustice is the product of
 <hi>individualism</hi>. There may be something to it, in the sense
 that individualism is a component in the lawlessness and
 irresponsibility of a society that has no care whatever to treat other
 human beings as if <hi>they</hi> might conceivably have human needs,
-and rights. In a sense, even Nazism was a&quot;result of
+and rights. In a sense, even Nazism was a result of
 individualism.   Mass society is indeed made up of individuals who,
 left to themselves, know they are zero, and who, added together in a
 multitude of zeroes, seem to themselves to acquire reality and
 power. But this is the negative individualism of the man who thinks he
 establishes himself as real by comparing himself with everything that
-is&quot;notI. (When you count up enough things that are not-I, you end
+is not-I. (When you count up enough things that are not-I, you end
 up by discovering that even I is not-I.) But, meanwhile, what is to
 blame is not individualism but collectivism. Reinhold Niebuhr says
-rightly:&quot;Racial pride is revealed today as man's
-primary<hi>collective</hi> sin.<hi>Conjectures</hi>, p. 56.</note>
-         </div1>
-         <div1 n="X(42)" type="Preface">
-            <docAuthor>Merton, Thomas.  RED DIARY.  </docAuthor>
+rightly: "Racial pride is revealed today as man's
+primary <hi>collective</hi>
+sin."</quote><bibl><title><rs type="title" key="Conjectures" reg="Conjectures of a Guilty Bystander">Conjectures</rs></title>, <biblScope type="pages">p. 56</biblScope>.</bibl></note>
+         </div>
+         <pb n="42"/>
+<div n="X(42)" id="p42" type="page">
+	<dateline>
+	  <date value="1959-02-10"><dateStruct>1959<lb/>
+		Tuesday 10 February<lb/>
+	    <occasion>Shrove Tuesday (Mardi Gras., Ala., Fl., La.)</occasion>
+	  </dateStruct></date>
+	<lb/>41st day - 324 days to come
+	</dateline> 
             <head>X (42)</head>
-            <q direct="unspecified"> On perd toujours quelque chose apres de Dieu lorsqu'on veut trop
-justifier aupr'es des hommes.</q>
-            <bibl> Mabillon</bibl>
-            <note anchored="yes">Something is always lost in the sight of God when we want to justify
-too much in the sight of men</note>
-            <q direct="unspecified">Ceux[-]la seuls ont puissamment agi qui, au gout de l'eternel et de
-la reflexion solitaire, ont joint quelque passion apostolique, chez
-qui la quete du Vraia ete soutenue sans cesse par le desir d'aider, de
-reformer les hommes, et qui ntont accepte la retraite que pour
+	<cit>
+            <quote lang="fre" id="p42.q01">"On perd toujours quelque chose aupr&#x00E8;s de Dieu lorsqu'on veut trop
+justifier aupr&#x00E8;s des hommes."
+            <note type="trans" lang="eng" resp="editor">Something is always lost in the sight of God when we want to justify
+too much in the sight of men.</note>
+</quote>
+            <bibl><author><name key="Mabillon" reg="Mabillon">Mabillon</name></author></bibl>
+	</cit>
+	<cit>
+            <quote lang="fre" id="p42.q02">Ceux<note place="inline" resp="editor">[-]</note>l&#x00E0; 
+seuls ont puissamment agi qui, au gout de l'&#x00E9;ternel et de 
+la r&#x00E9;flexion solitaire, ont joint quelque passion apostolique, chez
+qui la quete du Vrai a &#x00E9;t&#x00E9; soutenue sans cesse par le d&#x00E9;sir d'aider, de
+r&#x00E9;former les hommes, et qui n'ont accept&#x00E9; la retraite que pour
 concentrer leur flamme et vue d'un rayonnement plus lumineux et plus
-ardent.</q>
-            <bibl>M. Festugiere</bibl>
-            <note anchored="yes">[Only they have acted with power who, to their penchant for the
+ardent.
+            <note type="trans" lang="eng" resp="editor">Only they have
+acted with power who, to their penchant for the 
 eternal and for solitary reflection, have added some form of apostolic
-passion: only those in whome the quest for the True has incessantly
+passion: only those in whom the quest for the True has incessantly
 been sustained by a desire to aid and reform men, and who have
 consented to withdraw from the world only in order to concentrate
 their flame the more, in view of a more luminous and more ardent
-radiance.]</note>
-         </div1>
-         <div1 n="X (43)" type="Preface">
-            <docAuthor>Merton, Thomas.  RED DIARY.  </docAuthor>
+radiance.</note>
+
+</quote>
+            <bibl><author><name key="Festugiere" reg="Festugiere, M">M. Festugi&#x00E8;re</name></author>.</bibl>
+	</cit>
+         </div>
+         <pb n="43"/>
+<div n="X(43)" id="p43" type="page">
+	<dateline>
+	  <date value="1959-02-11"><dateStruct>1959<lb/>
+		Wednesday 11 February<lb/>
+	    <occasion>Ash Wednesday--Thomas Alva Edison, Born 1847</occasion>
+	  </dateStruct></date>
+	<lb/>42nd day - 323 days to come
+	</dateline> 
             <head>X(43)</head>
-            <q direct="unspecified">Qui enim a nullis refraenat licitis vicinus est illictis.</q>
-            <bibl> (Aug. de Ut. Jejunii 5.)</bibl>
-            <note anchored="yes">[Whoever does not refrain from some licit things is close to
-(engaging in) illicit ones.]</note>
-            <q direct="unspecified">(Nov. 1964) Locutus est mihi (Dominus) et dixit[:]Ingredere
-et includere in mediodomus tuae.</q>
-            <bibl>Ezech 3:24</bibl>
-            <note anchored="yes">[(The Lord)
+	<cit>
+            <quote lang="lat" id="p43.q01">Qui enim a nullis refraenat licitis
+vicinus est illictis.
+            <note type="trans" lang="eng" resp="editor">Whoever does
+not refrain from some licit things is close to 
+(engaging in) illicit ones.</note>
+</quote>
+            <bibl>(Aug. de Ut. Jejunii 5.)</bibl>
+	</cit>
+
+	<p>(<date>Nov. 1964</date>)</p>
+	<cit>
+            <quote lang="lat" id="p43.q02">Locutus est mihi (Dominus) et dixit<note
+place="inline" resp="editor">[:]</note> Ingredere
+et includere in mediodomus tuae.
+           <note type="trans" lang="eng" resp="editor">(The Lord)
 spoke to me and said: Go in and shut thyself up in the midst of thy
 house.</note>
-            <q direct="unspecified">To the extent that each man believes the end concerning future blessings &amp; despises human glory &amp; pleasures, he will have couresponding power to control his
-thoughts &amp; to be more at peace than a man who loves pleasures.</q>
-            <bibl>St. Mark The Ascetic (Philokalia )</bibl>
-            <note anchored="yes">]This and all subsequent translation of scriptural quotation
-follows the Douay version of the Latin Vulgate text.In November, 1964,
+</quote>
+            <bibl><title><rs type="title" key="Ezekiel" reg="Bible. O.T. Ezekiel">Ezech</rs></title> <biblScope type="verse">3:24</biblScope></bibl>
+	</cit>
+	<cit>
+            <quote id="p43.q03">To the extent that each man believes the end concerning future blessings &amp; despises human glory &amp; pleasures, he will have couresponding power to control his
+thoughts &amp; to be more at peace than a man who loves pleasures.</quote>
+            <bibl><author><name key="Mark" reg="Mark the Ascetic, Saint">St. Mark The Ascetic</name></author><lb/>
+(<title><rs type="title" key="EFP" reg="Early Fathers from the Philokalia">Philokalia</rs></title>)</bibl>
+	</cit>
+
+          <p><note resp="editor">This and all subsequent translation of
+scriptural quotation 
+follows the Douay version of the Latin Vulgate text. In November, 1964,
 Merton participates in an important meeting of abbots and novice
 masters, holds a retreat for for[sic] the Fellowship of
-Reconcilliation (FOR), and receives many diverse visitors. See Michael
-Mott, <hi>The Seven Mountains of Thomas Merton.</hi>
-pp. 405-406.</note>
-            <div1 n="X(44)" type="Preface">
-               <docAuthor>Merton, Thomas.  RED DIARY.  </docAuthor>
+Reconcilliation (FOR), and receives many diverse visitors. See <bibl><author>Michael
+Mott</author>, <title><rs type="title" key="SevenMtns" reg="The Seven Mountains of Thomas Merton">The Seven Mountains of Thomas Merton</rs></title>.
+<biblScope type="pages">pp. 405-406</biblScope>.</bibl></note></p>
+</div>
+            <pb n="44"/>
+<div n="X(44)" id="p44" type="page">
+	<dateline>
+	  <date value="1959-02-12"><dateStruct>1959<lb/>
+		Thursday 12 February<lb/>
+	    <occasion>Abraham Lincoln, Born 1809--Georgia Day</occasion>
+	  </dateStruct></date>
+	<lb/>43rd day - 322 days to come
+	</dateline> 
                <head>X (44) </head>
-               <q direct="unspecified"> Ut totis viribus quieti mentis studeas, sine qua nulli licet
-callidi hostis insidias circumspicere.St. Anselm, Ep. 37
-(S___III. 147)Sed vide ne hostes derideant abbata tua, ne illis
-serviant otia tua, ne illis vaces, qui vacare Deodebueras .Gilbert of
-HoylandIn Cant. 11.5. PL 184, 60.  <note anchored="yes">[With all your faculties you
+	<cit>
+               <quote lang="lat" id="p44.q01"> Ut totis viribus quieti mentis studeas, sine qua nulli licet
+callidi hostis insidias circumspicere.
+<note type="trans" lang="eng" resp="editor">With all your faculties you
 ought to be intent on peace of mind, for without it no one can take
-heed of the traps set for him by the cunning enemy.][But see to it
+heed of the traps set for him by the cunning enemy.</note>
+</quote>
+	<bibl><author><name key="Anselm" reg="Anselm, Saint">St. Anselm</name></author>, Ep. 37 (S___III. 147)</bibl>
+	</cit>
+	<cit>
+<quote lang="lat" id="p44.q02">Sed vide ne hostes derideant abbata tua, ne illis
+serviant otia tua, ne illis vaces, qui vacare Deodebueras.
+<note type="trans" lang="eng" resp="editor">But see to it
 that (your) enemies do not make a mockery of your sabbaths, lest your
 inactivity be of service to them, lest your leisure be for them when
-it ought to have been for God.]</note>
-               </q>
-            </div1>
-            <div1 n="X(45)" type="Preface">
-               <docAuthor>Merton, Thomas.  RED DIARY.  </docAuthor>
-               <head>X (45)</head>
-               <head>
-                  <hi>Texts for an Office of Hermits</hi>
-               </head>
-               <q direct="unspecified">Levate in caelum oculos vestros et videte sub terra deorsum; quia
+it ought to have been for God.</note>
+</quote>
+	<bibl><author><name key="Gilbert" reg="Gilbert, of Hoyland">Gilbert of Hoyland</name></author><lb/>
+	In Cant. 11.5. PL 184, 60.</bibl>
+	</cit>
+            </div>
+            <pb n="45"/>
+<div type="section" n="Office of Hermits">
+  <div n="X(45)" id="p45" type="page">
+	<dateline>
+	  <date value="1959-02-13">1959<lb/>
+		Friday 13 February<lb/>
+	  </date>
+	<lb/>44th day - 321 days to come
+	</dateline> 
+               <head rend="underline">Texts for an Office of
+Hermits</head>
+	<cit>
+               <quote lang="lat" id="p45.q01">Levate in caelum oculos vestros et videte sub terra deorsum; quia
 caeli sicut fumus liquescent et terra sicut vestimentum atteretur, et
 habitatores eius sicut haec interibunt, salus autem mea in sempiternum
-erit et justitia mea non deficiet.</q>
-               <bibl>Isa. 51:6</bibl>
-               <note anchored="yes">[Lift up your eyes to heaven, and look down to the earth
+erit et justitia mea non deficiet.
+        <note type="trans" lang="eng" resp="editor">Lift up your eyes
+to heaven, and look down to the earth 
 beneath: for the heavens shall vanish like smoke, and the earth shall
 be worn away like a garment, and the inhabitants thereof shall perish
 in like manner: but my salvation shall be forever, and my justice
-shall not fail.]</note>
-               <q direct="unspecified">Posui verba mea in ore tuo et in umbra manus meae protexi te, ut
+shall not fail.</note>
+</quote>
+               <bibl><title><rs type="title" key="Isaiah" reg="Bible. O.T. Isaiah">Isa.</rs></title> <biblScope
+type="verse">51:6</biblScope></bibl>
+	</cit>
+	<cit>
+               <quote id="p45.q02">Posui verba mea in ore tuo et in umbra manus meae protexi te, ut
 plantes caelos et fundes ierram et dicas ad Sion: populus meus es
-tu.</q>
-               <bibl>Isa 51:16</bibl>
-               <note anchored="yes">[I have put my words in thy mouth, and have protected thee in
+tu.
+    <note type="trans" lang="eng" resp="editor">I have put my words in
+thy mouth, and have protected thee in 
 the shadow of my hand, that thou mightest plant the heavens, and found
-the earth: and mightest say to Sion: Thou art my people.]* Merton is
-inconsistent in his use of consonantal&quot;in Latin: sometimes he
-retains the classical&quot; and sometimes he uses the medieval&quot;</note>
-            </div1>
-            <div1 n="X(46)" type="Preface">
-               <docAuthor>Merton, Thomas.  RED DIARY.  </docAuthor>
+the earth: and mightest say to Sion: Thou art my people.</note>
+</quote>
+               <bibl><title><rs type="title" key="Isaiah" reg="Bible. O.T. Isaiah">Isa</rs></title> <biblScope
+type="verse">51:16</biblScope></bibl>
+	</cit>
+
+<note resp="editor">* Merton is inconsistent in his use of
+consonantals in Latin: sometimes he retains the classical and
+sometimes he uses the medieval.</note>
+
+            </div>
+            <pb n="46"/>
+<div n="X(46)" id="p46" type="page">
+	<dateline>
+	  <date value="1959-02-14"><dateStruct>1959<lb/>
+		Saturday 14 February<lb/>
+	    <occasion>St. Valentine's Day</occasion>
+	  </dateStruct></date>
+	<lb/>45th day - 320 days to come
+	</dateline> 
                <head>X (46)</head>
-               <q direct="unspecified"> Non in tumultu exibitis nec in fuga properabitis, praecedet enim
-vos Dominus et congregabit vos Deus Israel.</q>
-               <bibl> Isa. 52:</bibl>
-               <note anchored="yes">[You shall not go out in a tumult, neither shall you make haste
+	<cit>
+               <quote lang="lat" id="p46.q01"> Non in tumultu exibitis nec in fuga properabitis, praecedet enim
+vos Dominus et congregabit vos Deus Israel.
+          <note type="trans" lang="lat" resp="editor">You shall not go
+out in a tumult, neither shall you make haste 
 by flight: for the Lord will go before you, and the God of Israel will
-gather you together.]</note>
-               <q direct="unspecified"> Sweep your cell clean of everything superfluous for this will lead
+gather you together.</note>
+</quote>
+               <bibl><title><rs type="title" key="Isaiah" reg="Bible. O.T. Isaiah">Isa.</rs></title> <biblScope
+type="verse">52:12</biblScope></bibl>
+	</cit>
+<cit>
+<bibl><author n="Isaac, of Nineveh">Isaac of Neneveh</author></bibl>
+               <quote id="p46.q02">Sweep your cell clean of everything superfluous for this will lead
 you to abstinence, however unwillingly. Scarcity of all things teaches
-a man to be abstinent.</q>
-               <bibl>Isaac of Neneveh.  (Kadloubovsky,
-E. and Palmer, G.E.H., translators. <hi>Early Fathers from the
-Philokalia</hi>. London: Faber and Faber Limited, 1954  p 235)</bibl>
-               <note anchored="yes">If you do not strive you will not find &amp; if you do not
+a man to be abstinent.</quote>
+               <bibl>(<title><rs type="title" key="EFP" reg="Early Fathers from the Philokalia">Early Fathers from Philokalia</rs></title>
+<biblScope type="pages">p. 235</biblScope>)
+<note type="bibliographic" resp="editor"><bibl><editor
+role="translator">Kadloubovsky, E.</editor>
+ and <editor role="translators">Palmer, G.E.H.</editor>, translators. <title><rs type="title" key="EFP" reg="Early Fathers from the Philokalia">Early Fathers from the
+Philokalia</rs></title>. <pubPlace>London</pubPlace>: <publisher>Faber and
+Faber Limited</publisher>, <date>1954</date></bibl></note>
+</bibl>
+	</cit>
+	<cit>
+               <quote id="p46.q03">If you do not strive you will not find &amp; if you do not
 knock at he door with ardor &amp; constantly keep vigil before it, you
-will not be heard. EFP. 235</note>
-            </div1>
-            <div1 n="X(47)" type="Preface">
-               <docAuthor>Merton, Thomas.  RED DIARY.  </docAuthor>
-               <head>X (47) </head>
-               <bibl>Sermon from Isaac of N.[ineveh]</bibl>
-               <q direct="unspecified">Is there any need
+will not be heard.</quote> <bibl><title><rs type="title" key="EFP" reg="Early Fathers from the Philokalia">EFP</rs></title>. <biblScope
+type="pages">235</biblScope></bibl>
+	</cit>
+            </div>
+            <pb n="47"/>
+<div n="X(47)" id="p47" type="page">
+	<dateline>
+	  <date value="1959-02-15"><dateStruct>1959<lb/>
+		Sunday 15 February<lb/>
+	    <occasion>First Sunday in Lent</occasion>
+	  </dateStruct></date>
+	<lb/>46th day - 319 days to come
+	</dateline> 
+               <head>("office" - cont<hi rend="sup
+underline">d</hi>)</head>
+	<cit>
+               <bibl>"Sermon" from <author><name key="Isaac" reg="Isaac, of Nineveh">Isaac of N.<ref type="inline-note" target="p47.q01.n01" targType="note"/></name></author>
+<note id="p47.q01.n01" place="inline" resp="editor">[ineveh]</note>
+</bibl>
+               <quote id="p47.q01">Is there any need
 to say anything about men engaged in spiritual endeavor, strangers to
 the world, &amp; about hermits? They have made the wilderness a city
 &amp; transformed it into the home &amp; the abode of the angels. For
@@ -831,86 +1456,141 @@ as warriors of the same King they have often fought side by side. All
 their life have they loved the wilderness &amp; from love of God had
 their dwelling in the mountains, caves &amp; precipices of the
 earth. Since they have abandoned the earthly &amp; conceived of love
-for the heavenly, imitating the angels, the* text continues on X
-(48).</q>
-               <note anchored="yes"> In a journal entry for January 11, 1965 Merton notes
-Isaac of Nineveh as a favorite:  A little Nietzsche is stimulating, no
+for the heavenly, imitating the angels, the
+<note resp="editor">* text continues on <ref target="p48">X (48)</ref>.</note></quote>
+	</cit>
+               <note resp="editor"> In a journal entry for January 11, 1965 Merton notes
+Isaac of Nineveh as a favorite:  <cit><quote id="p47.q02">A little Nietzsche is stimulating, no
 doubt, but what I really like to read is Isaac of Neneveh in the
-hermitage or Zen Masters in the fields.  <hi>A Vow of
-Conversation</hi>, p. 133.</note>
-            </div1>
-            <div1 n="X(48)" type="Preface">
-               <docAuthor>Merton, Thomas.  RED DIARY.  </docAuthor>
+hermitage or Zen Masters in the fields.</quote><bibl><title><rs type="title" key="Vow" reg="A Vow of Conversation">A Vow of Conversation</rs></title>, <biblScope
+type="pages">p. 133</biblScope>.</bibl></cit></note>
+
+
+            </div>
+            <pb n="48"/>
+<div n="X(48)" id="p48" type="page">
+	<dateline>
+	  <date value="1959-02-16">1959<lb/>
+		Monday 16 February<lb/>
+	  </date>
+	<lb/>47th day - 318 days to come
+	</dateline> 
                <head>X (48)  </head>
-               <q direct="unspecified"> holy angels themselves have deemed it right not to conceal from
+	<cit>
+               <quote id="p48.q01"> holy angels themselves have deemed it right not to conceal from
 them their countenance &amp; have fulfilled their every wish, giving
-them all possible help. </q>
-               <bibl>EFP. p 237.</bibl>
-               <q direct="unspecified">(Isaac. contd) He is a monk who stays outside the world &amp; is
+them all possible help. </quote>
+               <bibl><title><rs type="title" key="EFP" reg="Early Fathers from the Philokalia">EFP</rs></title>. <biblScope type="pages">p
+237</biblScope>.</bibl>
+	</cit>
+	<milestone unit="section" rend="plus"/>
+	<cit>
+<bibl>(<author><name key="Isaac" reg="Isaac, of Nineveh">Isaac</name></author>. contd)</bibl>
+               <quote id="p48.q02"> He is a monk who stays outside the world &amp; is
 ever praying to God so that he may gain future blesshings. A monk's
 wealth is the comfort he finds in mourning, &amp; the joy of faith
 which shines in the secret places of his
-mind.</q>
-               <bibl>EFP. 240</bibl>
-               <q direct="unspecified"> Blessed are those who from love of God have girded their loins
-with unquestioningsimplicity for this sea of suffering &amp; who donot
-turn back.</q>
-               <bibl>EFP 244</bibl>
-            </div1>
-            <div1 n="X(49)" type="Preface">
-               <docAuthor>Merton, Thomas.  RED DIARY.  </docAuthor>
+mind.</quote>
+               <bibl><title><rs type="title" key="EFP" reg="Early Fathers from the Philokalia">EFP</rs></title>. <biblScope
+type="pages">240</biblScope></bibl>
+	</cit>
+	<cit>
+               <quote id="p48.q03"> Blessed are those who from love of God have girded their loins
+with unquestioningsimplicity for this sea of suffering &amp; who do not
+turn back.</quote>
+               <bibl><title><rs type="title" key="EFP" reg="Early Fathers from the Philokalia">EFP</rs></title> <biblScope
+type="pages">244</biblScope></bibl>
+	</cit>
+            </div>
+            <pb n="49"/>
+<div n="X(49)" id="p49" type="page">
+	<dateline>
+	  <date value="1959-02-17">1959<lb/>
+		Tuesday 17 February<lb/>
+	  </date>
+	<lb/>48th day - 317 days to come
+	</dateline> 
                <head>X (49) </head>
-               <q direct="unspecified"> When hope embarks on this passage it crosses the sea with its
+	<cit>
+               <quote id="p49.q01"> When hope embarks on this passage it crosses the sea with its
 first ardour, having no care at all for the body nor deliberating in
 itself as to whether or no its labour begun will in any wise
-succeed.</q>
-               <bibl>(Isaac. EFP. 244)</bibl>
-               <q direct="unspecified">God commands that we should undertake the work with readiness to
+succeed.</quote>
+               <bibl>(<author><name key="Isaac" reg="Isaac, of Nineveh">Isaac</name></author>. <title><rs type="title" id="EFP" reg="Early Fathers from the Philokalia">EFP</rs></title>. <biblScope type="pages">244</biblScope>)</bibl>
+	</cit>
+	<milestone unit="section" rend="plus"/>
+	<cit>
+               <quote id="p49.q02">God commands that we should undertake the work with readiness to
 die for the sake of pleasing Him, &amp; He promises to crown the
-faithful laborer with thehonour of martyrdom.</q>
-               <bibl>EFP. 246</bibl>
-            </div1>
-            <div1 n="X(50)" type="Preface">
-               <docAuthor>Merton, Thomas.  RED DIARY.  </docAuthor>
+faithful laborer with thehonour of martyrdom.</quote>
+               <bibl><title><rs type="title" key="EFP" reg="Early Fathers from the Philokalia">EFP</rs></title>. <biblScope
+type="pages">246</biblScope></bibl>
+	</cit>
+            </div>
+            <pb n="50"/>
+<div n="X(50)" id="p50" type="page">
+	<dateline>
+	  <date value="1959-02-18"><dateStruct>1959<lb/>
+		Wednesday 18 February<lb/>
+	    <occasion>Ember Day</occasion>
+	  </dateStruct></date>
+	<lb/>49th day - 316 days to come
+	</dateline> 
                <head>X (50) </head>
-               <head>Office of hermits</head>
-               <q direct="unspecified">Haec dicit Dominus: quomodo si inveniatur granum in botro et
+               <head>"office" of hermits</head>
+	<cit>
+               <quote lang="lat" id="p50.q01">Haec dicit Dominus: quomodo si inveniatur granum in botro et
 dicatur: ne dissipes illud quoniam benedictio est; Sic faciam propter
-servos meos ut non disperdam totum.</q>
-               <bibl>Isa. 65:8</bibl>
-               <note anchored="yes">[Thus saith the Lord: As if a grain be found in a cluster, and
+servos meos ut non disperdam totum.
+      <note type="trans" lang="eng" resp="editor">Thus saith the Lord: As if a grain be found in a cluster, and
 it be said: Destroy it not, because it is a blessing: so will I do for
-the sake of my servants, that I may not destroy the whole.] </note>
-               <q direct="unspecified">Ad quem autem respiciam nisi ad pauperculum et contritum spiritu
-et trementem sermones meos.</q>
-               <bibl>Isa. 66:2</bibl>
-               <note anchored="yes"> [But to whom shall I look but to him that is poor and little,
-and of a contrite spirit, and that trembleth at my words?] </note>
-               <q direct="unspecified">Intrans in domum meam conquiescam cum sapientia: non enim habet
+the sake of my servants, that I may not destroy the whole.</note>
+</quote>
+               <bibl><title><rs type="title" key="Isaiah" reg="Bible. O.T. Isaiah">Isa.</rs></title> <biblScope type="verse">65:8</biblScope></bibl>
+	</cit>
+	<cit>
+              <quote lang="lat" id="p50.q02">Ad quem autem respiciam nisi ad pauperculum et contritum spiritu
+et trementem sermones meos.
+               <note type="trans" lang="eng" resp="editor">But to whom shall I look but to him that is poor and little,
+and of a contrite spirit, and that trembleth at my words?</note>
+</quote>
+               <bibl><title><rs type="title" key="Isaiah" reg="Bible. O.T. Isaiah">Isa</rs></title>. <biblScope
+type="verse">66:2</biblScope></bibl>
+	</cit>
+<p>	&#x229B; <!-- asterisk with a circle around it --></p>
+	<cit>
+               <quote lang="lat" id="p50.q03">Intrans in domum meam conquiescam cum sapientia: non enim habet
 amaritudinem conversatio illius, nec taedium convictus illius, sed
-laetitiam et gaudium.</q>
-               <bibl>Sap 8:16 (Jan 31, 1965) *</bibl>
-               <note anchored="yes">[When I go into my house, I shall repose myself with wisdom: for her
+laetitiam et gaudium.
+	<note type="trans" lang="eng" resp="editor">When I go into my house, I shall repose myself with wisdom: for her
 conversation hath no bitterness, nor her company any tediousness, but
-joy and gladness.]* See note on following page.
-<hi>Addendum</hi>Merton's selection of texts under the
-title,&quot;Office of Hermits,  begins in this notebook after
-November, 1964 and continues through and beyond his fiftieth birthday,
-January 31, 1965. Since there were many indications he would soon be
+joy and gladness.</note>
+</quote>
+               <bibl><title><rs type="title" key="WisdomSol" reg="Bible. O.T. Apocrypha. Wisdom of Solomon">Sap</rs></title> <biblScope type="verse">8:16</biblScope></bibl><lb/>
+	</cit>
+<p> (<date value="1965-01-31">Jan 31, 1965</date>)<ref target="p50.n01">*</ref></p>
+
+               <note id="p50.n01">* See note on following page.
+<hi>Addendum</hi> Merton's selection of texts under the
+title, "Office of Hermits",  begins in this notebook after
+<date value="1964-11">November, 1964</date> and continues through and beyond his fiftieth birthday,
+<date value="1965-01-31">January 31, 1965</date>. Since there were many indications he would soon be
 allowed to live in the hermitage permanently, the annual retreat of
-January 18  26 was especially important. Merton's&quot;Office for
-Hermits  may well have been conceived and begun during this annual
-retreat. [See Mott, pp. 410-412 for events preceding Merton's
-birthday.]How much of Merton's&quot;office  was gathered on his
-birthday is impossible to accurately gage. Was it more than page 50?
+January 18-26 was especially important. Merton's "Office for
+Hermits" may well have been conceived and begun during this annual
+retreat. [See <bibl><author>Mott</author>, <biblScope type="pages">pp. 410-412</biblScope></bibl> for
+events preceding Merton's 
+birthday.] How much of Merton's "office" was gathered on his
+birthday is impossible to accurately gauge. Was it more than page 50?
 Was it limited only to the quotation of Sap 8:16 marked by Merton's
 marginalia which signals its importance? Merton's birth date at this
 place may well have been added later by him, though this does not
 lessen the significance of either the entire page or the one
-passage.In any case, the passages of Merton's&quot;office  can be
-allowed to&quot;sing  with journal entries marked as written on the
-vigil of his birthday and the anniversary itself (Jan. 3031, 1965):
-What I find most in my whole life is illusion, wanting to be something
+passage.In any case, the passages of Merton's "office" can be
+allowed to "sing" with journal entries marked as written on the
+vigil of his birthday and the anniversary itself (<dateRange
+from="1965-01-30" to="1965-01-31">Jan. 30-31, 1965</dateRange>):
+<quote id="p50.q04">What I find most in my whole life is illusion, wanting to be something
 of which I have formed a concept. I hope I will get free of all that
 now, because that is going to be the struggle and yet I have to be
 something that I ought to be. I have to meet a certain demand for
@@ -918,93 +1598,151 @@ order and inner light and tranquillity, God's demand, that is, that I
 remove obstacles to His giving me all these. Snow, silence, the
 talking fire, the watch on the table, sorrow. What would be the use of
 going over all this? I will just get cleaned up (my hands are dirty)
-and say the Psalms of my birthday:'Yet you drew me out of the womb
+and say the Psalms of my birthday: <quote id="p50.q05">'Yet you drew me out of the womb
 you entrusted me to my mother's breast placed on your lap from my
-birth from my mother's womb you have been my God'&quot; (Jan 30) I can
+birth from my mother's womb you have been my God'</quote> (Jan 30) I can
 imagine no greater cause for gratitude on my fiftieth birthday than:
 that, on it, I woke up in a hermitage. Fierce cold all night,
 ... . Inside the house, it almost froze, though embers still glowed
 under the ashes in the fireplace. The cold woke meup at one point, but
 I adjusted the blankets and went back to sleep.  What more do I seek
-than this silence, this simplicity, this&quot;living together with
-wisdom ? For me, there is nothing else... [emphasis added] (Jan 31)A
-<hi>Vow of Conversation</hi>, pp. 141-142.</note>
-            </div1>
-            <div1 n="X(51)" type="Preface">
-               <docAuthor>Merton, Thomas.  RED DIARY.  </docAuthor>
+than this silence, this simplicity, this living together with
+wisdom ? For me, there is nothing else...</quote> [emphasis added]
+(Jan 31) <bibl><title><rs type="title" key="Vow" reg="A Vow of Conversation">A Vow of Conversation</rs></title>, <biblScope
+type="pages">pp. 141-142</biblScope>.</bibl></note> 
+            </div>
+            <pb n="51"/>
+<div n="X(51)" id="p51" type="page">
+	<dateline>
+	  <date value="1959-02-19">1959<lb/>
+		Thursday 19 February<lb/>
+	  </date>
+	<lb/>50th day - 315 days to come
+	</dateline> 
                <head>X (51)</head>
-               <q direct="unspecified"> The Lord suffers all human weaknesses but abhors a man who is
-always complaining, &amp; does not leave him without a lesson. </q>
-               <bibl>Isaac of N. EFP. p. 269</bibl>
-               <q direct="unspecified">A man who remembering God respects every man, by a
-sudden move-ment of God's hand himself receives help from every man.</q>
-               <bibl> id.</bibl>
-               <q direct="unspecified">Praecordia fatui quasi rota carri, et quasi axis versatilis
-cogitatus illius.</q>
-               <bibl> Eccli. [Ecclesiasticus] 33:5 </bibl>
-               <note anchored="yes">[The heart of a fool is as a wheel of a cart, and his thoughts
-are like a rolling axletree.]</note>
-            </div1>
-            <div1 n="X(52)" type="Preface">
-               <docAuthor>Merton, Thomas.  RED DIARY.  </docAuthor>
+	<cit>
+               <quote id="p51.q01"> The Lord suffers all human weaknesses but abhors a man who is
+always complaining, &amp; does not leave him without a lesson. </quote>
+               <bibl><author><name key="Isaac" reg="Isaac, of Nineveh">Isaac of N.</name></author>
+<title><rs type="title" key="EFP" reg="Early Fathers from the Philokalia">EFP</rs></title>. <biblScope type="pages">p. 269</biblScope></bibl>
+	</cit>
+	<cit>
+               <quote id="p51.q02">A man who remembering God respects every man, by a
+sudden move-ment of God's hand himself receives help from every man.</quote>
+               <bibl><rs key="Isaac"/>id.</bibl>
+	</cit>
+	<cit>
+               <quote id="p51.q03" lang="lat">Praecordia fatui quasi rota carri, et quasi axis versatilis
+cogitatus illius.
+         <note type="trans" lang="eng" resp="editor">The heart of a fool is as a wheel of a cart, and his thoughts
+are like a rolling axletree.</note>
+</quote>
+               <bibl><title><rs type="title" key="Ecclesiasticus" reg="Bible. O.T. Apocrypha. Ecclesiasticus">Eccli.</rs> <note place="inline" resp="editor">[Ecclesiasticus]</note></title> <biblScope
+type="verse">33:5</biblScope> </bibl> 
+	</cit>
+            </div>
+            <pb n="52"/>
+<div n="X(52)" id="p52" type="page">
+	<dateline>
+	  <date value="1959-02-20"><dateStruct>1959<lb/>
+		Friday 20 February<lb/>
+	<occasion>Ember Day</occasion>
+        </dateStruct></date>
+	<lb/>51st day - 314 days to come
+	</dateline> 
                <head>X (52) </head>
-               <head>(office )</head>
-               <q direct="unspecified">A cella quippe in caelum saepe
+               <head>( office )</head>
+	<cit>
+               <quote id="p52.q01" lang="lat">A cella quippe in caelum saepe
 ascenditur; vix autem aut numquam a cella in infernum descenditur,
 nisi cogitando de pravis inferni. Moriens autem vix umquam aliquis a
 cella in infernum descendit, quia vix umquam aliquis nisi caelo
 praedestinatus in ea usque ad mortem persistit: quoniam filium gratiae
-cella tanquam fructum ventris sui foret [feret?].</q>
-               <note anchored="yes">[From the
-cell (<hi>cella</hi>) one can often go up to heaven (<hi>caelum</hi>);
+cella tanquam fructum ventris sui foret <note place="inline"
+resp="editor">[feret?]</note>.
+            <note type="trans" lang="eng" resp="editor">From the
+cell (<foreign lang="lat">cella</foreign>) one can often go up to
+heaven (<foreign lang="lat">caelum</foreign>);
 but hardly ever or never does one go from the cell down to hell,
 except by dwelling on the depraved things of hell. At the moment of
 death, hardly ever does anyone go down from the cell to hell, because
 hardly ever does anyone persevere in it until death unless he is
 predestined for heaven: because the cell bears[?] a son of grace like
-the fruit of its womb.]</note>
-            </div1>
-            <div1 n="X(53)" type="Preface">
-               <docAuthor>Merton, Thomas.  RED DIARY.  </docAuthor>
+the fruit of its womb.</note>
+</quote>
+	</cit>
+            </div>
+            <pb n="53"/>
+<div n="X(53)" id="p53" type="page">
+	<dateline>
+	  <date value="1959-02-21"><dateStruct>1959<lb/>
+		Saturday 21 February<lb/>
+	    <occasion>Ember Day</occasion>
+	  </dateStruct></date>
+	<lb/>52nd day - 313 days to come
+	</dateline> 
                <head>X (53) </head>
-               <head>office</head>
-               <q direct="unspecified">Haec dicit Dns exercituum: Ponite corda vestra super vias
+               <head>"office"</head>
+	<cit>
+               <quote id="p53.q01" lang="lat">Haec dicit Dns exercituum: Ponite corda vestra super vias
 vestras. Seminastis multum et intulistis parum, comedistis et non
 estis satiati, bibistis et non estis inebriati, operuistis vos et non
 estis calefacti, et qui mercedes congreagavist misit eas in sacculum
-pertusum. </q>
-               <bibl>Aggaeus 1:5-6</bibl>
-               <note anchored="yes">[Thus saith the Lord of Hosts: Set your hearts to consider your
+pertusum. 
+               <note type="trans" lang="lat" resp="editor">Thus saith
+the Lord of Hosts: Set your hearts to consider your 
 ways. You have sowed much, and brought in little: you have eaten, but
 have not been sated: you have drunk, but have not been inebriated: you
 have clothed yourselves, but have not been warmed: and he that hath
-earned wages, put them into a bag with holes.]</note>
-            </div1>
-            <div1 n="X(54)" type="Preface">
-               <docAuthor>Merton, Thomas.  RED DIARY.  </docAuthor>
+earned wages, put them into a bag with holes.</note>
+</quote>
+               <bibl><title><rs type="title" key="Haggai" reg="Bible. O.T. Haggai">Aggaeus</rs></title> <biblScope type="verse">1:5-6</biblScope></bibl>
+	</cit>
+            </div>
+            <pb n="54"/>
+<div n="X(54)" id="p54" type="page">
+	<dateline>
+	  <date value="1959-02-22"><dateStruct>1959<lb/>
+		Sunday 22 February<lb/>
+	    <occasion>Second Sunday in Lent--George Washington, Born 1732</occasion>
+	  </dateStruct></date>
+	<lb/>53rd day - 312 days to come
+	</dateline> 
                <head>X (54)</head>
-               <head>office</head>
-               <q direct="unspecified">Ne despicias narrationem presbyterorum sapientium, et in
+               <head>"office"</head>
+	<cit>
+               <quote id="p54.q01" lang="lat">Ne despicias narrationem presbyterorum sapientium, et in
 proverbiis eorum conversare; ab ipsis enim disces sapientiam et
 doctrinam intellectus et servire magnatis sine querela. Non te
 praetereat narratio seniorum, ipsi enim didicerunt a patribus suis;
 quoniam ab ipsis disces intellectum et in tempore necessitatis dare
-responsum.</q>
-               <bibl>Ecclus. VIII, 9-12</bibl>
-               <note anchored="yes">[Despise not the discourse of them that are ancient and wise,
+responsum.
+               <note type="trans" lang="eng" resp="editor">Despise not the discourse of them
+that are ancient and wise, 
 but acquaint thyself with their proverbs. For of them thou shalt learn
 wisdom, and instruction of understanding, and to serve great men
 without quarrel. Let not the discourse of the ancients escape thee,
 for they have learned of their fathers: for of them thou shalt learn
-understanding, and to given an answer in time of need.]</note>
-            </div1>
-            <div1 n="X(55)" type="Preface">
-               <docAuthor>Merton, Thomas.  RED DIARY.  </docAuthor>
+understanding, and to given an answer in time of need.</note>
+</quote>
+               <bibl><title><rs type="title" key="Ecclesiasticus" reg="Bible. O.T. Apocrypha. Ecclesiasticus">Ecclus.</rs></title> <biblScope
+type="verse">VIII. 9-12</biblScope>.</bibl>
+	</cit>
+            </div>
+            <pb n="55"/>
+<div n="X(55)" id="p55" type="page">
+	<dateline>
+	  <date value="1959-02-23">1959<lb/>
+		Monday 23 February<lb/>
+	  </date>
+	<lb/>54th day - 311 days to come
+	</dateline> 
                <head>X (55) </head>
-               <q direct="unspecified">
+	<cit>
+               <quote id="p55.q01">
                   <lg>
-                     <l>No Thing you love must be</l>
-                     <l>And from<hi>Thing</hi>you must flee.</l>
+                     <l>"No-Thing" you love must be</l>
+                     <l>And from "Thing" you must flee.</l>
                      <l>You must stand alone</l>
                      <l>with no man make your home.</l>
                      <l> From all striving cease, </l>
@@ -1019,55 +1757,91 @@ understanding, and to given an answer in time of need.]</note>
                      <l> So will your dwelling</l>
                      <l> Be wilderness.</l>
                   </lg>
-               </q>
-               <bibl>Mccha, A. of Mazt.</bibl>
-            </div1>
-            <div1 n="X(56)" type="Preface">
-               <docAuthor>Merton, Thomas.  RED DIARY.  </docAuthor>
+               </quote>
+               <bibl><author>Mccha, A. of Mazt.</author></bibl>
+	</cit>
+            </div>
+            <pb n="56"/>
+<div n="X(56)" id="p56" type="page">
+	<dateline>
+	  <date value="1959-02-24">1959<lb/>
+		Tuesday 24 February<lb/>
+	  </date>
+	<lb/>55th day - 310 days to come
+	</dateline> 
                <head>X (56) </head>
-               <q direct="unspecified">O Domina et Mater misericordiae quae mundo edidisti Salvatorem,
+		<head>"office"</head>
+	<cit>
+               <quote id="p56.q01" lang="lat">O Domina et Mater misericordiae quae
+mundo edidisti Salvatorem, 
 oratrix pro me dignanter assiste. Ad tuum gloriosissimum et singulare
 praesidium confugio, et tu, piissima, meis precibus aures tuae
 pietatis inclina. Vehementer expavesco ne vita mea tuo dis-pliceat
-filio, et illo [sic] deprecor ut sicut per te se mundo mani-festavit,
+filio, et illo <note place="inline" resp="editor">[sic]</note>
+ deprecor ut sicut per te se mundo mani-festavit,
 propter te, quaeso, absque dilatione miseratur mei. Qui vivit et
-regnat.(St. Odo) <note anchored="yes">[O Lady and Mother of mercy who gave the world
+regnat.
+ <note type="trans" lang="eng" resp="editor">O Lady and Mother of
+mercy who gave the world 
 the Savior, consent to be my intercessor. I flee to your most gracious
 and singular protection, and you, O most faithful one, incline the
 ears of your fidelity to my prayers. I strongly fear that my life may
 not be pleasing to your son, and I entreat him that, just as he
 manifested himself to the world through you, so too, I beg, may he
 have pity on me without delay for your sake. Who lives and
-reigns.]</note>
-               </q>
-            </div1>
-            <div1 n="X(57)" type="Preface">
-               <docAuthor>Merton, Thomas.  RED DIARY.  </docAuthor>
+reigns.</note>
+</quote>
+	<bibl>(<author><name key="Odo" reg="Odo, Saint, Abbot of Cluny">St. Odo</name></author>)</bibl>	
+	</cit>
+            </div>
+            <pb n="57"/>
+<div n="X(57)" id="p57" type="page">
+	<dateline>
+	  <date value="1959-02-25">1959<lb/>
+		Wednesday 25 February<lb/>
+	  </date>
+	<lb/>56th day - 309 days to come
+	</dateline> 
                <head>X (57) </head>
-               <q direct="unspecified">Fili in mansuetudine serva animam tuam et da illi honorem secundum
-meritum tuum.</q>
-               <note anchored="yes">[My son, keep thy soul in meekness, and give it
-honor according to its desert.]</note>
-               <bibl>Eccli. 10:31</bibl>
-               <q direct="unspecified">(Stability in solitude.) Sta in testamento
+	<cit>
+               <quote id="p57.q01" lang="lat">Fili in mansuetudine serva animam tuam et da illi honorem secundum
+meritum tuum.
+               <note type="trans" lang="eng" resp="editor">My son,
+keep thy soul in meekness, and give it 
+honor according to its desert.</note>
+</quote>
+               <bibl><title><rs type="title" key="Ecclesiasticus" reg="Bible. O.T. Apocrypha. Ecclesiasticus">Eccli.</rs></title> <biblScope
+type="verse">10:31</biblScope></bibl>
+	</cit>
+	<p>(Stability in solitude.)</p>
+	<cit>
+               <quote id="p57.q02" lang="lat"> Sta in testamento
 tuo et in illo colloquere, et in opere mandatorum tuorum veterasce. Ne
-manseris in operibus peccatorum, <hi>confide autem</hi> 
-                  <hi>in Deo et
-in mane in loco tuo</hi>.</q>
-               <bibl>Eccli. 11:2122</bibl>
-               <note anchored="yes"> [Be steadfast in thy covenant, and be
+manseris in operibus peccatorum, <hi rend="underline">confide autem
+in Deo et in mane in loco tuo</hi>.
+               <note type="trans" lang="eng" resp="editor">Be
+steadfast in thy covenant, and be 
 conversant therein, and grow old in the work of thy
-commandments. Abide not in the works of sinners, <hi>but trust in God
-and stay in thy place</hi>.]</note>
-            </div1>
-            <div1 n="X(58)" type="Preface">
-               <docAuthor>Merton, Thomas.  RED DIARY.  </docAuthor>
+commandments. Abide not in the works of sinners, <hi rend="underline">but trust in God
+and stay in thy place</hi>.</note>
+</quote>
+               <bibl><title><rs type="title" key="Ecclesiasticus" reg="Bible. O.T. Apocrypha. Ecclesiasticus">Eccli.</rs></title> <biblScope
+type="verse">11:21-22</biblScope>.</bibl>
+	</cit>
+            </div>
+            <pb n="58"/>
+<div n="X(58)" id="p58" type="page">
+	<dateline>
+	  <date value="1959-02-26">1959<lb/>
+		Thursday 26 February<lb/>
+	  </date>
+	<lb/>57th day - 308 days to come
+	</dateline> 
                <head>X (58)</head>
-               <head>
-                  <hi>office</hi>
-               </head>
-               <bibl>Prayer of Fulbert of Chartres (excerpt)</bibl>
-               <q direct="unspecified"> Impetra
+               <head rend="underline">office</head>
+	<cit>
+               <bibl>Prayer of <author><name key="Fulbert" reg="Fulbert, Saint, Bishop of Chartres">Fulbert of Chartres</name></author> (<biblScope>excerpt</biblScope>)</bibl>
+               <quote id="p58.q01" lang="lat"> Impetra
 michi sancta Virgo Maria spatium et locum penitentiae ut non sinar in
 vacuum ducere dies huic mortali vitae concessos. Sancta Dei Genitrix
 perpetua Virgo Maria, intercede pro me, ut omnipotens Deus aperire
@@ -1076,178 +1850,491 @@ fieri. Dancta Dei Genitrix perpetua Virgo Maria, impetra michi
 compunctionis lacrimas, ut innumerabilia peccata mea incessanter
 defleam, ut sicut fuit michi dulce peccare ita michi sit dulce
 paenitere et lugere, non solum propria sed et aliena commissa.
-<note anchored="yes">[O Holy Virgin Mary, obtain for me a space and a place of
-repentence that I may not be allowed to spend vainly the days granted
-to this mortal life. Holy Mother of God, ever Virgin Mary, obtain for
-me the tears of compunction that I may weep incessantly for my
-numberless sins, so that, just as sinning was sweet to me, so too I
-may find it sweet to do penance and mourn, not only for my own sins
-but also for those committed by others.]</note>
-               </q>
-            </div1>
-            <div1 n="X(59)" type="Preface">
-               <docAuthor>Merton, Thomas.  RED DIARY.  </docAuthor>
+<note type="trans" lang="lat" resp="editor">O Holy Virgin Mary, obtain
+for me a space and a place of repentence that I may not be allowed to
+spend vainly the days granted to this mortal life. Holy Mother of God,
+ever Virgin Mary, obtain for me the tears of compunction that I may
+weep incessantly for my numberless sins, so that, just as sinning was
+sweet to me, so too I may find it sweet to do penance and mourn, not
+only for my own sins but also for those committed by others.</note>
+               </quote>
+	</cit>
+            </div>
+            <pb n="59"/>
+<div n="X(59)" id="p59" type="page">
+	<dateline>
+	  <date value="1959-02-27">1959<lb/>
+		Friday 27 February<lb/>
+	  </date>
+	<lb/>58th day - 307 days to come
+	</dateline> 
                <head>X (59) </head>
-               <bibl>From Psalter of Robert of Molesme</bibl>
-               <q direct="unspecified">O intemerata et in
+	<cit>
+               <bibl>From Psalter of <author><name key="Robert" reg="Robert of Molesme, Saint">Robert of Molesme</name></author></bibl>
+               <quote id="p59.q01" lang="lat">O intemerata et in
 aeternum benedicta, specialis et incomparabilis Dei Genitrix Virgo
 Maria, gratissimum Dei templum, Spiritus Sancti sacrarium, ianua
 caelorum, per quam post Deum totus vivit orbis terrarum, inclina aures
 tuae sanctae virginalis humilitatis et pietatis indignis
 supplicationibus meis, et esto michi miserrimo peccatori pia et
-propitia in omnibus auxiliatrix.  <note anchored="yes">[O Mother of God, Virgin Mary,
+propitia in omnibus auxiliatrix.  
+<note type="trans" lang="lat" resp="editor">O Mother of God, Virgin Mary,
 fearless and forever blessed, singular and incomparable, most pleasing
 temple of God, tabernacle of the Holy Spirit, gate of heaven, through
 whom--after God--all on earth have their life: incline the ears of
 your holy virginal humility and fidelity to my unworthy prayers, and
 in all things be for me, a most wretched sinner, a faithful and
-well-disposed helper.]</note>
-               </q>
-            </div1>
-            <div1 n="X(60)" type="Preface">
-               <docAuthor>Merton, Thomas.  RED DIARY.  </docAuthor>
+well-disposed helper.</note>
+               </quote>
+	</cit>
+            </div>
+            <pb n="60"/>
+<div n="X(60)" id="p60" type="page">
+	<dateline>
+	  <date value="1959-02-28">1959<lb/>
+		Saturday 28 February<lb/>
+	  </date>
+	<lb/>59th day - 306 days to come
+	</dateline> 
                <head>X (60)</head>
-               <q direct="unspecified"> Fugite de medio Babylonis et salvetunusquisque animam suam;
+		<head>+</head>
+	<cit>
+               <quote id="p60.q01" lang="lat"> Fugite de medio Babylonis et salvet 
+unusquisque animam suam;
 nolitetacere super iniquitatem eius,quoniam tempus ultionis est
-aDomino, vicissitudinem ipse retribuetei. Calix aureus Babylon in
-manuDomini inebrians omnem terram;de vino eius biberunt gentes etido
-commotae sunt. Subito ceciditBabylon et contrita est. Ulutatesuper
-eam; tol[l]ite resinam addolorem eius si forte sanetur.Curavimus
-Babylonem et non estsanata, derelinquamus eam et eamusunusquisque in
-terram suam, quoniampervenit usque ad caelos judicium eius,et elevatum
-est usque ad numbes.</q>
-               <bibl>Jerem. 51. [69]</bibl>
-               <note anchored="yes">[Flee yet from the midst of Babylon, and let every one save his
-own life: be not silent upon her iniquity: for it is the time of
-revenge from the Lord, he will render unto her what she hath
-deserved. Babylon hath been a golden cup in the hand of the Lord, that
-made all the earth drunk: the nations have drunk of her wine, and
-therefore they have staggered. Babylon is suddenly fallen, and
-destroyed: howl for her, take balm for her pain, if so she may be
-healed. We would have cured Babylon, but she is not healed: let us
-forsake her, and let us go every man to his own land: because her
-judgment hath reached even to the heavens, and is lifted up to the
-clouds.]</note>
-            </div1>
-            <div1 n="X(61)" type="Preface">
-               <docAuthor>Merton, Thomas.  RED DIARY.  </docAuthor>
+a Domino, vicissitudinem ipse retribuetei. Calix aureus Babylon in
+manu Domini inebrians omnem terram; de vino eius biberunt gentes et ido
+commotae sunt. Subito cecidit Babylon et contrita est. Ulutate super
+eam; tol<note place="inline" resp="editor">[l]</note>ite resinam ad
+dolorem eius si forte sanetur.Curavimus 
+Babylonem et non est sanata, derelinquamus eam et eamus unusquisque in
+terram suam, quoniam pervenit usque ad caelos judicium eius, et elevatum
+est usque ad numbes.
+<note type="trans" lang="eng" resp="editor">Flee yet from the midst of
+Babylon, and let every one save his own life: be not silent upon her
+iniquity: for it is the time of revenge from the Lord, he will render
+unto her what she hath deserved. Babylon hath been a golden cup in the
+hand of the Lord, that made all the earth drunk: the nations have
+drunk of her wine, and therefore they have staggered. Babylon is
+suddenly fallen, and destroyed: howl for her, take balm for her pain,
+if so she may be healed. We would have cured Babylon, but she is not
+healed: let us forsake her, and let us go every man to his own land:
+because her judgment hath reached even to the heavens, and is lifted
+up to the clouds.</note>
+</quote>
+               <bibl><title><rs type="title" key="Jeremiah" reg="Bible. O.T. Jeremiah">Jerem.</rs></title> <biblScope
+type="chapter">51.</biblScope> <note place="inline" resp="editor">[69]</note></bibl>
+	</cit>
+            </div>
+            <pb n="61"/>
+<div n="X(61)" id="p61" type="page">
+	<dateline>
+	  <date value="1959-03-01"><dateStruct>1959<lb/>
+		Sunday 1 March<lb/>
+	    <occasion>Third Sunday in Lent</occasion>
+	  </dateStruct></date>
+	<lb/>60th day - 305 days to come
+	</dateline> 
                <head>X (61)</head>
-               <q direct="unspecified"> Cur per multa vagaris homuncio, quaerendo bona animae tuae et
+	<cit>
+               <quote id="p61.q01" lang="lat">Cur per multa vagaris homuncio, quaerendo bona animae tuae et
 corporis tui? Ama unum bonum in quo sunt omnia bona, et
-sufficit.Anselm. Proslogion XXV </q>
-               <note anchored="yes">[Why, little man, do you run
+sufficit.
+ <note type="trans" lang="eng" resp="editor">Why, little man, do you run
 from one thing to another, searching for the goods of your soul and of
 your body? Love the one good in which are all goods, and that will
-suffice.]</note>
-            </div1>
-            <div1 n="X(62)" type="Preface">
-               <docAuthor>Merton, Thomas.  RED DIARY.  </docAuthor>
+suffice.</note>
+</quote>
+	<bibl><author><name key="Anselm" reg="Anselm, Saint">Anselm</name></author>. <title><rs type="title" key="Proslogion" reg="Proslogion">Proslogion</rs></title>
+<biblScope type="chapter">XXV</biblScope></bibl>
+	</cit>
+            </div>
+            <pb n="62"/>
+<div n="X(62)" id="p62" type="page">
+	<dateline>
+	  <date value="1959-03-02"><dateStruct>1959<lb/>
+		Monday 2 March<lb/>
+	   <occasion>Texas Independence Day</occasion>
+	  </dateStruct></date>
+	<lb/>61st day - 304 days to come
+	</dateline> 
                <head>X (62) </head>
-               <q direct="unspecified"> Deficient pueri et laborabunt, et iuvenes in infirmitate cadent;
+	<cit>
+               <quote id="p62.q01" lang="lat">Deficient pueri et laborabunt, et iuvenes in infirmitate cadent;
 qui autem sperant in Domino mutabunt fortitudinem, adsument pennas
-sicut aquilae, current et non laborabunt, ambulabunt et non deficient.</q>
-               <note anchored="yes">[Youths shall faint and labor, and young men shall fall by
+sicut aquilae, current et non laborabunt, ambulabunt et non deficient.
+   <note type="trans" lang="eng" resp="editor">Youths shall faint and
+labor, and young men shall fall by 
 infirmity. But they that hope in the Lord shall renew their strength,
 they shall take wings as eagles, they shall run and not be weary, they
-shall walk and not faint.][And I will wait for the Lord, who hath hid
-his face from the house of Jacob, and I will look for him.]</note>
-               <bibl> Isa. 40:30-31</bibl>
-               <q direct="unspecified">Et exspectabo Dominum qui abscondit faciem suam a domo Jacob et
-praestolabor eum.</q>
-               <note anchored="yes">[And I will wait for the Lord, who hath hid
-his face from the house of Jacob, and I will look for
-him.]</note>
-               <bibl>Isa. 8:17</bibl>
-               <note anchored="yes">That Isaias be included in the&quot;office of hermits is not
-accidental. Isaias as an important source for Merton in understanding
-his monastic and hermit aspirations has had a long history in Merton's
-writing. In 1951 Merton writes:&quot;Do you suppose I have a spiritual
-life? I have none, I am indigence, I am silence, I am poverty, I am
-solitude, for I have renounced spirituality to find God, and He it is
-Who preachesloud in the depths of my indigence, saying:&quot;I will
-pourout my spirit upon thy children and they shall spring up among the
-herbs as willows beside the running waters (Isaias, 55:3-4).&quot;The
-children of thy barrenness shall say in thy ears: The place is too
-strait for me, make me room to dwell in (Isaias, 49:20). I die of love
-for you, Compassion: I take you for my Lady, as Francis married
-poverty I marry you, the Queen of hermits and the Mother of the
-poor.<hi>The Sign of Jonas.</hi> New York: Image Books edition,
-1956. pp. 323-324.</note>
-            </div1>
-            <div1 n="X(63)" type="Preface">
-               <docAuthor>Merton, Thomas.  RED DIARY.  </docAuthor>
+shall walk and not faint.</note>
+</quote>
+               <bibl><title><rs type="title" key="Isaiah" reg="Bible. O.T. Isaiah">Isa.</rs></title> <biblScope
+type="verse">40:30-31</biblScope></bibl>
+	</cit>
+	<cit>
+               <quote id="p62.q02" lang="lat">Et exspectabo Dominum qui abscondit faciem suam a domo Jacob et
+praestolabor eum.
+     <note type="trans" lang="lat" resp="editor">And I will wait for
+the Lord, who hath hid his face from the house of Jacob, and I will look for
+him.</note>
+</quote>
+               <bibl><title><rs type="title" key="Isaiah" reg="Bible. O.T. Isaiah">Isa.</rs></title> <biblScope
+type="verse">8:17</biblScope></bibl>
+	</cit>
+
+<note anchored="yes" resp="editor">That Isaias be included in the
+"office of hermits" is not accidental. Isaias as an important source
+for Merton in understanding his monastic and hermit aspirations has
+had a long history in Merton's writing. In 1951 Merton writes:
+<quote id="p62.q03">Do you suppose I have a spiritual life? I have none, I am indigence, I
+am silence, I am poverty, I am solitude, for I have renounced
+spirituality to find God, and He it is Who preaches loud in the depths
+of my indigence, saying: <quote id="p62.q04">I will pour out my spirit upon thy
+children and they shall spring up among the herbs as willows beside
+the running waters</quote> <bibl>(<title><rs type="title" key="Isaiah" reg="Bible. O.T. Isaiah">Isaias</rs></title>,
+<biblScope type="verse">55:3-4</biblScope>)</bibl>.  <quote id="p62.q05">The children of thy 
+barrenness shall say in thy ears: The place is too strait for me, make
+me room to dwell in</quote> <bibl>(<title><rs type="title" key="Isaiah" reg="Bible. O.T. Isaiah">Isaias</rs></title>,
+<biblScope type="verse">49:20</biblScope>)</bibl>. I die of love for you, 
+Compassion: I take you for my Lady, as Francis married poverty I marry
+you, the Queen of hermits and the Mother of the poor.</quote> 
+<bibl><title><rs type="title" key="SignJonas" reg="The Sign of Jonas">The Sign of Jonas</rs></title>. <pubPlace>New York</pubPlace>:
+<publisher>Image Books</publisher> edition,
+<date>1956</date>. <biblScope type="pages">pp. 323-324</biblScope>.</bibl></note> 
+            </div>
+            <pb n="63"/>
+<div n="X(63)" id="p63" type="page">
+	<dateline>
+	  <date value="1959-03-03">1959<lb/>
+		Tuesday 3 March<lb/>
+	  </date>
+	<lb/>62nd day - 303 days to come
+	</dateline> 
                <head>X (63) </head>
-               <q direct="unspecified"> (Christus) luctatus est eum et vicit: erat enim homo pro patribus
+	<cit>
+               <quote id="p63.01" lang="lat"> (Christus) luctatus est eum et vicit: erat enim homo pro patribus
 certans, et per obedientiam, inobedientiam persolvens: alligavit enim
 fortem, et solvit infirmos, et salutem donavit plasmati suo, destruens
 peccatum. Est enim piissimus et misericors Dominus et amans humanum
-genus.  <note anchored="yes">[(Christ) laid hold of him and defeated him: for he was
+genus.  
+<note type="trans" lang="eng" resp="editor">(Christ) laid hold of him and defeated him: for he was
 a man combatting for his ancestors, and undoing (their) disobedience
 by (his) obedience: he fettered the strong one and he released the
 weak, and he gave salvation to his creation, destroying sin. Thus, he
 is a most faithful and merciful Lord, one who loves the human
-race.]</note>
-               </q>
-               <bibl>St. Irenaeus Adv. III.xix.5  (_____
-p. 47n.</bibl>
-            </div1>
-            <div1 n="X(64)" type="Preface">
-               <docAuthor>Merton, Thomas.  RED DIARY.  </docAuthor>
+race.</note>
+               </quote>
+               <bibl><author><name key="Irenaeus" reg="Irenaeus, Saint, Bishop of Lyon">St. Irenaeus</name></author> <title>Adv.</title>
+	<biblScope type="section">III.xix.5</biblScope>  (_____
+<biblScope type="pages">p. 47n</biblScope>.)</bibl>
+	</cit>
+            </div>
+            <pb n="64"/>
+<div n="X(64)" id="p64" type="page">
+	<dateline>
+	  <date value="1959-03-04">1959<lb/>
+		Wednesday 4 March<lb/>
+	  </date>
+	<lb/>63rd day - 302 days to come
+	</dateline> 
                <head>X (64) </head>
-               <q direct="unspecified"> Insuper et sabbata mea dedi eis ut essent signum inter me et eos
-et scirent quia ego Dominus sanctificans eos.  <note anchored="yes">[Moreover I gave
+	<cit>
+               <quote id="p64.q01" lang="lat">Insuper et sabbata mea dedi eis ut essent signum inter me et eos
+et scirent quia ego Dominus sanctificans eos.  
+<note type="trans" lang="eng" resp="editor">Moreover I gave
 them also my sabbaths to be a sign between me and them: and that they
 might know that I am the Lord that sanctify
-them.]</note>
-               </q>
-               <bibl>Ezech. XX. 12</bibl>
-               <q direct="unspecified">Dixi autem ad filios eorum in solitudine: In praeceptis patrum
+them.</note>
+               </quote>
+               <bibl><title><rs type="title" key="Ezekiel" reg="Bible. O.T. Ezekiel">Ezech.</rs></title> <biblScope
+type="verse">XX. 12</biblScope></bibl>
+	</cit>
+	<cit>
+               <quote id="p64.q02" lang="lat">Dixi autem ad filios eorum in solitudine: In praeceptis patrum
 vestrorum nolite incedere, ne judicia eorum custodiatis, nec in idolis
 eorum polluamini. Ego Dominus Deus vester, in praeceptis meis
 ambulate, judicia mea custodite et facite eas et sabbata mea
 sanctificate ut sint signum inter me et vos et sciatis quia ego sum
-Dominus Deus vester.  <note anchored="yes"> [And I said to their children in the
-wilderness: Walk not in the statutes of your fathers, and observe not
-their judgments, nor be ye defiled with their idols: I am the Lord
-your God: walk ye in my statutes and observe my judgments, and do
-them. And sanctify my sabbaths, that they may be a sign between me and
-you: and that you may know that I am the Lord your
-God.]</note>
-               </q>
-               <bibl>Ezech. XX. 18-20</bibl>
-            </div1>
-            <div1 n="X(65)" type="Preface">
-               <docAuthor>Merton, Thomas.  RED DIARY.  </docAuthor>
+Dominus Deus vester.
+<note type="trans" lang="eng" resp="editor">And I said to their
+children in the wilderness: Walk not in the statutes of your fathers,
+and observe not their judgments, nor be ye defiled with their idols: I
+am the Lord your God: walk ye in my statutes and observe my judgments,
+and do them. And sanctify my sabbaths, that they may be a sign between
+me and you: and that you may know that I am the Lord your God.</note>
+               </quote>
+               <bibl><title><rs type="title" key="Ezekiel" reg="Bible. O.T. Ezekiel">Ezech.</rs></title> <biblScope
+type="verse">XX. 18-20</biblScope></bibl>
+	</cit>
+            </div>
+            <pb n="65"/>
+<div n="X(65)" id="p65" type="page">
+	<dateline>
+	  <date value="1959-03-05">1959<lb/>
+		Thursday 5 March<lb/>
+	  </date>
+	<lb/>64th day - 301 days to come
+	</dateline> 
                <head>X (65) </head>
-               <q direct="unspecified"> Inter sanctum et profanum non habuerunt distantiam et inter
+	<cit>
+               <quote id="p65.q01" lang="lat"> Inter sanctum et profanum non
+habuerunt distantiam et inter 
 pollutum et mundum non intellexerunt et a sabbatis meis averterunt
 oculos meos et conqui-nabar in medio eorum.... Et quaesivi de eis
 virum qui interponeret sepem et staret oppositus contra me pro terra
-ne dissiparem eam, et non inveni.  <note anchored="yes">[They have put no difference
+ne dissiparem eam, et non inveni.
+<note type="trans" lang="eng" resp="editor">They have put no difference
 between holy and profane nor have distinguished between the polluted
 and the clean and they have turned away their eyes from my sabbaths
 and I was profaned in the midst of them.... And I sought among them
 for a man that might set up a hedge and stand in the gap before me in
 favor of the land, that I might not destroy it: and I found
-none.]</note>
-               </q>
-               <bibl>Ezech. XXII. [26b, 30]</bibl>
-            </div1>
-            <div1 n="X(66)" type="Preface">
-               <docAuthor>Merton, Thomas.  RED DIARY.  </docAuthor>
+none.</note>
+               </quote>
+               <bibl><title><rs type="title" key="Ezekiel" reg="Bible. O.T. Ezekiel">Ezech.</rs></title> <biblScope
+type="chapter">XXII. </biblScope><note place="inline" resp="editor">[26b, 30]</note></bibl>
+	</cit>
+            </div>
+            <pb n="66"/>
+<div n="X(66)" id="p66" type="page">
+	<dateline>
+	  <date value="1959-03-06">1959<lb/>
+		Friday 6 March<lb/>
+	  </date>
+	<lb/>65th day - 300 days to come
+	</dateline> 
                <head>X (66) </head>
-               <q direct="unspecified">Ephraim pascit ventum et sequitur aestum tota die. Mendacium et
+	<cit>
+               <quote id="p66.q01" lang="lat">Ephraim pascit ventum et sequitur aestum tota die. Mendacium et
 vastitatem multiplicat... Et tu ad Deum tuum converteris,
 misericordiam et judicium custodi et spera in Deo tuo semper.
-<note anchored="yes">[in standard editions, verses are 1 and 6.]</note>
-                  <note anchored="yes">&lt;[Ephraim feedeth on the wind and followeth the heat all the day
-long. He multiplies lies and desolation... Therefore turn thou to thy
-God: keep mercy and judgment and hope in thy God always.]</note>
-               </q>
-               <bibl>Osee. 12:2,7.</bibl>
-            </div1>
-            <back/>
-         </div1>
-      </body>
+<note type="trans" lang="lat" resp="editor">Ephraim feedeth on the
+wind and followeth the heat all the day long. He multiplies lies and
+desolation... Therefore turn thou to thy God: keep mercy and judgment
+and hope in thy God always.</note></quote>
+               <bibl><title><rs type="title" key="Hosea" reg="Bible. O.T. Hosea">Osee.</rs></title> <biblScope type="verse">12:2,7</biblScope>.
+<note resp="editor">[in standard editions, verses are 1 and
+6.]</note></bibl>
+	</cit>
+            </div>
+</div> <!-- end section: office for hermits -->
+</body>
+            <back>
+
+<div id="bib01" type="bibliography">
+  <listBibl>
+<head>BIBLIOGRAPHY of the sources which Merton consulted during the writing of Journal #10, &quot;The Red Diary,&quot; which have been conclusively identified.</head>
+
+<bibl><author>A Friend of God (14th Century)</author>. <title><rs type="title" key="PoorinSpirit" reg="The Book of the Poor in Spirit">The Book
+of the Poor in Spirit</rs></title>. Edited by
+<editor>C.F. Kelley</editor>. <pubPlace>New York</pubPlace>,
+<publisher>Harper &amp; Brothers</publisher>,
+<date>1954</date>.</bibl>
+
+<bibl><author><name key="Bars">Bars, Henry</name></author>. <title><rs type="title" key="Maritain-NT" reg="Maritain en Notre Temps">Maritain en Notre
+Temps.</rs></title> <pubPlace>Paris</pubPlace>, <publisher>Editions Bernard
+Grasset</publisher>, <date>1959</date>.</bibl>
+
+<bibl><author><name key="Basetti-Sani">Basetti-Sani, Giulio</name></author>. <title><rs type="title" key="Mohammed" reg="Mohammed et St. Francois">Mohammed et Saint
+Francois</rs></title>. <pubPlace>Ottawa</pubPlace>, <publisher>Commissariat
+De TerreSainte</publisher>, <date>1959</date>.</bibl>
+
+<bibl><author><name key="Frankl">Frankl, Victor E.</name></author> <title><rs type="title" key="DeathCamp" reg="From Death Camp to
+Existentialism">from Death Camp to
+Existentialism</rs></title>. <pubPlace>Boston</pubPlace>, <publisher>Beacon
+Press</publisher>, <date>1959</date>.</bibl>
+
+<bibl><author><name key="Heschel">Heschel, Abraham J.</name></author>
+<title><rs type="title" key="Between" reg="Between God and Man">Between God and
+Man</rs></title>. Edited by <editor>Fritz
+A. Rothschild</editor>. <pubPlace>Toronto</pubPlace>,
+<publisher>CollierMacnillan</publisher>, <date>1959</date>.</bibl>
+
+<bibl><editor role="translator">Kadloubovsky, E.</editor> and <editor
+role="translator">Palmer, G.E.H.</editor>, translators. <title><rs type="title" key="EFP" reg="Early Fathers from the Philokalia">Early
+Fathers from the Philokalia</rs></title>. <pubPlace>London</pubPlace>,
+<publisher>Faber &amp; Faber, Ltd.</publisher>,
+<date>1953</date>.</bibl>
+
+<bibl><author><name key="Scholem">Scholem, Gershom G.</name></author> <title><rs type="title" key="JewishMysticism" reg="Major Trends in Jewish Mysticism">Major Trends in
+Jewish Mysticism.</rs></title> <pubPlace>New York</pubPlace>,
+<publisher>Schocken Books, Inc.</publisher>, <date>1946</date>.</bibl>
+
+
+<bibl><author><name key="Sophrony">Sofrony, Archimandrite</name></author>. <title><rs type="title" key="Undistorted" reg="The Undistorted Image">The Undistorted
+Image</rs></title>. Translated by <editor role="translator">Rosemary
+Edmunds</editor>. <pubPlace>London</pubPlace>, <publisher>The Faith
+Press</publisher>, <date>1958</date>.</bibl>
+</listBibl>
+</div>
+
+<div id="ind01" type="index">
+ <head>INDEX to Thomas Merton's Journal # 10, &quot;The Red
+Diary&quot;</head>
+<list>
+<item><title><rs type="title" key="Vow" reg="A Vow of Conversation">A Vow of Conversation</rs></title>, <ref target="p38">n. 38</ref>, <ref target="p47">n. 47</ref>, <ref target="p50">n. 50</ref></item>
+<item>Akasakov, I., <ref target="p06">6</ref></item>
+<item>Anselm, Saint, <ref target="p44">44</ref>, <ref target="p61">61</ref></item>
+<item>Bars, H., <ref target="p23">23</ref></item>
+<item>Barth, Karl, <ref target="p36">36</ref></item>
+<item>Basetti-Sani, G., <ref target="p29">29</ref></item>
+<item><title><rs type="title" key="Between" reg="Between God and Man">Between God and Man</rs></title>, <ref target="p37">37</ref></item>
+<item>Boulgakov, S., <ref target="p12">12</ref></item>
+<item>Buber, Martin, <ref target="p39">39</ref></item>
+<item>Bukharev, A.M., <ref target="p09">9</ref>, <ref target="p10">10</ref>, <ref target="p11">11</ref></item>
+<item>Canisius, S.J., Peter, <ref target="p17">17</ref></item>
+<item>Cell, the monastic, <ref target="p46">46</ref>, <ref target="p50">50</ref>, <ref target="p52">52</ref>, <ref target="p57">57</ref></item>
+<item>Chuang Tzu, <ref target="p24">24</ref>-<ref target="p28">28</ref>, <ref target="p31">31</ref></item>
+<item>Clement, O., <ref target="p32">32</ref></item>
+<item>Collectivism, <ref target="p39">39</ref>-<ref target="p41">41</ref></item>
+<item><title><rs type="title" key="Conjectures" reg="Conjectures of a Guilty Bystander">Conjectures of A Guilty Bystander</rs></title>, <ref target="p07">n. 7</ref>, <ref target="p28">n. 28</ref>,
+<ref target="p33">n. 33</ref>, <ref target="p41">n. 41</ref></item>
+<item>Del Vasto, Lanza, <ref target="p18">18</ref></item>
+<item>Dostoievsky, Fyodor, <ref target="p05">5</ref></item>
+<item><title><rs type="title" key="EFP" reg="Early Fathers from the Philokalia">Early Fathers from the Philokalia</rs></title>, <ref target="p43">43</ref>, <ref target="p46">46</ref>-<ref target="p49">49</ref>, <ref target="p51">51</ref></item>
+<item><title n="Bible. O.T. Apocrypha. Ecclesiasticus">Ecclesiasticus</title>, <ref target="p51">51</ref>, <ref target="p54">54</ref>, <ref target="p57">57</ref></item>
+<item>Ephraim, Saint, <ref target="p05">5</ref></item>
+<item>Essence of Christianity, <ref target="p05">5</ref></item>
+<item><title n="Bible. O.T. Ezekiel">Ezechial</title>, <ref target="p43">43</ref>, <ref target="p64">64</ref>-<ref target="p65">65</ref></item>
+<item>Favre, S.J., Peter, <ref target="p16">16</ref></item>
+<item>Festugiere, M., <ref target="p42">42</ref></item>
+<item>Filaret, Metropolitan, <ref target="p08">8</ref></item>
+<item>Foolishness, spirituality of, <ref target="p09">9</ref></item>
+<item>Frankl, Victor, <ref target="p19">19</ref>-<ref target="p20">20</ref></item>
+<item><title n="From Death Camp to Existentialism">From Death Camp to Existentialism</title>, <ref target="p19">19</ref>-<ref target="p20">20</ref></item>
+<item>Fulbert of Chartres, <ref target="p58">58</ref></item>
+<item>Gilbert of Hoyland, <ref target="p44">44</ref></item>
+<item>Govodetzky, <ref target="p11">11</ref></item>
+<item>Haleq, <ref target="p29">29</ref></item>
+<item>Heraclitus, <ref target="p13">13</ref>-<ref target="p15">15</ref></item>
+<item>Heschel, Abraham, <ref target="p37">37</ref></item>
+<item>Holiness, <ref target="p32">32</ref></item>
+<item>Humility, <ref target="p08">8</ref>-<ref target="p09">9</ref>, <ref target="p33">33</ref>-<ref target="p34">34</ref>, <ref target="p36">36</ref>, <ref target="p50">50</ref>, <ref target="p57">57</ref></item>
+<item>Individualism, <ref target="p39">39</ref>-<ref target="p40">40</ref></item>
+<item>Irenaeus, <ref target="p63">63</ref></item>
+<item>Isaac of Nineveh, <ref target="p64">46</ref>-<ref target="p49">49</ref>, <ref target="p51">51</ref></item>
+<item><title n="Bible. O.T. Isaiah">Isaias</title>, <ref target="p45">45</ref>, <ref target="p50">50</ref>, <ref target="p62">62</ref></item>
+<item><title n="Bible. O.T. Jeremiah">Jeremias</title>, <ref target="p60">60</ref></item>
+<item>Kadloubovsky, E., <ref target="p46">46</ref></item>
+<item>Khomiakov, <ref target="p06">6</ref></item>
+<item>Mabillon, <ref target="p42">42</ref></item>
+<item>Macarious of Optino, Staretz, <ref target="p32">32</ref>-<ref target="p34">34</ref></item>
+<item><title n="Major Trends in Jewish Mysticism">Major Trends in Jewish Mysticism</title>, <ref target="p22">22</ref></item>
+<item><title n="Maritain en Notre Temps">Maritain en Notre Temps</title>, <ref target="p23">23</ref></item>
+<item>Maritain, Jacques, <ref target="p23">23</ref></item>
+<item>Mark the Ascetic, <ref target="p43">43</ref></item>
+<item>Mary, Mother of God, 56, <ref target="p58">58</ref>-<ref target="p59">59</ref></item>
+<item>Mccharius, A of Mazt, <ref target="p55">55</ref></item>
+<item><title n="Mohammed et St. Francois">Mohammed et Saint Francois</title>, <ref target="p29">29</ref></item>
+<item>Mott, Michael, n. <ref target="p43">43</ref></item>
+<item>Newman, John Henry Cardinal, <ref target="p07">7</ref></item>
+<item>Niebuhr, Reinhold, <ref target="p39">39</ref>-<ref target="p40">40</ref></item>
+<item>Odo, Saint, <ref target="p56">56</ref></item>
+<item>&quot;Office of Hermits,&quot; <ref target="p45">45</ref>-<ref target="p66">66</ref>, dating of, <ref target="p50">n. 50</ref></item>
+<item><title n="Bible. O.T. Hosea">Osee</title>, <ref target="p66">66</ref></item>
+<item>Our Father, the prayer, in Greek, <ref target="p04">4</ref></item>
+<item>Palmer, G.E.H., <ref target="p46">46</ref></item>
+<item><title><rs type="title" key="EFP" reg="Early Fathers from the Philokalia">Philokalia</rs></title>, <ref target="p16">16</ref>, <ref target="p43">43</ref>, <ref target="p46">46</ref>-<ref target="p49">49</ref>, <ref target="p51">51</ref></item>
+<item>Prajnaparamita Sutra, <ref target="p29">29</ref></item>
+<item>Prayer, <ref target="p33">33</ref>, <ref target="p35">35</ref></item>
+<item>Prayers, Our Father, <ref target="p04">4</ref>, of St. Ephrain, <ref target="p05">5</ref>, of St. Odo, <ref target="p56">56</ref>, of
+Fulbert of Chartres, <ref target="p58">58</ref>, from Psalter of Robert of Molesme, <ref target="p59">59</ref></item>
+<item>Racism, as collective sin, <ref target="p41">41</ref></item>
+<item>Robert of Molesme, <ref target="p59">59</ref></item>
+<item>Sabbath, <ref target="p44">44</ref>, <ref target="p64">64</ref></item>
+<item>Scholem, Gershom, <ref target="p22">22</ref></item>
+<item>Secret of the heart, <ref target="p49">49</ref></item>
+<item>Silence, <ref target="p30">30</ref></item>
+<item>Silouan, Staretz, <ref target="p33">33</ref></item>
+<item>Simplicity, <ref target="p48">48</ref>, <ref target="p50">n. 50</ref></item>
+<item>Sophrony [Sofrony], Archimandrite, <ref target="p33">33</ref>-<ref target="p35">35</ref></item>
+<item>Stability in solitude, <ref target="p57">57</ref></item>
+<item>Suffering as a task, <ref target="p19">19</ref>-<ref target="p20">20</ref>, <ref target="p48">48</ref></item>
+<item>Sylvan, Staretz, <ref target="p33">33</ref></item>
+<item><title><rs type="title" key="PoorinSpirit" reg="The Book of the Poor in Spirit">The Book of the Poor in Spirit</rs></title>, <ref target="p30">30</ref></item>
+<item><title><rs type="title" key="SevenMtn" reg="The Seven Mountains of Thomas Merton">The Seven Mountains of Thomas Merton</rs></title>, <ref target="p43">n. 43</ref></item>
+<item><title><rs type="title" key="SignJonas" reg="The Sign of Jonas">The Sign of Jonas</rs></title>, <ref target="p62">n. 62</ref></item>
+<item><title><rs type="title" key="Undistorted" reg="The Undistorted Image">The Undistorted Image</rs></title>, <ref target="p33">33</ref></item>
+<item>Wisdom, <ref target="p26">26</ref>, <ref target="p29">29</ref>, <ref target="p34">34</ref>, <ref target="p37">37</ref>, <ref target="p50">50</ref>, <ref target="p54">54</ref></item>
+</list>
+</div>
+
+<div id="syn01" type="synopsis">
+<head>Synopsis of Pages</head>
+
+<p>Thomas Merton's Journal #10, &quot;The Red Diary&quot;</p>
+
+<list>
+<item><label>Frontispiece</label>  Ad Usum Fr. M. Louis</item>
+<item><label>1-3</label> Blank</item>
+<item><label><ref target="p04">4</ref></label>  The Our Father [Greek]</item>
+<item><label><ref target="p05">5</ref></label>  Prayer of St. Ephrem; Fyodor Dostoievsky</item>
+<item><label><ref target="p06">6</ref></label>  Khomiakov; Aksakov, I.</item>
+<item><label><ref target="p07">7</ref></label>  John Henry Newman</item>
+<item><label><ref target="p08">8</ref></label>  Metropolitan Filaret</item>
+<item><label><ref target="p09">9</ref></label>  A.M. Bukharev</item>
+<item><label><ref target="p10">10</ref></label> A.M. Bukharev (on Job)</item>
+<item><label><ref target="p11">11</ref></label> Govodetsky</item>
+<item><label><ref target="p12">12</ref></label> S. Boulgakov</item>
+<item><label><ref target="p13">13</ref> - <ref target="p15">15</ref></label> Heraclitus</item>
+<item><label><ref target="p16">16</ref></label> Peter Favre, S.J. [French]</item>
+<item><label><ref target="p17">17</ref></label> Peter Canisius, S.J. [French]</item>
+<item><label><ref target="p18">18</ref></label> Lanza del Vasto [French]</item>
+<item><label><ref target="p19">19</ref> - <ref
+target="p20">20</ref></label> Victor Frankl, <title><rs type="title" key="DeathCamp" reg="From Death Camp to Existentialism">from Death Camp to Existentialism</rs></title></item> 
+<item><label><ref target="p21">21</ref></label> blank</item>
+<item><label><ref target="p22">22</ref></label> Rabbi Hanina from
+<title><rs type="title" key="JewishMysticism" reg="Major Trends in Jewish Mysticism">Major Trends in Jewish Mysticism</rs></title></item>
+<item><label><ref target="p23">23</ref></label> Jaques Maritain</item>
+<item><label><ref target="p24">24</ref> - <ref target="p28">28</ref></label> Chuang Tzu</item>
+<item><label><ref target="p29">29</ref></label> Prajnaparamita Sutra</item>
+<item><label><ref target="p30">30</ref></label> <title><rs type="title" key="PoorinSpirit" reg="The Book of the Poor in Spirit">Book of the Poor in Spirit</rs></title></item>
+<item><label><ref target="p31">31</ref></label> Chuang Tzu</item>
+<item><label><ref target="p32">32</ref></label> O. Clement; Staretz Macarius of Optino</item>
+<item><label><ref target="p33">33</ref></label> Macarius of Optino; Staretz Sylvan</item>
+<item><label><ref target="p34">34</ref></label> Macarius of Optino; Archimandrite Sophrony</item>
+<item><label><ref target="p35">35</ref></label> Archimandrite Sophrony</item>
+<item><label><ref target="p36">36</ref></label> Karl Barth</item>
+<item><label><ref target="p37">37</ref></label> Abraham J. Heschel, <title><rs type="title" key="Between" reg="Between God and Man">Between God and Man</rs></title></item>
+<item><label><ref target="p38">38</ref></label> Reinhold Niebuhr</item>
+<item><label><ref target="p39">39</ref></label> Martin Buber; Reinhold Niebuhr</item>
+<item><label><ref target="p40">40</ref> - <ref target="p41">41</ref></label> Reinhold Niebuhr</item>
+<item><label><ref target="p42">42</ref></label> Mabillon; M. Festugiere [French]</item>
+<item><label><ref target="p43">43</ref></label> Nov, 1964; <title><rs type="title" key="Ezekiel" reg="Bible. O.T. Ezekiel">Ezechiel</rs></title> [Latin]; St. Mark the Ascetic from
+	  <title><rs type="title" key="EFP" reg="Early Fathers from the Philokalia">Early Fathers from the Philokalia (EFP)</rs></title></item>
+<item><label><ref target="p44">44</ref></label> Anselm; Gilbert of Hoyland</item>
+<item><label><ref target="p45">45</ref></label> Texts for an Office of
+Hermits (&quot;office&quot;); <title><rs type="title" key="Isaiah" reg="Bible. O.T. Isaiah">Isaias</rs></title>
+		[Latin]</item>
+<item><label><ref target="p46">46</ref></label> &quot;office&quot;:
+<title><rs type="title" key="Isaiah" reg="Bible. O.T. Isaiah">Isaias</rs></title> [Latin]; Isaac of Nineveh from <title><rs type="title" key="EFP" reg="Early Fathers from the Philokalia">EFP</rs></title></item>
+<item><label><ref target="p47">47</ref> - <ref target="p49">49</ref></label> &quot;office&quot;: Isaac of Nineveh</item>
+<item><label><ref target="p50">50</ref></label> &quot;office&quot;:
+<title><rs type="title" key="Isaiah" reg="Bible. O.T. Isaiah">Isaias</rs></title>; Book of Wisdom [Latin]; January
+		31, 1965</item>
+<item><label><ref target="p51">51</ref></label> &quot;office&quot;:
+Isaac of Nineveh; <title><rs type="title" key="Ecclesiasticus" reg="Bible. O.T. Apocrypha. Ecclesiasticus">Ecclesiasticus</rs></title> [Latin]</item>
+<item><label><ref target="p52">52</ref></label> &quot;office&quot;: Unidentified author [Latin]</item>
+<item><label><ref target="p53">53</ref></label> &quot;office&quot;: from <title><rs type="title" key="Haggai" reg="Bible. O.T. Haggai">Aggaeus</rs></title> [Latin]</item>
+<item><label><ref target="p54">54</ref></label> &quot;office&quot;: <title><rs type="title" key="Ecclesiasticus" reg="Bible. O.T. Apocrypha. Ecclesiasticus">Ecclesiasticus</rs></title> [Latin]</item>
+<item><label><ref target="p55">55</ref></label> &quot;office&quot;: Mccha, A. of Mazt.</item>
+<item><label><ref target="p56">56</ref></label> &quot;office&quot;: Prayer of St. Odo to Mary, Mother of God
+		[Latin]</item>
+<item><label><ref target="p57">57</ref></label> &quot;office&quot;: <title><rs type="title" key="Ecclesiasticus" reg="Bible. O.T. Apocrypha. Ecclesiasticus">Ecclesiasticus</rs></title> [Latin]</item>
+<item><label><ref target="p58">58</ref></label> &quot;office&quot;: Prayer of Fulbert of Chartres to Mary, Mother of God [Latin]</item>
+<item><label><ref target="p59">59</ref></label> &quot;office&quot;: Prayer from the Psalter of Robert of Molesme
+	to Mary, Mother of God [Latin]</item>
+<item><label><ref target="p60">60</ref></label> &quot;office&quot;: <title><rs type="title" key="Jeremiah" reg="Bible. O.T. Jeremiah">Jeremias</rs></title> [Latin]</item>
+<item><label><ref target="p61">61</ref></label> &quot;office&quot;: Anselm from <title><rs type="title" key="Proslogion" reg="Proslogion">Proslogion</rs></title> [Latin]</item>
+<item><label><ref target="p62">62</ref></label> &quot;office&quot;: <title><rs type="title" key="Isaiah" reg="Bible. O.T. Isaiah">Isaias</rs></title> [Latin]</item>
+<item><label><ref target="p63">63</ref></label> &quot;office&quot;: Irenaeus [Latin]</item>
+<item><label><ref target="p64">64</ref>, <ref target="p65">65</ref></label> &quot;office&quot;: <title><rs type="title" key="Ezekiel" reg="Bible. O.T. Ezekiel">Ezechiel</rs></title> [Latin]</item>
+<item><label><ref target="p66">66</ref></label> &quot;office&quot;: <title><rs type="title" key="Hosea" reg="Bible. O.T. Hosea">Osee</rs></title> [Latin]</item>
+<item><label>67 - 365</label> blank</item>
+</list>
+</div>
+
+	    </back>
    </text>
 </TEI.2>
