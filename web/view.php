@@ -8,7 +8,7 @@ $id = $_GET["id"];
 
 // use exist settings from config file
 $myargs = $tamino_args;
-$myargs{"debug"} = true;
+$myargs{"debug"} = false;
 $tamino = new xmlDbConnection($myargs);
 
 $xquery = 'let $a := input()/TEI.2/:text//div[@id="' . $id . '"]
