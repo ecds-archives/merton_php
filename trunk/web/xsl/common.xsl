@@ -4,9 +4,14 @@
 
   <xsl:output method="xml"/>
 
+  <xsl:variable name="figure-path">http://chaucer.library.emory.edu/merton/images/</xsl:variable>
+  <xsl:variable name="figure-suffix">.jpg</xsl:variable>
+  <xsl:variable name="thumbnail-path">http://chaucer.library.emory.edu/merton/images/thumbnails/</xsl:variable>
+  <xsl:variable name="thumbnail-suffix">.gif</xsl:variable>
+
 
   <xsl:template match="head">
-    <h2><xsl:apply-templates/></h2>
+    <p class="head"><xsl:apply-templates/></p>
   </xsl:template>
 
   <xsl:template match="byline">
@@ -16,6 +21,10 @@
   <xsl:template match="dateline">
     <p class="dateline"><xsl:apply-templates/></p>   
   </xsl:template>
+
+
+  <!-- ignore diary dateline info for now -->
+  <xsl:template match="div[@type='page']/dateline"/>
 
   <xsl:template match="p">
     <p><xsl:apply-templates/></p>
@@ -124,5 +133,19 @@
   </xsl:element>
 </xsl:template>
 
+<xsl:template match="figure">
+  <div class="figure">
+  <img>
+    <xsl:attribute name="src"><xsl:value-of select="concat($figure-path, @entity, $figure-suffix)"/></xsl:attribute>
+    <xsl:attribute name="alt"><xsl:value-of select="normalize-space(figDesc)"/></xsl:attribute>
+    <xsl:attribute name="title"><xsl:value-of select="normalize-space(figDesc)"/></xsl:attribute>
+  </img>
+</div>
+</xsl:template>
+
+<xsl:template match="note">
+  <hr/>
+  <p class="note"><xsl:apply-templates/></p>
+</xsl:template>
 
 </xsl:stylesheet>
