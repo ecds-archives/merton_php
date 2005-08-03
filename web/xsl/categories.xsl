@@ -16,9 +16,9 @@
       <xsl:apply-templates select="//xq:result/title"/>
     </ul>
 
-    <ol>
-      <xsl:apply-templates select="//xq:result/cit"/>
-    </ol>
+    <table>
+      <xsl:apply-templates select="//xq:result/div"/>
+    </table>
   </xsl:template>
 
   <xsl:template match="xq:result/author">
@@ -42,8 +42,20 @@
     <xsl:apply-templates select="count"/></li>
   </xsl:template>
 
+  <xsl:template match="div">
+    <tr><td><a><xsl:attribute name="href">view.php?id=<xsl:value-of select="@id"/></xsl:attribute>
+    <xsl:apply-templates select="head[1]"/></a>
+    <!-- if there is a second title, display it, but don't make it part of the link -->
+    <xsl:apply-templates select="head[2]"/>
+	</td>
+        <td>
+          <xsl:apply-templates select="cit"/>
+        </td> 
+   </tr>
+  </xsl:template>
+
   <xsl:template match="cit">
-    <li><xsl:apply-templates/></li>
+    <xsl:apply-templates/>
   </xsl:template>
 
 </xsl:stylesheet>
