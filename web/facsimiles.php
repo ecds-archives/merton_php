@@ -17,6 +17,19 @@ $xsl = "facsimiles.xsl";
 $tamino->xquery($xquery);
 $tamino->xslTransform($xsl);
 
+print "<html>
+  <head>
+   <link rel='stylesheet' type='text/css' href='merton.css'>
+    <title>Merton's Red Diary : Facsimiles of Pages</title>  
+    <meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'> 
+  </head> 
+<body> 
+";
+
+include("nav.xml");
+include("header.xml");
+print "<div class='content'>";
 $tamino->printResult();
+print "</div>";
 
 ?>
