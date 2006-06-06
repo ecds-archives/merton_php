@@ -43,7 +43,8 @@
   </xsl:template>
 
   <xsl:template match="div">
-    <tr><td><a><xsl:attribute name="href">view.php?id=<xsl:value-of select="@id"/></xsl:attribute>
+    <tr><td class='link'>
+    <a><xsl:attribute name="href">view.php?id=<xsl:value-of select="@id"/></xsl:attribute>
     <xsl:apply-templates select="head[1]"/></a>
     <!-- if there is a second title, display it, but don't make it part of the link -->
     <xsl:apply-templates select="head[2]"/>
