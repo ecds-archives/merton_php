@@ -11,7 +11,7 @@
   </xsl:template>
 
   <xsl:template match="figure">
-  <div class="figure" style="float:left;padding:5">
+  <div class="figure">
     <a>
       <xsl:attribute name="href">view.php?id=<xsl:value-of select="@entity"/></xsl:attribute>
   <img>
@@ -19,6 +19,8 @@
     <xsl:attribute name="alt"><xsl:value-of select="normalize-space(figDesc)"/></xsl:attribute>
     <xsl:attribute name="title"><xsl:value-of select="normalize-space(figDesc)"/></xsl:attribute>
   </img>
+  <br/>
+  <xsl:value-of select="parent/@id"/>
   </a>
 </div>
   </xsl:template>
