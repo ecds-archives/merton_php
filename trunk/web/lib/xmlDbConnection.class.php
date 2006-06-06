@@ -203,7 +203,7 @@ class xmlDbConnection {
      // if span terms are not defined, define them 
      if (!(isset($this->begin_hi))) { $this->defineHighlight(count($term)); }
      if (isset($term[0])) {
-       print "<p align='center'>The following search terms have been highlighted: ";
+       print "<p>The following search terms have been highlighted: ";
        for ($i = 0; isset($term[$i]); $i++) {
 	 print "&nbsp; " . $this->begin_hi[$i] . "$term[$i]$this->end_hi &nbsp;";
        }
