@@ -69,11 +69,24 @@ $xsl = "categories.xsl";
 $tamino->xquery($xquery{$cat});
 $tamino->xslTransform($xsl);
 
-print "<p><b>Browse quotations by category:</b><br/>";
-print '<a href="browse.php?category=author">Author</a><br/>';
-print '<a href="browse.php?category=language">Language</a><br/>';
-print '<a href="browse.php?category=title">Source title</a><br/>';
-print "</p>";
+print "<html>
+  <head>
+   <link rel='stylesheet' type='text/css' href='merton.css'>
+    <title>Merton's Red Diary : Browse by Category</title>  
+    <meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'> 
+  </head> 
+<body> 
+";
+
+include("nav.xml");
+include("header.xml");
+print "<div class='content'>";
+
+print "<p><b>Browse quotations by category:</b><br/>
+<a href='browse.php?category=author'>Author</a><br/>
+<a href='browse.php?category=language'>Language</a><br/>
+<a href='browse.php?category=title'>Source title</a><br/>
+</p>";
 
 if (isset($key)) {
   print "<p>Quotations where $category = $key:</p>";
@@ -81,6 +94,10 @@ if (isset($key)) {
   print "<p>Quotations by $cat:</p>";
 }
 
+
 $tamino->printResult();
+print "</div>
+    </body>
+    </html>";
 
 ?>
