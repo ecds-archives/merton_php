@@ -10,6 +10,7 @@ img { border:0px; }
 
 p.head { font-weight:bold;font-size:115%; }
 p.byline, p.dateline { margin-left:0.5in; }
+p.milestone { text-align:center; }
 
 p.bibl { margin-left:1in; }
 td.link { text-align:center; }
