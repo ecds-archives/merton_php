@@ -4,9 +4,9 @@
 
   <xsl:output method="xml"/>
 
-  <xsl:variable name="figure-path">http://chaucer.library.emory.edu/merton/images/</xsl:variable>
+  <xsl:variable name="figure-path">http://beck.library.emory.edu/merton/image-content/</xsl:variable>
   <xsl:variable name="figure-suffix">.jpg</xsl:variable>
-  <xsl:variable name="thumbnail-path">http://chaucer.library.emory.edu/merton/images/thumbnails/</xsl:variable>
+  <xsl:variable name="thumbnail-path">http://beck.library.emory.edu/merton/image-content/thumbnails/</xsl:variable>
   <xsl:variable name="thumbnail-suffix">.gif</xsl:variable>
 
 
