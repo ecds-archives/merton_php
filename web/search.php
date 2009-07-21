@@ -4,25 +4,26 @@ include("config.php");
 include_once("lib/xmlDbConnection.class.php");
 
 // use tamino settings from config file
-$myargs = $tamino_args;
+//$myargs = $tamino_args;
+$myargs = $exist_args;
 $myargs{"debug"} = false;
-$tamino = new xmlDbConnection($myargs);
+//$tamino = new xmlDbConnection($myargs);
+$xmldb = new xmlDbConnection($myargs);
 
 // search terms
 $kw = $_GET["keyword"];
 
 $kwarray = processterms($kw);
 
-$declare ='declare namespace tf="http://namespaces.softwareag.com/tamino/TaminoFunction" 
-declare namespace xs="http://www.w3.org/2001/XMLSchema"';
-$for = 'for $a in input()/TEI.2/:text//div';
+$declare ='declare namespace xs="http://www.w3.org/2001/XMLSchema"';
+$for = 'for $a in /TEI.2/text//div';
 $let = '';
 $conditions = array();
 $reflist = array();
 for ($i = 0; $i < count($kwarray); $i++) {
-  $let .= "let \$ref$i := tf:createTextReference(\$a, '$kwarray[$i]') ";
+  $let .= "let \$ref$i := tf:createTextReference(\$a, '$kwarray[$i]') "; //What exist function?
   array_push($reflist, "\$ref$i"); 
-  array_push($conditions, "tf:containsText(\$a, '$kwarray[$i]')");
+  array_push($conditions, "tf:containsText(\$a, '$kwarray[$i]')"); //What exist function?
  }
 $let .= "let \$allrefs := (" . implode(",", $reflist) . ") ";
 $where = "where " . implode(" and ", $conditions);
@@ -46,9 +47,10 @@ $countquery = "<total>{count($for $where return \$a)}</total>";
 $query = "$declare <result>$countquery\{$for $let $where $return $sort}</result>";
 
 $tamino->xquery($query);
-$xsl = "search.xsl";
+$xsl = "xsl/search.xsl";
 $param = array("keyword" => $kw);
-$tamino->xslTransform($xsl, $param);
+//$tamino->xslTransform($xsl, $param);
+$xmldb->xslTransform($xsl, $param);
 
 /*
 
@@ -88,7 +90,8 @@ include("nav.xml");
 include("header.xml");
 print "<div class='content'>";
 
-$total = $tamino->findNode("total");
+//$total = $tamino->findNode("total");
+$total = $xmldb->findNode("total"); 
 
 if ($total == 0){
   print "<p><b>No matches found.</b></p>";
@@ -100,8 +103,10 @@ if ($total == 0){
   print ". Results sorted by relevance.</p>"; 
 }
 
-$tamino->highlightInfo($myterms);
-$tamino->printResult($myterms);
+//$tamino->highlightInfo($myterms);
+//$tamino->printResult($myterms);
+$xmldb->highlightInfo($myterms);
+$xmldb->printResult($myterms);
 print "</div>
     </body>
     </html>";

@@ -10,26 +10,28 @@ $kw = $_GET["keyword"];
 
 $kwarray = processterms($kw);
 
-// use tamino settings from config file
-$myargs = $tamino_args;
+// use exist settings from config file
+//$myargs = $tamino_args;
+$myargs = $exist_args;
 $myargs{"debug"} = false;
-$tamino = new xmlDbConnection($myargs);
+//$tamino = new xmlDbConnection($myargs);
+$xmldb = new xmlDbConnection($myargs);
 
-$xquery = 'let $a := input()/TEI.2/:text//div[@id="' . $id . '"]
+$xquery = 'let $a := /TEI.2/text//div[@id="' . $id . '"]
 return <result>
  {$a}
  <siblings>
-  {for $b in input()/TEI.2/:text/front//div
+  {for $b in /TEI.2/text/front//div
   return <div>
    {$b/@id}
    {$b/head}
   </div>}
-  {for $b in input()/TEI.2/:text/body//div[@type!="section"]
+  {for $b in /TEI.2/text/body//div[@type!="section"]
   return <div>
    {$b/@id}
    {$b/head}
   </div> sort by (@id)}
-  {for $b in input()/TEI.2/:text/back//div
+  {for $b in /TEI.2/text/back//div
   return <div>
    {$b/@id}
    {$b/head}
@@ -40,18 +42,21 @@ return <result>
 
 // special cases: cover & frontispiece have no text & no div
 if (($id == "cover")||($id == "frontispiece")) {
-  $xquery = 'let $a := input()/TEI.2/:text//figure[@entity="' . $id . '"]
+  $xquery = 'let $a := /TEI.2/text//figure[@entity="' . $id . '"]
 return $a';
  }
 
 
 $xsl = "view.xsl"; 
 
-$tamino->xquery($xquery);
-$tamino->xslTransform($xsl);
+//$tamino->xquery($xquery);
+//$tamino->xslTransform($xsl);
+$xmldb->xquery($xquery);
+$xmldb->xslTransform($xsl);
 
 
-$title = $tamino->findNode("head");
+//$title = $tamino->findNode("head");
+$title = $xmldb->findNode("head");
 if ($title == '')
   $title = $id;	// special cases (cover & frontispiece)
 
@@ -68,8 +73,10 @@ include("nav.xml");
 include("header.xml");
 print "<div class='content'>";
 if ($kw) 
-  $tamino->highlightInfo($kwarray);
-$tamino->printResult($kwarray);
+  //$tamino->highlightInfo($kwarray);
+  //$tamino->printResult($kwarray);
+$xmldb->highlightInfo($kwarray);
+$xmldb->printResult($kwarray);
 print "</div>
     </body>
     </html>";
