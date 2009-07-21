@@ -4,14 +4,16 @@ include("config.php");
 include_once("lib/xmlDbConnection.class.php");
 
 
-$myargs = $tamino_args;
+//$myargs = $tamino_args;
+$myargs =  $exist_args;
 $myargs{"debug"} = false;
-$tamino = new xmlDbConnection($myargs);
+//$tamino = new xmlDbConnection($myargs);
+$xmldb = new xmlDbConnection($myargs);
 
 $xquery = '<result>
-{let $t := input()/TEI.2/teiHeader/fileDesc/titleStmt
+{let $t := /TEI.2/teiHeader/fileDesc/titleStmt
 return $t}
-{for $a in input()/TEI.2//div
+{for $a in /TEI.2//div
 return <div>{$a/@id}{$a/@type}
 {$a/head}
 <parent>{$a/../@id}{local-name($a/..)}</parent>
@@ -20,8 +22,10 @@ return <div>{$a/@id}{$a/@type}
 
 $xsl = "contents.xsl"; 
 
-$tamino->xquery($xquery);
-$tamino->xslTransform($xsl);
+//$tamino->xquery($xquery);
+//$tamino->xslTransform($xsl);
+$xmldb->xquery($xquery);
+$xmldb->xslTransform($xsl);
 
 print "<html>
   <head> 
@@ -36,7 +40,8 @@ print "<html>
 include("nav.xml");
 include("header.xml");
 print "<div class='content'>";
-$tamino->printResult();
+//$tamino->printResult();
+$xmldb->printResult();
 print "</div>
     </body>
     </html>";

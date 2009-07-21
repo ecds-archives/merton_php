@@ -7,24 +7,46 @@
 
 
 // root directory and url where the website resides
-$server = "biliku.library.emory.edu";
+  /* $server = "biliku.library.emory.edu";
 $base_path = "/rebecca/merton";
 $basedir = "/home/httpd/html$base_path";
+$base_url = "http://$server$base_path/"; */
+
+$in_production = false;
+
+if ($in_production) {
+  $server = "bohr.library.emory.edu";           //production
+} else {
+  $server = "wilson.library.emory.edu";         // test
+}
+
+$base_path = "/~ahickco/merton";
+$basedir = "/home/ahickco/public_html/merton";
 $base_url = "http://$server$base_path/";
 
 // add basedir to the php include path (for header/footer files and lib directory)
 set_include_path(get_include_path() . ":" . $basedir . ":" . "$basedir/lib");
 
 /* tamino settings  */
-$config{"server"} = "vip.library.emory.edu";
-$config{"db"} = "BECKCTR";
-$config{"coll"} = "merton";
+//$config{"server"} = "vip.library.emory.edu";
+//$config{"db"} = "BECKCTR";
+//$config{"coll"} = "merton";
 
 // base settings for all connections to exist
-$tamino_args = array('host'   => $config{"server"},
+/*$tamino_args = array('host'   => $config{"server"},
 		     'db'     => $config{"db"},
 		     'coll'   => $config{"coll"},
-		     'dbtype' => 'tamino');
+		     'dbtype' => 'tamino');*/
+
+/* eXist settings */
+$port = "8080";
+$db = "merton";
+
+$exist_args = array('host'   => $server,
+	      	    'port'   => $port,
+		    'db'     => $db,
+		    'dbtype' => "exist");
+
 
 
 //Function that takes multiple terms separated by white spaces and puts them into an array

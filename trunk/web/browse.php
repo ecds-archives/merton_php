@@ -9,21 +9,23 @@ if ($cat == '') { $cat = "author"; }	// default display
 $key = $_GET["key"];	// key of specific author/title/lang to retrieve
 
 // use exist settings from config file
-$myargs = $tamino_args;
+//$myargs = $tamino_args;
+$myargs = $exist_args;
 $myargs{"debug"} = false;
-$tamino = new xmlDbConnection($myargs);
+//$tamino = new xmlDbConnection($myargs);
+$xmldb = new xmlDbConnection($myargs);
 
 if (isset($key)) { 
   // retrieve all quotes by a single author
-  $xquery{"author"} = 'for $div in input()/TEI.2/:text/body//div,
+  $xquery{"author"} = 'for $div in /TEI.2/text/body//div,
 	$cit in $div/cit[bibl//*/@key="' . $key . '"]
 return <div>{$div/@id}{$div/head}{$cit}</div>';
 } else {
   // retrieve list of distinct authors & count of quotes
-  $xquery{"author"} = 'let $doc := input()/TEI.2
-for $a in distinct-values($doc/:text/body//div/cit/bibl/author/name/@key)
-let $b := distinct-values($doc/:text/body//div/cit/bibl/author/name[@key=$a]/@reg)
-let $c := count($doc/:text/body//div/cit[bibl//@key=$a])
+  $xquery{"author"} = 'let $doc := /TEI.2
+for $a in distinct-values($doc/text/body//div/cit/bibl/author/name/@key)
+let $b := distinct-values($doc/text/body//div/cit/bibl/author/name[@key=$a]/@reg)
+let $c := count($doc/text/body//div/cit[bibl//@key=$a])
 return <author>
 <key>{$a}</key>
 <reg>{$b}</reg>
@@ -32,15 +34,15 @@ return <author>
 }
 
 if (isset($key)) {
-  $xquery{"language"} = 'for $div in input()/TEI.2/:text/body//div,
+  $xquery{"language"} = 'for $div in /TEI.2/text/body//div,
 	$cit in $div/cit[quote/@lang="' . $key . '"]
 return <div>{$div/@id}{$div/head}{$cit}</div>';
 
 } else {
-  $xquery{"language"} = 'let $doc := input()/TEI.2
-for $a in distinct-values($doc/:text/body//div/cit/quote/@lang)
+  $xquery{"language"} = 'let $doc := /TEI.2
+for $a in distinct-values($doc/text/body//div/cit/quote/@lang)
 let $b := $doc/teiHeader/profileDesc/langUsage/language[@id=$a]
-let $c := count($doc/:text/body//div/cit/quote[@lang=$a])
+let $c := count($doc/text/body//div/cit/quote[@lang=$a])
 return <lang>
 {$b}
 <count>{$c}</count>
@@ -48,14 +50,14 @@ return <lang>
 }
 
 if (isset($key)) {
-  $xquery{"title"} = 'for $div in input()/TEI.2/:text/body//div,
+  $xquery{"title"} = 'for $div in /TEI.2/text/body//div,
 	$cit in $div/cit[bibl/title/rs/@key="' . $key . '"]
 return <div>{$div/@id}{$div/head}{$cit}</div>';
 } else {
-$xquery{"title"} = 'let $doc := input()/TEI.2
-for $a in distinct-values($doc/:text/body//div/cit/bibl/title/rs/@key)
-let $b := distinct-values($doc/:text/body//div/cit/bibl/title/rs[@key=$a]/@reg)
-let $c := count($doc/:text/body//div/cit[bibl//rs/@key=$a])
+$xquery{"title"} = 'let $doc := /TEI.2
+for $a in distinct-values($doc/text/body//div/cit/bibl/title/rs/@key)
+let $b := distinct-values($doc/text/body//div/cit/bibl/title/rs[@key=$a]/@reg)
+let $c := count($doc/text/body//div/cit[bibl//rs/@key=$a])
 return <title>
 <key>{$a}</key>
 <reg>{$b}</reg>
@@ -66,8 +68,11 @@ return <title>
 
 $xsl = "categories.xsl"; 
 
-$tamino->xquery($xquery{$cat});
-$tamino->xslTransform($xsl);
+//$tamino->xquery($xquery{$cat});
+//$tamino->xslTransform($xsl);
+
+$xmldb->xquery($xquery{$cat});
+$xmldb->xslTransform($xsl);
 
 print "<html>
   <head>
@@ -95,7 +100,8 @@ if (isset($key)) {
 }
 
 
-$tamino->printResult();
+//$tamino->printResult();
+$xmldb->printResult();
 print "</div>
     </body>
     </html>";
