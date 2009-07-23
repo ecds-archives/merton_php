@@ -8,17 +8,19 @@ $myargs = $exist_args;
 $myargs{"debug"} = false;
 //$tamino = new xmlDbConnection($myargs);
 $xmldb = new xmlDbConnection($myargs);
+$pos = 1;
+$max = 65;
 
 $xquery = 'for $fig in /TEI.2/text//figure
 return <figure>{$fig/@*}{$fig/*}
 <parent>{$fig/../@id}{$fig/../@type}{local-name($fig/..)}</parent>
 </figure>';
 
-$xsl = "facsimiles.xsl"; 
+$xsl = "xsl/facsimiles.xsl"; 
 
 //$tamino->xquery($xquery);
 //$tamino->xslTransform($xsl);
-$xmldb->xquery($xquery);
+$xmldb->xquery($xquery, $pos, $max);
 $xmldb->xslTransform($xsl);
 
 print "<html>
