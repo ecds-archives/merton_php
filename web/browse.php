@@ -4,9 +4,11 @@ include("config.php");
 include_once("lib/xmlDbConnection.class.php");
 
 // Get any div by id (front matter, back matter, pages, or sections) 
-$cat = $_GET["category"];	// author, language, or title
-if ($cat == '') { $cat = "author"; }	// default display
-$key = $_GET["key"];	// key of specific author/title/lang to retrieve
+if (isset($_REQUEST["category"]))
+$cat = $_REQUEST["category"];	// author, language, or title
+if(!isset($cat)) { $cat = "author"; }	// default display
+if (isset($_REQUEST["key"]))
+$key = $_REQUEST["key"];	// key of specific author/title/lang to retrieve
 
 // use exist settings from config file
 //$myargs = $tamino_args;
@@ -66,7 +68,7 @@ return <title>
 }
 
 
-$xsl = "categories.xsl"; 
+$xsl = "xsl/categories.xsl"; 
 
 //$tamino->xquery($xquery{$cat});
 //$tamino->xslTransform($xsl);

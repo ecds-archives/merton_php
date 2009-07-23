@@ -4,11 +4,13 @@ include("config.php");
 include_once("lib/xmlDbConnection.class.php");
 
 // Get any div by id (front matter, back matter, pages, or sections) 
-$id = $_GET["id"];
+if (isset($_REQUEST["id"]))
+$id = $_REQUEST["id"];
 // search terms (if coming from search results)
-$kw = $_GET["keyword"];
-
+if (isset($_REQUEST["keyword"])) {
+$kw = $_REQUEST["keyword"];
 $kwarray = processterms($kw);
+ }
 
 // use exist settings from config file
 //$myargs = $tamino_args;
@@ -27,10 +29,11 @@ return <result>
    {$b/head}
   </div>}
   {for $b in /TEI.2/text/body//div[@type!="section"]
+     order by ($b/@id)
   return <div>
    {$b/@id}
    {$b/head}
-  </div> sort by (@id)}
+  </div>}
   {for $b in /TEI.2/text/back//div
   return <div>
    {$b/@id}
@@ -47,12 +50,13 @@ return $a';
  }
 
 
-$xsl = "view.xsl"; 
+$xsl = "xsl/view.xsl"; 
 
 //$tamino->xquery($xquery);
 //$tamino->xslTransform($xsl);
 $xmldb->xquery($xquery);
 $xmldb->xslTransform($xsl);
+
 
 
 //$title = $tamino->findNode("head");
@@ -72,11 +76,13 @@ print "<html>
 include("nav.xml");
 include("header.xml");
 print "<div class='content'>";
-if ($kw) 
+if (isset($kw)) {
   //$tamino->highlightInfo($kwarray);
   //$tamino->printResult($kwarray);
 $xmldb->highlightInfo($kwarray);
 $xmldb->printResult($kwarray);
+ }
+ else $xmldb->printResult();
 print "</div>
     </body>
     </html>";

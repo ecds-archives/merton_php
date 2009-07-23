@@ -13,6 +13,18 @@ $xmldb = new xmlDbConnection($myargs);
 // search terms
 $kw = $_GET["keyword"];
 
+$options = array();
+if ($kw)
+  $query = "for \$a in /TEI.2/text//div[&= \"kw\"]
+   let $matchcount = 
+   return <div>
+  {$a/@type}
+  {$a/@id}
+  {$a/head}';
+<matches><total>
+
+
+
 $kwarray = processterms($kw);
 
 $declare ='declare namespace xs="http://www.w3.org/2001/XMLSchema"';
@@ -46,7 +58,8 @@ $countquery = "<total>{count($for $where return \$a)}</total>";
 
 $query = "$declare <result>$countquery\{$for $let $where $return $sort}</result>";
 
-$tamino->xquery($query);
+//$tamino->xquery($query);
+$xmldb->xquery($query);
 $xsl = "xsl/search.xsl";
 $param = array("keyword" => $kw);
 //$tamino->xslTransform($xsl, $param);

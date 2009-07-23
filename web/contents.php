@@ -20,7 +20,7 @@ return <div>{$a/@id}{$a/@type}
 </div>}
 </result>';
 
-$xsl = "contents.xsl"; 
+$xsl = "xsl/contents.xsl"; 
 
 //$tamino->xquery($xquery);
 //$tamino->xslTransform($xsl);
