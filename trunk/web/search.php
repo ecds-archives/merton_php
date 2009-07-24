@@ -6,27 +6,31 @@ include_once("lib/xmlDbConnection.class.php");
 // use tamino settings from config file
 //$myargs = $tamino_args;
 $myargs = $exist_args;
-$myargs{"debug"} = false;
+$myargs{"debug"} = true;
 //$tamino = new xmlDbConnection($myargs);
 $xmldb = new xmlDbConnection($myargs);
 
 // search terms
-$kw = $_GET["keyword"];
-
-$options = array();
-if ($kw)
-  $query = "for \$a in /TEI.2/text//div[&= \"kw\"]
-   let $matchcount = 
-   return <div>
-  {$a/@type}
-  {$a/@id}
-  {$a/head}';
-<matches><total>
-
-
-
+$kw = $_REQUEST["keyword"];
 $kwarray = processterms($kw);
 
+
+if ($kw)
+  $query = "declare option exist:serialize 'highlight-matches=all';";
+  $query .= "for \$a in /TEI.2/text//div[. &= \"$kw\"]
+   let \$matchcount := text:match-count(\$a)
+   order by \$matchcount descending
+   return <div>
+     {\$a/@type}
+     {\$a/@id}
+     {\$a/head}
+     <matches><total>{\$matchcount}</total></matches>
+   </div>";
+
+
+
+
+/*
 $declare ='declare namespace xs="http://www.w3.org/2001/XMLSchema"';
 $for = 'for $a in /TEI.2/text//div';
 $let = '';
@@ -57,7 +61,7 @@ $sort = "sort by (xs:int(matches/total) descending) ";
 $countquery = "<total>{count($for $where return \$a)}</total>";
 
 $query = "$declare <result>$countquery\{$for $let $where $return $sort}</result>";
-
+*/
 //$tamino->xquery($query);
 $xmldb->xquery($query);
 $xsl = "xsl/search.xsl";
@@ -85,8 +89,8 @@ $xmldb->xslTransform($xsl, $param);
 */
 
 
-$myterms = array();
-if ($kw) {$myterms = array_merge($myterms, $kwarray); }
+$term = array();
+if ($kw) {$term = array_merge($term, $kwarray); }
 
 
 print "<html>
@@ -104,22 +108,22 @@ include("header.xml");
 print "<div class='content'>";
 
 //$total = $tamino->findNode("total");
-$total = $xmldb->findNode("total"); 
+$total = $xmldb->findNode("exist:result/@exist:hits");
 
 if ($total == 0){
   print "<p><b>No matches found.</b></p>";
   //	You may want to broaden your search and see search tips for suggestions.</p>";
-} else {
+} /*else {
   print "<h2>Search Results</h2>";
   print "<p>Found <b>" . $total . "</b> match";
   if ($total > 1) { print "es"; }
   print ". Results sorted by relevance.</p>"; 
-}
+  }*/
 
 //$tamino->highlightInfo($myterms);
 //$tamino->printResult($myterms);
-$xmldb->highlightInfo($myterms);
-$xmldb->printResult($myterms);
+$xmldb->highlightInfo($term);
+$xmldb->printResult($term);
 print "</div>
     </body>
     </html>";
