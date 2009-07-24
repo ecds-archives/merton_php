@@ -15,7 +15,7 @@ $term = processterms($kw);
 // use exist settings from config file
 //$myargs = $tamino_args;
 $myargs = $exist_args;
-$myargs{"debug"} = true;
+$myargs{"debug"} = false;
 //$tamino = new xmlDbConnection($myargs);
 $xmldb = new xmlDbConnection($myargs);
 
