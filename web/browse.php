@@ -96,7 +96,7 @@ print "<p><b>Browse quotations by category:</b><br/>
 </p>";
 
 if (isset($key)) {
-  print "<p>Quotations where $category = $key:</p>";
+  print "<p>Quotations where $cat = $key:</p>";
 } else {
   print "<p>Quotations by $cat:</p>";
 }
