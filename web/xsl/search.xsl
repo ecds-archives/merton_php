@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-		xmlns:xq="http://namespaces.softwareag.com/tamino/XQuery/result"
-                version="1.0">
+		xmlns:exist="http://exist.sourceforge.net/NS/exist"
+                  version="1.0" exclude-result-prefixes="exist">
 
   <xsl:output method="xml"/>
   <xsl:include href="common.xsl"/>
 
   <xsl:param name="keyword"/>
+  <xsl:variable name="total"><xsl:value-of select="//@exist:hits"/></xsl:variable>
 
   <xsl:template match="/">
-    <xsl:apply-templates select="//xq:result//div"/>
+    <xsl:call-template name="total"/>
+    <xsl:apply-templates select="//exist:result//div"/>
+  </xsl:template>
+
+  <xsl:template name="total">
+    <xsl:element name="p">
+      <xsl:value-of select="$total"/> match<xsl:if test="$total != 1">es</xsl:if> found
+    </xsl:element>
   </xsl:template>
 
   <xsl:template match="div">

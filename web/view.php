@@ -9,17 +9,18 @@ $id = $_REQUEST["id"];
 // search terms (if coming from search results)
 if (isset($_REQUEST["keyword"])) {
 $kw = $_REQUEST["keyword"];
-$kwarray = processterms($kw);
+$term = processterms($kw);
  }
 
 // use exist settings from config file
 //$myargs = $tamino_args;
 $myargs = $exist_args;
-$myargs{"debug"} = false;
+$myargs{"debug"} = true;
 //$tamino = new xmlDbConnection($myargs);
 $xmldb = new xmlDbConnection($myargs);
 
-$xquery = 'let $a := /TEI.2/text//div[@id="' . $id . '"]
+$xquery = "declare option exist:serialize 'highlight-matches=all';";
+$xquery .= 'let $a := /TEI.2/text//div[@id="' . $id . '"]
 return <result>
  {$a}
  <siblings>
@@ -79,8 +80,8 @@ print "<div class='content'>";
 if (isset($kw)) {
   //$tamino->highlightInfo($kwarray);
   //$tamino->printResult($kwarray);
-$xmldb->highlightInfo($kwarray);
-$xmldb->printResult($kwarray);
+$xmldb->highlightInfo($term);
+$xmldb->printResult($term);
  }
  else $xmldb->printResult();
 print "</div>
