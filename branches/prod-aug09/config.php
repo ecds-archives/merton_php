@@ -29,7 +29,7 @@ $base_url = "http://$server$base_path/";
 //production
 $base_path = "/merton-new";
 $basedir = "home/httpd/html/beck$base_path";
-$base_url = "http://$server$base_path";
+$base_url = "http://$server$base_path/";
 
 // add basedir to the php include path (for header/footer files and lib directory)
 set_include_path(get_include_path() . ":" . $basedir . ":" . "$basedir/lib");
