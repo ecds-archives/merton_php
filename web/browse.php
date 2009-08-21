@@ -16,6 +16,8 @@ $myargs = $exist_args;
 $myargs{"debug"} = false;
 //$tamino = new xmlDbConnection($myargs);
 $xmldb = new xmlDbConnection($myargs);
+$pos = 1;
+$max = 40;
 
 if (isset($key)) { 
   // retrieve all quotes by a single author
@@ -28,6 +30,7 @@ return <div>{$div/@id}{$div/head}{$cit}</div>';
 for $a in distinct-values($doc/text/body//div/cit/bibl/author/name/@key)
 let $b := distinct-values($doc/text/body//div/cit/bibl/author/name[@key=$a]/@reg)
 let $c := count($doc/text/body//div/cit[bibl//@key=$a])
+order by $b
 return <author>
 <key>{$a}</key>
 <reg>{$b}</reg>
@@ -45,6 +48,7 @@ return <div>{$div/@id}{$div/head}{$cit}</div>';
 for $a in distinct-values($doc/text/body//div/cit/quote/@lang)
 let $b := $doc/teiHeader/profileDesc/langUsage/language[@id=$a]
 let $c := count($doc/text/body//div/cit/quote[@lang=$a])
+order by $b
 return <lang>
 {$b}
 <count>{$c}</count>
@@ -60,6 +64,7 @@ $xquery{"title"} = 'let $doc := /TEI.2
 for $a in distinct-values($doc/text/body//div/cit/bibl/title/rs/@key)
 let $b := distinct-values($doc/text/body//div/cit/bibl/title/rs[@key=$a]/@reg)
 let $c := count($doc/text/body//div/cit[bibl//rs/@key=$a])
+order by $b
 return <title>
 <key>{$a}</key>
 <reg>{$b}</reg>
@@ -73,7 +78,7 @@ $xsl = "xsl/categories.xsl";
 //$tamino->xquery($xquery{$cat});
 //$tamino->xslTransform($xsl);
 
-$xmldb->xquery($xquery{$cat});
+$xmldb->xquery($xquery{$cat}, $pos, $max);
 $xmldb->xslTransform($xsl);
 
 print "<html>
