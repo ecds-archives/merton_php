@@ -27,7 +27,7 @@ $base_url = "http://$server$base_path/";
 */
 
 //production
-$base_path = "/merton-new";
+$base_path = "/merton";
 $basedir = "home/httpd/html/beck$base_path";
 $base_url = "http://$server$base_path/";
 
