@@ -12,7 +12,7 @@ $base_path = "/rebecca/merton";
 $basedir = "/home/httpd/html$base_path";
 $base_url = "http://$server$base_path/"; */
 
-$in_production = false;
+$in_production = true;
 
 if ($in_production) {
   $server = "bohr.library.emory.edu";           //production
@@ -20,9 +20,16 @@ if ($in_production) {
   $server = "wilson.library.emory.edu";         // test
 }
 
-$base_path = "/~ahickco/merton";
+//development
+/*$base_path = "/~ahickco/merton";
 $basedir = "/home/ahickco/public_html/merton";
 $base_url = "http://$server$base_path/";
+*/
+
+//production
+$base_path = "/merton";
+$basedir = "home/httpd/html/beck/$base_path";
+$base_url = "http://$server$basepath";
 
 // add basedir to the php include path (for header/footer files and lib directory)
 set_include_path(get_include_path() . ":" . $basedir . ":" . "$basedir/lib");
