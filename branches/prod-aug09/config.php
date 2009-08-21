@@ -15,7 +15,7 @@ $base_url = "http://$server$base_path/"; */
 $in_production = true;
 
 if ($in_production) {
-  $server = "bohr.library.emory.edu";           //production
+  $server = "beck.library.emory.edu";           //production
 } else {
   $server = "wilson.library.emory.edu";         // test
 }
@@ -28,7 +28,7 @@ $base_url = "http://$server$base_path/";
 
 //production
 $base_path = "/merton-new";
-$basedir = "home/httpd/html/beck/$base_path";
+$basedir = "home/httpd/html/beck$base_path";
 $base_url = "http://$server$basepath";
 
 // add basedir to the php include path (for header/footer files and lib directory)
