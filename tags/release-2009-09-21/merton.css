@@ -1,0 +1,50 @@
+div.head { }
+div.head h1 { font-family:cursive; color:#9F0909;}
+div.nav { float:left; clear:both; width:1.75in;}
+div.nav ul { list-style-type:none; padding:0px; margin-left:1em;}
+div.nav input { max-width:9em;}
+div.content { margin-left:1.75in; }
+div.page { clear:right;}
+img.pageimage { float:right;padding:25px; clear:right;}
+img { border:0px; }
+
+p.head { font-weight:bold;font-size:115%; }
+p.byline, p.dateline { margin-left:0.5in; }
+p.milestone { text-align:center; }
+
+p.bibl { margin-left:1in; }
+td.link { text-align:center; }
+
+div.note, p.note {color:#6f3410;}
+hr.note { width:25%; color:#6f3410; background-color:#6f3410; height:1px;
+	  border:0px; margin-left:0px;}
+p.trans { color:#175F1A;font-style:italic; margin-left:0.25in;}
+span.inline-note-editor { color:#555555; }
+span.inline-note { color:#555555; }
+span.margin-note {}
+
+div#key { border:double black; width:80%;margin-top:0.5in;}
+div#key h2 { font-variant:small-caps; margin:0;margin-left: 2px;}
+div#key p { margin:0;margin-left:8px; }
+
+
+span.superscript { vertical-align:super; font-size:75%; }
+span.underline { text-decoration:underline; }
+span.hi { font-weight:bold; }
+span.term { padding-left:10px; }
+
+div.figure { float:left; padding:5px; text-align:center;}
+
+div#next-prev { clear:both;width:45%;}
+a.next { float:right; }
+a.prev { float:left; }
+
+div.intro { font-size:115%; margin-top:1in; margin-left:2in; max-width:600px; }
+div.credits { margin-left:1.75in; }
+div.credits h1 { font-size:135%; }
+div.credits h2 { font-size:105%; }
+p.credits { text-indent:-0.25in; margin: 0px 0px 0px 0.5in;}
+
+span.term1 { background-color: #d1e1f9; font-weight: bold;}
+span.term2 { background-color: #fffc7f; font-weight: bold;}
+span.term3 { background-color: #b4f7aa; font-weight: bold;}
