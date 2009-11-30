@@ -42,8 +42,9 @@ include("header.xml");
 print "<div class='content'>";
 //$tamino->printResult();
 $xmldb->printResult();
-print "</div>
-    </body>
+print "</div>";
+include("google-trackmerton.xml");
+print "</body>
     </html>";
 
 ?>

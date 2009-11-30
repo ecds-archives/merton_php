@@ -11,6 +11,7 @@ print "<html>
 include("nav.xml");
 include("header.xml");
 include("credits.xml");
+include("google-trackmerton.xml");
 print "</body>
     </html>";
 

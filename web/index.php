@@ -30,8 +30,9 @@ print "\n  </head>
 include("nav.xml");
 include("header.xml");
 include("intro.xml");
-print "</div>
-    </body>
+print "</div>";
+include("google-trackmerton.xml");
+print "</body>
     </html>";
 
 ?>

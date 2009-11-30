@@ -38,5 +38,7 @@ print "<div class='content'>";
 //$tamino->printResult();
 $xmldb->printResult();
 print "</div>";
-
+include("google-trackmerton.xml");
 ?>
+</body>
+</html>

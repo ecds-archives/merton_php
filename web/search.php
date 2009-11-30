@@ -124,8 +124,9 @@ if ($total == 0){
 //$tamino->printResult($myterms);
 $xmldb->highlightInfo($term);
 $xmldb->printResult($term);
-print "</div>
-    </body>
+print "</div>";
+include("google-trackmerton.xml");
+print "</body>
     </html>";
 
 ?>

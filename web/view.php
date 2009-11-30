@@ -84,8 +84,9 @@ $xmldb->highlightInfo($term);
 $xmldb->printResult($term);
  }
  else $xmldb->printResult();
-print "</div>
-    </body>
+print "</div>";
+include("google-trackmerton.xml");
+print "</body>
     </html>";
 
 ?>
