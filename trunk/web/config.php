@@ -1,10 +1,14 @@
 <?php
 
 /* Configuration settings for entire site */
+$in_production = false;
 
 // set level of php error reporting -- turn off warnings when in production
-//error_reporting(E_ERROR | E_PARSE);
-
+if($in_production) {
+  error_reporting(E_ERROR);
+ } else {
+error_reporting(E_ERROR | E_PARSE);
+ }
 
 // root directory and url where the website resides
   /* $server = "biliku.library.emory.edu";
@@ -12,17 +16,18 @@ $base_path = "/rebecca/merton";
 $basedir = "/home/httpd/html$base_path";
 $base_url = "http://$server$base_path/"; */
 
-$in_production = false;
-
 if ($in_production) {
-  $server = "bohr.library.emory.edu";           //production
+  $server = "beck.library.emory.edu";           //production
+  $base_path = "/merton";
+  $basedir = "/home/httpd/html/beck$base_path";
+  $base_url = "http://beck.library.emory.edu$base_path/";
+
 } else {
   $server = "wilson.library.emory.edu";         // test
-}
-
-$base_path = "/~ahickco/merton";
-$basedir = "/home/ahickco/public_html/merton";
-$base_url = "http://$server$base_path/";
+  $base_path = "/~ahickco/merton";
+  $basedir = "/home/ahickco/public_html/merton";
+  $base_url = "http://$server$base_path/";
+ }
 
 // add basedir to the php include path (for header/footer files and lib directory)
 set_include_path(get_include_path() . ":" . $basedir . ":" . "$basedir/lib");

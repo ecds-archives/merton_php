@@ -109,8 +109,8 @@ if (isset($key)) {
 
 //$tamino->printResult();
 $xmldb->printResult();
-print "</div>
-    </body>
+print "</div>";
+include("google-trackmerton.xml");
+print    "</body>
     </html>";
-
 ?>
