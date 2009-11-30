@@ -1,7 +1,7 @@
 <?php
 
 /* Configuration settings for entire site */
-$in_production = false;
+$in_production = true;
 
 // set level of php error reporting -- turn off warnings when in production
 if($in_production) {
