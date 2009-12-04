@@ -1,7 +1,7 @@
 <?php
 
 /* Configuration settings for entire site */
-$in_production = false;
+$in_production = true;
 
 // set level of php error reporting -- turn off warnings when in production
 if($in_production) {
@@ -29,6 +29,8 @@ if ($in_production) {
   $base_url = "http://$server$base_path/";
  }
 
+
+
 // add basedir to the php include path (for header/footer files and lib directory)
 set_include_path(get_include_path() . ":" . $basedir . ":" . "$basedir/lib");
 
@@ -44,7 +46,11 @@ set_include_path(get_include_path() . ":" . $basedir . ":" . "$basedir/lib");
 		     'dbtype' => 'tamino');*/
 
 /* eXist settings */
+if($in_production) {
+  $port = "7080";
+ } else {
 $port = "8080";
+ }
 $db = "merton";
 
 $exist_args = array('host'   => $server,
