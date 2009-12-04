@@ -4,6 +4,7 @@ print "<html>
     <link rel='stylesheet' type='text/css' href='merton.css'>
     <title>Merton's Red Diary</title> 
     <meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'>
+    <base href='$base_url'> 
 ";
 
 

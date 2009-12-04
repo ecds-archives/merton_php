@@ -209,7 +209,7 @@
 </xsl:template>
 
 <xsl:template match="author[name]|title[rs][not(ancestor::note)]">
-  <a><xsl:attribute name="href">browse.php?category=<xsl:value-of select="name()"/>&amp;amp;key=<xsl:value-of select="*/@key"/></xsl:attribute><xsl:value-of select="normalize-space(.)"/></a>
+  <xsl:text> </xsl:text><a><xsl:attribute name="href">browse.php?category=<xsl:value-of select="name()"/>&amp;amp;key=<xsl:value-of select="*/@key"/></xsl:attribute><xsl:value-of select="normalize-space(.)"/></a>
 </xsl:template>
 
 </xsl:stylesheet>
