@@ -19,23 +19,24 @@ $myargs{"debug"} = false;
 //$tamino = new xmlDbConnection($myargs);
 $xmldb = new xmlDbConnection($myargs);
 
-$xquery = "declare option exist:serialize 'highlight-matches=all';";
-$xquery .= 'let $a := /TEI.2/text//div[@id="' . $id . '"]
+$xquery = "declare option exist:serialize 'highlight-matches=all';"; 
+$xquery = 'declare namespace tei="http://www.tei-c.org/ns.1.0"';
+$xquery .= 'let $a := /tei/TEI/tei/text//div[@id="' . $id . '"]
 return <result>
  {$a}
  <siblings>
-  {for $b in /TEI.2/text/front//div
+  {for $b in /tei:TEI/tei:text/tei:front//div
   return <div>
    {$b/@id}
    {$b/head}
   </div>}
-  {for $b in /TEI.2/text/body//div[@type!="section"]
+  {for $b in /tei:TEI/tei:text/tei:body//div[@type!="section"]
      order by ($b/@id)
   return <div>
    {$b/@id}
    {$b/head}
   </div>}
-  {for $b in /TEI.2/text/back//div
+  {for $b in /tei:TEI/tei:text/tei:back//div
   return <div>
    {$b/@id}
    {$b/head}
@@ -46,7 +47,7 @@ return <result>
 
 // special cases: cover & frontispiece have no text & no div
 if (($id == "cover")||($id == "frontispiece")) {
-  $xquery = 'let $a := /TEI.2/text//figure[@entity="' . $id . '"]
+  $xquery = 'let $a := /tei:TEI/tei:text//tei:figure[@entity="' . $id . '"]
 return $a';
  }
 
