@@ -21,7 +21,7 @@ $xmldb = new xmlDbConnection($myargs);
 
 $xquery = "declare option exist:serialize 'highlight-matches=all';"; 
 $xquery = 'declare namespace tei="http://www.tei-c.org/ns.1.0"';
-$xquery .= 'let $a := /tei/TEI/tei/text//div[@id="' . $id . '"]
+$xquery .= 'let $a := /tei:TEI/tei:text//div[@id="' . $id . '"]
 return <result>
  {$a}
  <siblings>
