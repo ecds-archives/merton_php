@@ -10,13 +10,14 @@ $myargs{"debug"} = false;
 //$tamino = new xmlDbConnection($myargs);
 $xmldb = new xmlDbConnection($myargs);
 
-$xquery = '<result>
-{let $t := /TEI.2/teiHeader/fileDesc/titleStmt
+$xquery = 'declare namespace tei="http://www.tei-c.org/ns/1.0";';
+$xquery .= '<result>
+{let $t := /tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt
 return $t}
-{for $a in /TEI.2//div
-return <div>{$a/@id}{$a/@type}
-{$a/head}
-<parent>{$a/../@id}{local-name($a/..)}</parent>
+{for $a in /tei:TEI//tei:div
+return <div>{$a/@xml:id}{$a/@type}
+{$a/tei:head}
+<parent>{$a/../@xml:id}{local-name($a/..)}</parent>
 </div>}
 </result>';
 
