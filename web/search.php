@@ -16,23 +16,24 @@ $kwarray = processterms($kw);
 
 
 if ($kw)
-  $query = "declare option exist:serialize 'highlight-matches=all';";
-  $query .= "for \$a in /TEI.2/text//div[. &= \"$kw\"]
+
+  $query = 'declare namespace tei="http://www.tei-c.org/ns/1.0";'; 
+  $query .= "declare option exist:serialize 'highlight-matches=all';";
+  $query .= "for \$a in /tei:TEI/tei:text//tei:div[. &= \"$kw\"]
+
    let \$matchcount := text:match-count(\$a)
    order by \$matchcount descending
    return <div>
-     {\$a/@type}
-     {\$a/@id}
-     {\$a/head}
+     {\$a/@type}  
+     {\$a/@xml:id}
+     {\$a/tei:head}
      <matches><total>{\$matchcount}</total></matches>
    </div>";
 
 
-
-
-/*
+/* [CD - CHANGE TO LUCENE SEARCH EXPRESSIONS W/ AH's HELP]
 $declare ='declare namespace xs="http://www.w3.org/2001/XMLSchema"';
-$for = 'for $a in /TEI.2/text//div';
+$for = 'for $a in /tei:TEI/tei:text//tei:div';
 $let = '';
 $conditions = array();
 $reflist = array();
@@ -45,8 +46,8 @@ $let .= "let \$allrefs := (" . implode(",", $reflist) . ") ";
 $where = "where " . implode(" and ", $conditions);
 $return = 'return <div> 
   {$a/@type}
-  {$a/@id}
-  {$a/head}';
+  {$a/@xml:id}
+  {$a/tei:head}';
 if ($kw) {
   $return .= '<matches><total>{count($allrefs)}</total>'; 
   for ($i = 0; $i < count($kwarray); $i++) {
