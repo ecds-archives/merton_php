@@ -55,8 +55,7 @@
     <div class="quote"><xsl:apply-templates/></div>
   </xsl:template>
 
-<!-- CD - not sure what to do with ancestor and note below -->
-  <xsl:template match="tei:bibl[not(ancestor::note)]">
+  <xsl:template match="tei:bibl[not(ancestor::tei:note)]">
     <p class='bibl'>
       <xsl:apply-templates/>
     </p>
@@ -76,9 +75,9 @@
 
   <xsl:template match="tei:author">
     <xsl:choose>
-      <xsl:when test="@rend = 'underline'">
-<<!-- CD - is underline a tei element? -->>
-        <u><xsl:apply-templates/></u>
+      <xsl:when test="@rend = 'tei:underline'">
+
+<u><xsl:apply-templates/></u>
       </xsl:when>
       <xsl:otherwise>
         <xsl:apply-templates/>
@@ -102,17 +101,17 @@
     </ul>
   </xsl:template>
   
-  <xsl:template match="listBibl/bibl">
+  <xsl:template match="tei:listBibl/tei:bibl">
     <li><xsl:apply-templates/></li>
   </xsl:template>
 
-  <xsl:template match="ref">
+  <xsl:template match="tei:ref">
     <xsl:choose>
-      <xsl:when test="ancestor::div//note/@id=./@target">
+      <xsl:when test="ancestor::tei:div//tei:note/@xml:id=./@target">
         <!-- if the ref refers to a note in this section but is NOT inline,
              don't create a link -->
-<!-- CD- does above need tei namespaces? -->
-        <xsl:apply-templates/>
+
+<xsl:apply-templates/>
       </xsl:when>
       <xsl:otherwise>
         <a><xsl:attribute name="href">view.php?id=<xsl:value-of select="@target"/></xsl:attribute>
@@ -121,17 +120,13 @@
     </xsl:choose>
 
   </xsl:template>
-
-<!-- CD - completely unsure about tei namespace inserts below -->
-  <xsl:key name="note-by-id" match="//tei:note" use="@id"/> 
-<!-- CD- xml:id? -->
-
+  <xsl:key name="note-by-id" match="//tei:note" use="@xml:id"/> 
   <xsl:template match="tei:ref[@type='inline-note']">
     <!-- apply-templates for inline note matching target id... -->
-    <xsl:apply-templates select="tei:key('note-by-id', @target)" mode="ref"/>
+    <xsl:apply-templates select="key('note-by-id', @target)" mode="ref"/>
   </xsl:template>
 
-  <xsl:template match="tei:note[@place='inline']" mode="ref">
+  <xsl:template match="note[@place='inline']" mode="ref">
     <span>
       <xsl:attribute name="class">inline-note-<xsl:value-of select="@resp"/></xsl:attribute>
       <xsl:apply-templates/>
@@ -140,7 +135,7 @@
 
   <xsl:template match="tei:note[@place='inline']">
     <xsl:choose>
-      <xsl:when test="//ref[@type='inline-note']/@target = @id"> 
+      <xsl:when test="//tei:ref[@type='inline-note']/@target = @xml:id"> 
           <!-- if there is a ref targetting this note, don't display;
              the note will display via ref -->
         </xsl:when> 
@@ -186,8 +181,8 @@
 <xsl:template match="tei:figure">
   <img class="pageimage">
     <xsl:attribute name="src"><xsl:value-of select="concat($figure-path, @entity, $figure-suffix)"/></xsl:attribute>
-    <xsl:attribute name="alt"><xsl:value-of select="normalize-space(figDesc)"/></xsl:attribute>
-    <xsl:attribute name="title"><xsl:value-of select="normalize-space(figDesc)"/></xsl:attribute>
+    <xsl:attribute name="alt"><xsl:value-of select="normalize-space(tei:figDesc)"/></xsl:attribute>
+    <xsl:attribute name="title"><xsl:value-of select="normalize-space(tei:figDesc)"/></xsl:attribute>
   </img>
 </xsl:template>
 
@@ -204,9 +199,8 @@
 
 
 <xsl:template match="tei:note">
-    <xsl:if test="@id">
-<!-- CD xml id? -->
-      <a><xsl:attribute name="name"><xsl:value-of select="@id"/></xsl:attribute></a>
+    <xsl:if test="@xml:id">
+      <a><xsl:attribute name="name"><xsl:value-of select="@xml:id"/></xsl:attribute></a>
     </xsl:if>
     <hr class="note"/> 
   <div>
@@ -215,8 +209,7 @@
   </div>
 </xsl:template>
 
-<xsl:template match="tei:author[tei:name]|tei:title[tei:rs][not(ancestor::note)]">
-<!-- CD check line above -->
+<xsl:template match="tei:author[tei:name]|tei:title[tei:rs][not(ancestor::tei:note)]">
   <xsl:text> </xsl:text><a><xsl:attribute name="href">browse.php?category=<xsl:value-of select="name()"/>&amp;amp;key=<xsl:value-of select="*/@key"/></xsl:attribute><xsl:value-of select="normalize-space(.)"/></a>
 </xsl:template>
 
