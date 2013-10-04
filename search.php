@@ -16,9 +16,9 @@ $kwarray = processterms($kw);
 
 
 if ($kw)
-  $query = "declare option exist:serialize 'highlight-matches=all';";
-  $query .= "for \$a in /TEI.2/text//div[. &= \"$kw\"]
-   let \$matchcount := text:match-count(\$a)
+  $query = "declare option exist:serialize 'highlight-matches=elements';";
+  $query .= "for \$a in /TEI.2/text//div[ft:query(., \"$kw\")]
+   let \$matchcount := ft:score(\$a)
    order by \$matchcount descending
    return <div>
      {\$a/@type}
