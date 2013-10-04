@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+<xsl:stylesheet xmlns:tei="http://www.tei-c.org/ns/1.0"
+        xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 	xmlns:html="http://www.w3.org/TR/REC-html40" version="1.0"
         xmlns:exist="http://exist.sourceforge.net/NS/exist"
           exclude-result-prefixes="exist"
@@ -32,7 +33,7 @@
 
   <xsl:template match="lang">
     <li><a>
-    <xsl:attribute name="href">browse.php?category=language&amp;key=<xsl:value-of select="language/@id"/></xsl:attribute>
+    <xsl:attribute name="href">browse.php?category=language&amp;key=<xsl:value-of select="language/@xml:id"/></xsl:attribute>
     <xsl:apply-templates select="language"/></a>
 	 - <xsl:apply-templates select="count"/></li>
   </xsl:template>
@@ -46,18 +47,18 @@
 
   <xsl:template match="div">
     <tr><td class='link'>
-    <a><xsl:attribute name="href">view.php?id=<xsl:value-of select="@id"/></xsl:attribute>
-    <xsl:apply-templates select="head[1]"/></a>
+    <a><xsl:attribute name="href">view.php?id=<xsl:value-of select="@xml:id"/></xsl:attribute>
+    <xsl:apply-templates select="tei:head[1]"/></a>
     <!-- if there is a second title, display it, but don't make it part of the link -->
-    <xsl:apply-templates select="head[2]"/>
+    <xsl:apply-templates select="tei:head[2]"/>
 	</td>
         <td>
-          <xsl:apply-templates select="cit"/>
+          <xsl:apply-templates select="tei:cit"/>
         </td> 
    </tr>
   </xsl:template>
 
-  <xsl:template match="cit">
+  <xsl:template match="tei:cit">
     <xsl:apply-templates/>
   </xsl:template>
 

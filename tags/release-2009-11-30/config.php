@@ -1,7 +1,7 @@
 <?php
 
 /* Configuration settings for entire site */
-$in_production = true;
+$in_production = false;
 
 // set level of php error reporting -- turn off warnings when in production
 if($in_production) {
@@ -23,9 +23,9 @@ if ($in_production) {
   $base_url = "http://beck.library.emory.edu$base_path/";
 
 } else {
-  $server = "wilson.library.emory.edu";         // test
+  $server = "beckcady.library.emory.edu";         // test (on staging beck-dev.ecdsweb.org)
   $base_path = "/~ahickco/merton";
-  $basedir = "/home/ahickco/public_html/merton";
+  $basedir = "/Users/~ahickco/Sites";              // on beck-dev: /data/html
   $base_url = "http://$server$base_path/";
  }
 

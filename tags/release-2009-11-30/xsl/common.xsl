@@ -1,78 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-                version="1.0">
+                version="1.0"
+		xmlns:tei="http://www.tei-c.org/ns/1.0">
 
   <xsl:output method="xml"/>
 
   <xsl:variable name="figure-path">http://beck.library.emory.edu/merton/image-content/</xsl:variable>
-  <xsl:variable name="figure-suffix">.jpg</xsl:variable>
+  <!-- <xsl:variable name="figure-suffix">.jpg</xsl:variable> -->
   <xsl:variable name="thumbnail-path">http://beck.library.emory.edu/merton/image-content/thumbnails/</xsl:variable>
   <xsl:variable name="thumbnail-suffix">.gif</xsl:variable>
 
 
-  <xsl:template match="div">
+  <xsl:template match="tei:div">
     <div>
       <xsl:attribute name="class"><xsl:value-of select="@type"/></xsl:attribute>
       <xsl:apply-templates/>
     </div>    
   </xsl:template>
 
-  <xsl:template match="head">
+  <xsl:template match="tei:head">
     <p class="head"><xsl:apply-templates/></p>
   </xsl:template>
 
-  <xsl:template match="byline">
+  <xsl:template match="tei:byline">
     <p class="byline"><xsl:apply-templates/></p>   
   </xsl:template>
 
-  <xsl:template match="dateline">
+  <xsl:template match="tei:dateline">
     <p class="dateline"><xsl:apply-templates/></p>   
   </xsl:template>
 
 
   <!-- ignore diary dateline info for now -->
-  <xsl:template match="div[@type='page']/dateline"/>
+  <xsl:template match="tei:div[@type='page']/tei:dateline"/>
 
-  <xsl:template match="p">
+  <xsl:template match="tei:p">
     <p><xsl:apply-templates/></p>
   </xsl:template>
 
-  <xsl:template match="lb">
+  <xsl:template match="tei:lb">
     <br/>
   </xsl:template>
 
-  <xsl:template match="cit">
+  <xsl:template match="tei:cit">
     <div class="citation"><xsl:apply-templates/></div>
   </xsl:template>
 
   <!-- keep note citations within note paragraph -->
-  <xsl:template match="note/cit">
+  <xsl:template match="tei:note/tei:cit">
     <br/><span class="citation"><xsl:apply-templates/></span>
   </xsl:template>
 
-  <xsl:template match="quote">
+  <xsl:template match="tei:quote">
     <div class="quote"><xsl:apply-templates/></div>
   </xsl:template>
 
-  <xsl:template match="bibl[not(ancestor::note)]">
+  <xsl:template match="tei:bibl[not(ancestor::tei:note)]">
     <p class='bibl'>
       <xsl:apply-templates/>
     </p>
   </xsl:template>
 
-  <xsl:template match="lg">
+  <xsl:template match="tei:lg">
     <p class="lg"><xsl:apply-templates/></p>
   </xsl:template>
 
-  <xsl:template match="l">
+  <xsl:template match="tei:l">
     <xsl:apply-templates/><br/>
   </xsl:template>
   
-  <xsl:template match="title">
+  <xsl:template match="tei:title">
     <i><xsl:apply-templates/></i>
   </xsl:template>
 
-  <xsl:template match="author">
+  <xsl:template match="tei:author">
     <xsl:choose>
       <xsl:when test="@rend = 'underline'">
         <u><xsl:apply-templates/></u>
@@ -83,58 +84,59 @@
     </xsl:choose>
   </xsl:template>
 
-  <xsl:template match="list">
+  <xsl:template match="tei:list">
     <ul>
       <xsl:apply-templates/>
     </ul>
   </xsl:template>
 
-  <xsl:template match="item">
+  <xsl:template match="tei:item">
     <li><xsl:apply-templates/></li>
   </xsl:template>
 
-  <xsl:template match="listBibl">
+  <xsl:template match="tei:listBibl">
     <ul class="bibl">
       <xsl:apply-templates/>
     </ul>
   </xsl:template>
   
-  <xsl:template match="listBibl/bibl">
+  <xsl:template match="tei:listBibl/tei:bibl">
     <li><xsl:apply-templates/></li>
   </xsl:template>
 
-  <xsl:template match="ref">
+  <xsl:template match="tei:ref">
+    <xsl:variable name="target"><xsl:value-of select="substring-after(@target, '#')"/></xsl:variable> 
     <xsl:choose>
-      <xsl:when test="ancestor::div//note/@id=./@target">
+      <xsl:when test="ancestor::tei:div//tei:note/@xml:id=$target">
         <!-- if the ref refers to a note in this section but is NOT inline,
              don't create a link -->
         <xsl:apply-templates/>
       </xsl:when>
       <xsl:otherwise>
-        <a><xsl:attribute name="href">view.php?id=<xsl:value-of select="@target"/></xsl:attribute>
+        <a><xsl:attribute name="href">view.php?id=<xsl:value-of select="$target"/></xsl:attribute>
           <xsl:apply-templates/></a>
       </xsl:otherwise>
     </xsl:choose>
 
   </xsl:template>
 
-  <xsl:key name="note-by-id" match="//note" use="@id"/>
+  <xsl:key name="note-by-id" match="//tei:note" use="@xml:id"/>
 
-  <xsl:template match="ref[@type='inline-note']">
+  <xsl:template match="tei:ref[@type='inline-note']">
     <!-- apply-templates for inline note matching target id... -->
     <xsl:apply-templates select="key('note-by-id', @target)" mode="ref"/>
   </xsl:template>
 
-  <xsl:template match="note[@place='inline']" mode="ref">
+  <xsl:template match="tei:note[@place='inline']" mode="ref">
     <span>
       <xsl:attribute name="class">inline-note-<xsl:value-of select="@resp"/></xsl:attribute>
       <xsl:apply-templates/>
     </span>
   </xsl:template>
 
-  <xsl:template match="note[@place='inline']">
+  <xsl:template match="tei:note[@place='inline']">
     <xsl:choose>
-      <xsl:when test="//ref[@type='inline-note']/@target = @id"> 
+      <xsl:when test="//tei:ref[@type='inline-note']/@target = @xml:id"> 
           <!-- if there is a ref targetting this note, don't display;
              the note will display via ref -->
         </xsl:when> 
@@ -148,11 +150,11 @@
     </xsl:choose>    
   </xsl:template>
 
-  <xsl:template match="foreign">
+  <xsl:template match="tei:foreign">
     <i><xsl:apply-templates/></i>
   </xsl:template>
 
-  <xsl:template match="hi">
+  <xsl:template match="tei:hi">
     <span>
       <xsl:choose>
         <xsl:when test="@rend">
@@ -166,7 +168,7 @@
     </span>
   </xsl:template>
 
-<xsl:template match="milestone">
+<xsl:template match="tei:milestone">
   <xsl:element name="p">
     <xsl:attribute name="class">milestone</xsl:attribute>
     <xsl:choose>
@@ -177,29 +179,29 @@
   </xsl:element>
 </xsl:template>
 
-<xsl:template match="figure">
+<xsl:template match="tei:figure">
   <img class="pageimage">
-    <xsl:attribute name="src"><xsl:value-of select="concat($figure-path, @entity, $figure-suffix)"/></xsl:attribute>
-    <xsl:attribute name="alt"><xsl:value-of select="normalize-space(figDesc)"/></xsl:attribute>
-    <xsl:attribute name="title"><xsl:value-of select="normalize-space(figDesc)"/></xsl:attribute>
+    <xsl:attribute name="src"><xsl:value-of select="concat($figure-path, tei:graphic/@url)"/></xsl:attribute>
+    <xsl:attribute name="alt"><xsl:value-of select="normalize-space(tei:figDesc)"/></xsl:attribute>
+    <xsl:attribute name="title"><xsl:value-of select="normalize-space(tei:figDesc)"/></xsl:attribute>
   </img>
 </xsl:template>
 
 <!-- translation -->
-<xsl:template match="note[@type='trans']">
+<xsl:template match="tei:note[@type='trans']">
   <p class='trans'>
     <xsl:apply-templates/>
   </p>
 </xsl:template>
 
-<xsl:template match="note[@place='margin']">
+<xsl:template match="tei:note[@place='margin']">
   <span class="margin-note">(<xsl:apply-templates/>)</span>
 </xsl:template>
 
 
-<xsl:template match="note">
-    <xsl:if test="@id">
-      <a><xsl:attribute name="name"><xsl:value-of select="@id"/></xsl:attribute></a>
+<xsl:template match="tei:note">
+    <xsl:if test="@xml:id">
+      <a><xsl:attribute name="name"><xsl:value-of select="@xml:id"/></xsl:attribute></a>
     </xsl:if>
     <hr class="note"/> 
   <div>
@@ -208,8 +210,16 @@
   </div>
 </xsl:template>
 
-<xsl:template match="author[name]|title[rs][not(ancestor::note)]">
-  <a><xsl:attribute name="href">browse.php?category=<xsl:value-of select="name()"/>&amp;amp;key=<xsl:value-of select="*/@key"/></xsl:attribute><xsl:value-of select="normalize-space(.)"/></a>
+<xsl:template match="tei:author[tei:name/tei:choice/tei:sic] | tei:title[tei:rs][not(ancestor::tei:note)]">
+<xsl:variable name="selection">
+<xsl:choose>
+  <xsl:when test="name()='author'">
+    <xsl:value-of select="normalize-space(tei-name/tei:choice/tei:sic)"/>
+  </xsl:when>
+  <xsl:when test="name()='title'">
+    <xsl:value-of select="normalize-space(tei:title/tei:rs)"/>
+  </xsl:when>
+</xsl:choose></xsl:variable>
+  <a><xsl:attribute name="href">browse.php?category=<xsl:value-of select="name()"/>&amp;amp;key=<xsl:value-of select="*/@key"/></xsl:attribute><xsl:value-of select="$selection"/></a>
 </xsl:template>
-
 </xsl:stylesheet>
