@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader><fileDesc>
          <titleStmt>
             <title>Thomas Merton's Journal, #10, "The Red Diary" [a machine-readable transcription]</title>
@@ -46,16 +47,21 @@
 	  <language ident="fre">French</language>
 	  <language ident="lat">Latin</language>
 	</langUsage>
-      </profileDesc><revisionDesc><change><name>Stewart Varner</name> transformed this document from p4 to p5 on <date when="2010-03-22">March 22, 2010</date></change><change xmlns="http://www.tei-c.org/ns/1.0"><date>May 1, 1996</date><label/><name/>Edited to parse against TEILite DTD.</change><change xmlns="http://www.tei-c.org/ns/1.0"><date/><label>Beck Center, Emory
+      </profileDesc>
+      <revisionDesc>
+	<change><name>Stewart Varner</name> transformed this document from p4 to p5 on <date when="2010-03-22">March 22, 2010</date></change>
+	<change xmlns="http://www.tei-c.org/ns/1.0"><date>May 1, 1996</date><label/><name/>Edited to parse against TEILite DTD.</change><change xmlns="http://www.tei-c.org/ns/1.0"><date/><label>Beck Center, Emory
 University</label><name>OCR scanning and proof-reading by Hamilton Carroll; Tagged by
 Chuck Spornick</name>Entity references
-included.</change></revisionDesc></teiHeader>
+included.</change>
+   </revisionDesc>
+   </teiHeader>
    <text>
       <front>
-<figure><graphic url=""/>
+<figure><graphic url="cover.jpg"/>
   <figDesc>The front cover of Merton's "Red Diary".</figDesc>
 </figure>
-<figure><graphic url=""/>
+<figure><graphic url="frontispiece.jpg"/>
   <figDesc>Inside the front cover of Merton's "Red Diary".</figDesc>
 </figure>
 
@@ -128,7 +134,7 @@ Merton Legacy Trust and by Bellarmine College.</p>
       <body> 
 <pb n="4"/>
          <div n="X(4)" xml:id="X04" type="page">
-<figure><graphic url=""/>
+<figure><graphic url="X04.jpg"/>
   <figDesc>Page image of X(4)</figDesc>
 </figure>
 
@@ -206,7 +212,7 @@ Merton Legacy Trust and by Bellarmine College.</p>
 	</div>
 <pb n="5"/>	
          <div n="X(5)" xml:id="X05" type="page">
-<figure><graphic url=""/>
+<figure><graphic url="X05.jpg"/>
   <figDesc>Page image of X(5)</figDesc>
 </figure>
 
@@ -232,8 +238,8 @@ Merton Legacy Trust and by Bellarmine College.</p>
             </lg>
             <note xml:id="X05.q01.n01" resp="#auth" place="inline">(Popular in C<hi rend="superscript underline">19</hi>Russia)</note>
 	</quote>
-            <bibl><author><name>
-                        <choice><reg>Ephraem, Syrus, Saint</reg><orig>Ephrem</orig></choice>
+            <bibl><author><name key="Ephrem">
+                        <choice><reg>Ephraem, Syrus, Saint</reg><sic>St. Ephrem</sic></choice>
 </name></author></bibl>
 	</cit>
 	<cit>
@@ -241,13 +247,13 @@ Merton Legacy Trust and by Bellarmine College.</p>
             <p>"All the essence of Xtianity is contained in this
 prayer."</p>
 	</quote>
-            <bibl><author><name>
-                        <choice><reg>Dostoyevsky, Fyodor</reg><orig>Dostoyevsky</orig></choice></name></author>.</bibl>
+            <bibl><author><name key="Dostoyevsky">
+                        <choice><reg>Dostoyevsky, Fyodor</reg><sic>Dostoyevsky</sic></choice></name></author>.</bibl>
 	</cit>
          </div>
 <pb n="6"/>
          <div n="X(6)" xml:id="X06" type="page">
-<figure><graphic url=""/>
+<figure><graphic url="X06.jpg"/>
   <figDesc>Page image of X(6)</figDesc>
 </figure>
 
@@ -262,16 +268,16 @@ prayer."</p>
 	 <quote xml:lang="eng" xml:id="X06.q01">"The one who is offended can forgive; the offender never
 forgives; from his crime sprouts hatred. A Christian can be a serf but must not be a slave-owner."</quote>
 	<lb/>
-	            <bibl><author><name><choice><reg>Khomiakov</reg><orig>Khomiakov</orig></choice> </name></author></bibl>
+	            <bibl><author><name key="Khomiakov"><choice><reg>Khomiakov</reg><sic>Khomiakov</sic></choice> </name></author></bibl>
 	</cit>
 	<cit>
             <quote xml:lang="eng" xml:id="X06.q02">"Christianity does not touch but illuminates."</quote>
-	            <bibl><author><name><choice><reg>Aksakov, I. S. (Ivan Sergeevich)</reg><orig>Aksakov</orig></choice> </name> </author>.</bibl>
+	            <bibl><author><name key="Aksakov"><choice><reg>Aksakov, I. S. (Ivan Sergeevich)</reg><sic>Aksakov</sic></choice> </name> </author>.</bibl>
 	</cit>	
         </div>
 <pb n="7"/>
          <div n="X(7)" xml:id="X07" type="page">
-<figure><graphic url=""/>
+<figure><graphic url="X07.jpg"/>
   <figDesc>Page image of X(7)</figDesc>
 </figure>
 
@@ -291,9 +297,9 @@ demand for reckless originality  of thought &amp; a sparkling
 plausibility of  agreement which he would have despised even if he
 could have displayed; a demand for crude theory &amp; unsound
 philosophy rather than none at all.</quote>
-            <bibl><author><name>
+            <bibl><author><name key="Newman">
 
-                        <choice><reg>Newman, John Henry</reg><orig>Newman</orig></choice>
+                        <choice><reg>Newman, John Henry</reg><sic>Newman</sic></choice>
 </name></author>.</bibl>
 	</cit>
 	<cit>
@@ -307,12 +313,12 @@ meets in books or in life whom one does not merely observe, meet, or
 know.  A deep resonance of one's entire being is immediately set up
 with the entire being of the other (<foreign xml:lang="lat">Cor ad cor
 loquitur</foreign>)--heart speaks to heart in the wholeness of the language
-of music; true friendship is a kind of singing."</quote><bibl>:<title>Conjectures of A Guilty Bystander</title>. (<pubPlace>New York</pubPlace>: <publisher>Image Books</publisher>, <date>1968</date>),
+of music; true friendship is a kind of singing."</quote><bibl>:<title><rs type="title" key="Conjectures" n="Conjectures of a Guilty Bystander">Conjectures of A Guilty Bystander</rs></title>. (<pubPlace>New York</pubPlace>: <publisher>Image Books</publisher>, <date>1968</date>),
 p. 188.</bibl></note>
 </quote>
-            <bibl><author><name>
+            <bibl><author><name key="Newman">
 
-                        <choice><reg>Newman, John Henry</reg><orig>Newman</orig></choice>
+                        <choice><reg>Newman, John Henry</reg><sic>Newman</sic></choice>
 
 
 </name></author>.</bibl>
@@ -320,7 +326,7 @@ p. 188.</bibl></note>
          </div>
 <pb n="8"/>
          <div n="X(8)" xml:id="X08" type="page">
-<figure><graphic url=""/>
+<figure><graphic url="X08.jpg"/>
   <figDesc>Page image of X(8)</figDesc>
 </figure>
 
@@ -337,8 +343,8 @@ those lower than yourselves, condescension which would put you on an
 equal level with the lowest among them, let quietness in humiliation,
 patience which no offence could overwhelm, let all this become your
 mind as it was of Christ Jesus."</quote>
-            <bibl><author><name>
-                        <choice><reg>Filaret, Metropolitan of Moscow</reg><orig>Met.</orig></choice>
+            <bibl><author><name key="Filaret">
+                        <choice><reg>Filaret, Metropolitan of Moscow</reg><sic>Met.</sic></choice>
 
 <ref type="inline_note" target="#X09.q01.n01"/> Filaret</name></author> 
 	<note xml:id="X09.q01.n01" place="inline" resp="#editor">[tropolitan]</note></bibl>
@@ -346,7 +352,7 @@ mind as it was of Christ Jesus."</quote>
          </div>
 <pb n="9"/>
 	<div n="X(9)" xml:id="X09" type="page">
-<figure><graphic url=""/>
+<figure><graphic url="X09"/>
   <figDesc>Page image of X(9)</figDesc>
 </figure>
 
@@ -369,15 +375,15 @@ gradually from their childish mind into the life of sane intelligence
 because these others, in their gracious love offer themselves to the
 hard death of frank madness in the eyes of men. Such is the mystery
 &amp; significance of foolishness for Christ's sake."</quote>
-            <bibl><author><name>
-                        <choice><reg>Bukharev, A. M. (Aleksandr Matveevich)</reg><orig>A. M. Bukharev</orig></choice>
+            <bibl><author><name key="Bukharev">
+                        <choice><reg>Bukharev, A. M. (Aleksandr Matveevich)</reg><sic>A. M. Bukharev</sic></choice>
 
 k</name></author>.</bibl>
 	</cit>
          </div>
 	<pb n="10"/>
 <div n="X(10)" xml:id="X10" type="page">
-<figure><graphic url=""/>
+<figure><graphic url="X10"/>
   <figDesc>Page image of X(10)</figDesc>
 </figure>
 
@@ -399,15 +405,15 @@ dooming Himself to the immeasurable self-sacrifice in order to keep
 this new created world in the meaning &amp; designation given to it --
 even in spite of the foreseen infidelity of the world to its meaning
 &amp; designation.</quote>
-            <bibl><author><name>
-                        <choice><reg>Bukharev, A. M. (Aleksandr Matveevich)</reg><orig>A. M. Bukharev</orig></choice>
+            <bibl><author><name key="Bukharev">
+                        <choice><reg>Bukharev, A. M. (Aleksandr Matveevich)</reg><sic>A. M. Bukharev</sic></choice>
 
 </name></author> (on Job)</bibl>
 	</cit>
          </div>
          <pb n="11"/>
 <div n="X(11)" xml:id="X11" type="page">
-<figure><graphic url=""/>
+<figure><graphic url="X11"/>
   <figDesc>Page image of X(11)</figDesc>
 </figure>
 
@@ -423,15 +429,15 @@ even in spite of the foreseen infidelity of the world to its meaning
 monastery, it did not hear his voice &amp; did not realize that he was
 suffering in order to redeem &amp; to unite with Christ the secular
 art &amp; thought so often suspected by the clergy as an enemy."</quote>
-            <bibl><author><name>
-                        <choice><reg>Govodetzky</reg><orig>Govodetzky</orig></choice>
+            <bibl><author><name key="Govodetzky">
+                        <choice><reg>Govodetzky</reg><sic>Govodetzky</sic></choice>
 
 </name></author>.</bibl>
 	</cit>
          </div>
          <pb n="12"/>
 <div n="X(12)" xml:id="X12" type="page">
-<figure><graphic url=""/>
+<figure><graphic url="X12"/>
   <figDesc>Page image of X(12)</figDesc>
 </figure>
 
@@ -451,8 +457,8 @@ His glorified manhood is sitting at the right hand of the Father, but
 in the earthly manhood of which He is the new Adam, in His Body the
 Church, which is still in the state of Christ militant, Christ dwells
 not only in His glorification but in His kenosis also.</quote>
-            <bibl><author><name>
-                        <choice><reg>Boulgakov, Serge</reg><orig>Boulgakov</orig></choice>
+            <bibl><author><name key="Boulgakov">
+                        <choice><reg>Boulgakov, Serge</reg><sic>Boulgakov</sic></choice>
 
 
             
@@ -465,7 +471,7 @@ not only in His glorification but in His kenosis also.</quote>
  <head>Heraclitus</head>
 
   <div n="X(13)" xml:id="X13" type="page">
-<figure><graphic url=""/>
+<figure><graphic url="X13"/>
   <figDesc>Page image of X(13)</figDesc>
 </figure>
 
@@ -476,8 +482,8 @@ not only in His glorification but in His kenosis also.</quote>
 	<lb/>12th day - 353 days to come
 	</dateline> 
             <head>X (13) </head>
-            <bibl><author rend="underline"><name>
-                        <choice><reg>Heraclitus</reg><orig>HERACLITUS</orig></choice>
+            <bibl><author rend="underline"><name key=">Heraclitus">
+                        <choice><reg>Heraclitus</reg><sic>HERACLITUS</sic></choice>
 
 k</name></author></bibl>
 	<cit>
@@ -501,7 +507,7 @@ fire &amp; into this they are resolved;<lb/>
          </div>
          <pb n="14"/>
 <div n="X(14)" xml:id="X14" type="page">
-<figure><graphic url=""/>
+<figure><graphic url="X14.jpg"/>
   <figDesc>Page image of X(14)</figDesc>
 </figure>
 
@@ -513,7 +519,7 @@ fire &amp; into this they are resolved;<lb/>
 	</dateline> 
             <head>X (14)</head>
 	<cit>
-	            <bibl><author rend="underline"><name><choice><reg>Heraclitus</reg><orig>Heraclitus</orig></choice></name></author></bibl>
+	            <bibl><author rend="underline"><name key="Heraclitus"><choice><reg>Heraclitus</reg><sic>Heraclitus</sic></choice></name></author></bibl>
             <bibl>(Diog.<note place="inline" resp="#editor">[enes]</note>)</bibl>
 	<quote xml:lang="eng" xml:id="X14.q01">They say that when asked why he was silent,
 he replied - "That you may babble." .</quote>
@@ -534,7 +540,7 @@ is sufficient for all &amp; is still left over.</quote>
          </div>
          <pb n="15"/>
 <div n="X(15)" xml:id="X15" type="page">
-<figure><graphic url=""/>
+<figure><graphic url="X15.jpg"/>
   <figDesc>Page image of X(15)</figDesc>
 </figure>
 
@@ -546,9 +552,9 @@ is sufficient for all &amp; is still left over.</quote>
 	</dateline> 
             <head>X (15)</head>
 	<cit>
-            <bibl><author><name> 
+            <bibl><author><name key="Heraclitus"> 
                         
-                        <choice><reg>Heraclitus</reg><orig>Heraklitus</orig></choice>
+                        <choice><reg>Heraclitus</reg><sic>Heraklitus</sic></choice>
                         
                         </name></author></bibl>
             <quote xml:lang="eng" xml:id="X15.q01">Therefore it is necessary to follow the common: but although the
@@ -573,7 +579,7 @@ common.</quote>
 </div> <!-- end section: Heraclitus -->
          <pb n="16"/>
 <div n="X(16)" xml:id="X16" type="page">
-<figure><graphic url=""/>
+<figure><graphic url="X16.jpg"/>
   <figDesc>Page image of X(16)</figDesc>
 </figure>
 
@@ -599,16 +605,16 @@ who attains to Christ through action and the person who attains to him
 through prayer are often like one who attains to him in reality and
 one who attains to him in desire.</note>
             </quote>
-            <bibl>B1. <author><name>
+            <bibl>B1. <author><name key="Favre">
 
-                        <choice><reg>Favre, Pierre</reg><orig>Peter Favre, S.J.</orig></choice>
+                        <choice><reg>Favre, Pierre</reg><sic>Peter Favre, S.J.</sic></choice>
 
 </name></author> (1)</bibl>
 	</cit>
          </div>
          <pb n="17"/>
 <div n="X(17)" xml:id="X17" type="page">
-<figure><graphic url=""/>
+<figure><graphic url="X17.jpg"/>
   <figDesc>Page image of X(17)</figDesc>
 </figure>
 
@@ -629,15 +635,15 @@ encouragement from remembering, often and seriously, that we have
 received our mission toward our neighbor not only from our Superior
 but from Christ himself.</note> 
             </quote>
-            <bibl><author><name>
-                        <choice><reg>Canisius, Petrus, Saint</reg><orig>St. Peter Canisius</orig></choice>
+            <bibl><author><name key="Canisius">
+                        <choice><reg>Canisius, Petrus, Saint</reg><sic>St. Peter Canisius</sic></choice>
 
 k</name></author> <note place="inline" resp="#editor">[S.J.]</note></bibl>
 	</cit>
          </div>
          <pb n="18"/>
 <div n="X(18)" xml:id="X18" type="page">
-<figure><graphic url=""/>
+<figure><graphic url="X18.jpg"/>
   <figDesc>Page image of X(18)</figDesc>
 </figure>
 
@@ -657,9 +663,8 @@ sont: indifférents.
 us that makes us different from Himself. If we had permanence, we
 would probably be toward him what the stones are toward us:
 indifferent.</note></quote>
-	<bibl><author><name>
-	            
-	            <choice><reg>Lanza del Vasto</reg><orig>Lanza del Vasto</orig></choice> 
+	<bibl><author><name key="Lanza">
+	            <choice><reg>Lanza del Vasto</reg><sic>Lanza del Vasto</sic></choice> 
 	</name></author></bibl>
 	</cit>
 	<cit>
@@ -668,14 +673,14 @@ la Beauté, ceux qui la cherchent à leur aise et la prennent pour un
 plaisir de plus.
      <note type="trans" resp="#editor">What Beauty is will never be known by those who search
 	for it on their own comfortable terms and take it to be but one more pleasure.</note>
-	</quote><bibl><author><name>
-	            <choice><reg>Lanza del Vasto</reg><orig>Lanza del Vasto</orig></choice>	  
+	</quote><bibl><author><name key="Lanza">
+	            <choice><reg>Lanza del Vasto</reg><sic>Lanza del Vasto</sic></choice>	  
 	</name></author></bibl>
 	</cit>
          </div>
          <pb n="19"/>
 <div n="X(19)" xml:id="X19" type="page">
-<figure><graphic url=""/>
+<figure><graphic url="X19.jpg"/>
   <figDesc>Page image of X(19)</figDesc>
 </figure>
 
@@ -694,16 +699,16 @@ acknowledge the fact that even in suffering he is unique &amp; alone
 in the universe. No one can relieve him of his suffering or suffer in
 his stead. His unique opportunity lies in the way in which he bears
 his burden.</quote>
-            <bibl><author><name>
-                        <choice><reg>Frankl, Victor</reg><orig>V. Frankl</orig></choice>
+            <bibl><author><name key="Frankl">
+                        <choice><reg>Frankl, Victor</reg><sic>V. Frankl</sic></choice>
             </name></author>.<lb/>
-	  <title>Death Camp to Existentialism</title> <lb/>
+	  <title><rs type="title" key="DeathCamp" n="From Death Camp to Existentialism">Death Camp to Existentialism</rs></title> <lb/>
 		<biblScope type="pages">p. 78</biblScope></bibl>
 </cit>
          </div>
          <pb n="20"/>
 <div n="X(20)" xml:id="X20" type="page">
-<figure><graphic url=""/>
+<figure><graphic url="X20.jpg"/>
   <figDesc>Page image of X(20)</figDesc>
 </figure>
 
@@ -725,7 +730,7 @@ his existence.</quote>
          <pb n="21"/>
 
 <div n="X(21)" xml:id="X21" type="page">
-<figure><graphic url=""/>
+<figure><graphic url="X21.jpg"/>
   <figDesc>Page image of X(21)</figDesc>
 </figure>
 
@@ -741,7 +746,7 @@ his existence.</quote>
 
          <pb n="22"/>
 <div n="X(22)" xml:id="X22" type="page">
-<figure><graphic url=""/>
+<figure><graphic url="X22.jpg"/>
   <figDesc>Page image of X(22)</figDesc>
 </figure>
 
@@ -761,11 +766,11 @@ other had finished &amp; then said to him: 'Have you ended with
 the praise of your God? What is the meaning of all this? It is as if
 one were to praise a king of this world who has millions of pieces of
 gold for having one piece of silver.'</quote>
-            <bibl>quoted in <author><name>
-                        <choice><reg>Scholem, Gershom Gerhard</reg><orig>Scholem</orig></choice>
-            </name></author>. <title>Main Trends in Jewish Mysticism</title> <biblScope type="pages">p. 60</biblScope>
+            <bibl>quoted in <author><name key="Scholem">
+                        <choice><reg>Scholem, Gershom Gerhard</reg><sic>Scholem</sic></choice>
+            </name></author>. <title><rs type="title" key="JewishMysticism" n="Major Trends in Jewish Mysticism">Main Trends in Jewish Mysticism</rs></title> <biblScope type="pages">p. 60</biblScope>
 <note resp="#editor" type="bibliographic"><bibl><author>Scholem, Gershom G.</author>
-	<title>Major Trends in Jewish Mysticism</title>. 
+	<title><rs type="title" key="JewishMysticism" n="Major Trends in Jewish Mysticism">Major Trends in Jewish Mysticism</rs></title>. 
 	<pubPlace>New York</pubPlace>: <publisher>Schocken Books,
 Inc.</publisher>, <date>1946</date>.</bibl></note>
 	  </bibl>
@@ -773,7 +778,7 @@ Inc.</publisher>, <date>1946</date>.</bibl></note>
        </div>
          <pb n="23"/>
 <div n="X(23)" xml:id="X23" type="page">
-<figure><graphic url=""/>
+<figure><graphic url="X23.jpg"/>
   <figDesc>Page image of X(23)</figDesc>
 </figure>
 
@@ -792,15 +797,15 @@ l'univers ontologique.
     <note type="trans" xml:lang="eng" resp="#editor">The personality is not only a fragile
 thing [?] to be either fostered or forbidden: it is the deepest mystery of the ontological universe.</note>
             </quote>
-            <bibl><author><name>
+            <bibl><author><name key="Bars">
 
-                        <choice><reg>Bars, Henry</reg><orig>H. Bars</orig></choice>
+                        <choice><reg>Bars, Henry</reg><sic>H. Bars</sic></choice>
 
 
 </name></author><lb/>
-<title>Maritain en Notre Temps</title>
+<title><rs type="title" key="Maritain-NT" n="Maritain en Notre Temps">Maritain en Notre Temps</rs></title>
 <note type="bibliographic" resp="#editor"><bibl><author>Bars, Henry</author>. 
-	<title>Maritain en Notre Temps</title>. 
+	<title><rs type="title" key="Maritain-NT" n="Maritain en Notre Temps">Maritain en Notre Temps</rs></title>. 
 	<pubPlace>Paris</pubPlace>: <publisher>Editions Bernard
 Grasset</publisher>, <date>1959</date>.</bibl></note>
 </bibl>
@@ -809,8 +814,8 @@ Grasset</publisher>, <date>1959</date>.</bibl></note>
             <quote xml:lang="fre" xml:id="X23.q02">Une philosophie qui n'est pas antique est tout de suite vieille.
             <note type="trans" xml:lang="eng" resp="#editor" anchored="true">A philosophy which is not ancient is immediately
 old.</note> </quote>
-            <bibl><author><name>
-                        <choice><reg>Maritain, Jacques</reg><orig>J. Maritain</orig></choice></name></author></bibl>
+            <bibl><author><name key="Maritain">
+                        <choice><reg>Maritain, Jacques</reg><sic>J. Maritain</sic></choice></name></author></bibl>
 	</cit>
          </div>
          <pb n="24"/>
@@ -818,7 +823,7 @@ old.</note> </quote>
  <head>Chuang-Tzu</head>
 
   <div n="X(24)" xml:id="X24" type="page">
-<figure><graphic url=""/>
+<figure><graphic url="X24.jpg"/>
   <figDesc>Page image of X(24)</figDesc>
 </figure>
 
@@ -830,8 +835,8 @@ old.</note> </quote>
 	</dateline> 
             <head>X (24) </head>
 	<cit>
-            <bibl><author><name>
-                        <choice><reg>Chuang-Tzu</reg><orig>Chuang Tzu</orig></choice>
+            <bibl><author><name key="Chuang-Tzu">
+                        <choice><reg>Chuang-Tzu</reg><sic>Chuang Tzu</sic></choice>
 
 </name></author>.</bibl>
             <quote xml:lang="eng" xml:id="X24.q01">The true men of old did not reject
@@ -846,7 +851,7 @@ reached the Tao.</quote>
          </div>
          <pb n="25"/>
 <div n="X(25)" xml:id="X25" type="page">
-<figure><graphic url=""/>
+<figure><graphic url="X25.jpg"/>
   <figDesc>Page image of X(25)</figDesc>
 </figure>
 
@@ -858,8 +863,8 @@ reached the Tao.</quote>
 	</dateline> 
             <head>X (25) </head>
 	<cit>
-      <bibl><author><name>
-                  <choice><reg>Chuang-Tzu</reg><orig>Chuang Tzu</orig></choice>
+      <bibl><author><name key="Chuang-Tzu">
+                  <choice><reg>Chuang-Tzu</reg><sic>Chuang Tzu</sic></choice>
 
 </name></author>.</bibl>
             <quote xml:lang="eng" xml:id="X25.q01">The true men of old knew nothing of the love of life &amp; the
@@ -876,7 +881,7 @@ forgot all fear of death ... Thus there was in them what is called the
          </div>
          <pb n="26"/>
 <div n="X(26)" xml:id="X26" type="page">
-<figure><graphic url=""/>
+<figure><graphic url="X26.jpg"/>
   <figDesc>Page image of X(26)</figDesc>
 </figure>
 
@@ -889,9 +894,9 @@ forgot all fear of death ... Thus there was in them what is called the
 	</dateline> 
             <head>X (26) </head>
 	<cit>
-            <bibl><author><name>
+            <bibl><author><name key="Chuang-Tzu">
 
-                        <choice><reg>Chuang-Tzu</reg><orig>Chuang-Tzu</orig></choice>
+                        <choice><reg>Chuang-Tzu</reg><sic>Chuang-Tzu</sic></choice>
 
 k
             </name></author></bibl>
@@ -911,7 +916,7 @@ another in the rivers &amp; lakes.</quote>
          </div>
          <pb n="27"/>
 <div n="X(27)" xml:id="X27" type="page">
-<figure><graphic url=""/>
+<figure><graphic url="X27.jpg"/>
   <figDesc>Page image of X(27)</figDesc>
 </figure>
 
@@ -924,8 +929,8 @@ another in the rivers &amp; lakes.</quote>
 	</dateline> 
             <head>X (27) </head>
 	<cit>
-	<bibl><author><name>
-	            <choice><reg>Chuang-Tzu</reg><orig>Chuang Tzu</orig></choice>	            
+	<bibl><author><name key="Chuang-Tzu">
+	            <choice><reg>Chuang-Tzu</reg><sic>Chuang Tzu</sic></choice>	            
 	            
 	            
 	            
@@ -940,7 +945,7 @@ perfection.</quote><lb/>
          </div>
          <pb n="28"/>
 <div n="X(28)" xml:id="X28" type="page">
-<figure><graphic url=""/>
+<figure><graphic url="X28.jpg"/>
   <figDesc>Page image of X(28)</figDesc>
 </figure>
 
@@ -952,9 +957,9 @@ perfection.</quote><lb/>
 	</dateline> 
             <head>X (28) </head>
 	<cit>
-	<bibl><author><name>
+	<bibl><author><name key="Chuang-Tzu">
 	            
-	            <choice><reg>Chuang-Tzu</reg><orig>Chuang Tzu</orig></choice>
+	            <choice><reg>Chuang-Tzu</reg><sic>Chuang Tzu</sic></choice>
 	</name></author></bibl>
             <quote xml:lang="eng" xml:id="X28.q01">"Fishes forget one another in the rivers and lakes, men forget one
 another in the acts of the Tao."</quote>
@@ -983,12 +988,12 @@ continue to act simply because once, a long time ago, it made a great
 deal of sense? As if one were always getting somewhere? There is a
 time to listen, in the active life as everywhere else, and the better
 part of action is waiting, not knowing what next, and not having a
-glib answer.</quote><bibl><title>Conjectures of A Guilty Bystander</title>, <biblScope type="pages">p. 173.</biblScope></bibl></cit></note> 
+glib answer.</quote><bibl><title><rs type="title" key="Conjectures" n="Conjectures of a Guilty Bystander">Conjectures of A Guilty Bystander</rs></title>, <biblScope type="pages">p. 173.</biblScope></bibl></cit></note> 
          </div>
 </div> <!-- end section: Chuang-Tzu -->
          <pb n="29"/>
 <div n="X(29)" xml:id="X29" type="page">
-<figure><graphic url=""/>
+<figure><graphic url="X29.jpg"/>
   <figDesc>Page image of X(29)</figDesc>
 </figure>
 
@@ -1002,7 +1007,7 @@ glib answer.</quote><bibl><title>Conjectures of A Guilty Bystander</title>, <bib
 	<cit>
             <quote xml:lang="eng" xml:id="X29.q01">"O Wisdom, gone away, gone, gone to the other shore, landed on the
 other shore Suatra!"</quote>
-            <bibl><title>Prajnaparamita Sutra</title></bibl>
+            <bibl><title><rs type="title" key="Sutra" n="Prajnaparamita Sutra">Prajnaparamita Sutra</rs></title></bibl>
 	</cit>
 	<cit>
             <quote xml:lang="fre" xml:id="X29.q02">Le secret de nos coeurs est une seule vierge que ni l'imagination
@@ -1015,24 +1020,24 @@ succeed in deflowering ... The secret of the heart is that for which
 God has hidden himself from his creatures and that for which he comes
 close to them.</note>
 </quote>
-            <bibl><author><name>
+            <bibl><author><name key="Basetti-Sani">
 
-                        <choice><reg>Haleqsee</reg><orig>Haleqsee</orig></choice>
+                        <choice><reg>Haleqsee</reg><sic>Haleqsee</sic></choice>
 
 </name></author>.<lb/> see
 <author><name>
-            <choice><reg>Basetti-Sani, Giulio</reg><orig>Giulio Basetti-Sani OFM</orig></choice>
+            <choice><reg>Basetti-Sani, Giulio</reg><sic>Giulio Basetti-Sani OFM</sic></choice>
 </name></author><lb/>
-	<title>Mohammed et St. Francois</title>, <biblScope type="pages">p 268 n 35</biblScope>.
+	<title><rs type="title" key="Mohammed" n="Mohammed et St. Francois">Mohammed et St. Francois</rs></title>, <biblScope type="pages">p 268 n 35</biblScope>.
 <note type="bibliographic" resp="#editor"><bibl><author>Basetti-Sani, Giulio</author>.
-	<title>Mohammed et Saint Francois</title>.
+	<title><rs type="title" key="Mohammed" n="Mohammed et St. Francois">Mohammed et Saint Francois</rs></title>.
 	<pubPlace>Ottawa</pubPlace>: <publisher>Commissariat De Terre-Sainte</publisher>, <date>1959</date>.</bibl></note>
 </bibl>
 	</cit>
          </div>
          <pb n="30"/>
 <div n="X(30)" xml:id="X30" type="page">
-<figure><graphic url=""/>
+<figure><graphic url="X30.jpg"/>
   <figDesc>Page image of X(30)</figDesc>
 </figure>
 
@@ -1050,11 +1055,11 @@ if he wants to speak, or if he wants to let others speak through him,
 it makes him mortal. If he really wants to live, he should always
 remain silent &amp; suffer God alone to speak, for what God utters is
 life.</quote>
-            <bibl><title>The Book of the Poor in Spirit</title>:
+            <bibl><title><rs type="title" key="PoorinSpirit" n="The Book of the Poor in Spirit">The Book of the Poor in Spirit</rs></title>:
 <lb/><biblScope type="pages">p 131</biblScope>
 <note type="bibliographic" resp="#editor"><bibl><author>A Friend of God
 (14th Century)</author>. 
-	<title>The Book of the Poor in Spirit</title>.
+	<title><rs type="title" key="PoorinSpirit" n="The Book of the Poor in Spirit">The Book of the Poor in Spirit</rs></title>.
 	 Edited by <editor>C.F. Kelley</editor>.
 	<pubPlace>New York</pubPlace>: <publisher>Harper
 	Brothers</publisher>, <date>1954</date>.</bibl></note>
@@ -1063,7 +1068,7 @@ life.</quote>
          </div>
          <pb n="31"/>
 <div n="X(31)" xml:id="X31" type="page">
-<figure><graphic url=""/>
+<figure><graphic url="X31.jpg"/>
   <figDesc>Page image of X(31)</figDesc>
 </figure>
 
@@ -1075,8 +1080,8 @@ life.</quote>
 	</dateline> 
             <head>X (31) </head>
 	<cit>
-            <bibl><author><name>
-                        <choice><reg>Chuang-Tzu</reg><orig>Chuang Tzu</orig></choice></name></author></bibl>
+            <bibl><author><name key="Chuang-Tzu">
+                        <choice><reg>Chuang-Tzu</reg><sic>Chuang Tzu</sic></choice></name></author></bibl>
             <quote xml:lang="eng" xml:id="X31.q01">Perfect enjoyment is to be
 without enjoyment; the highest praise is to be without praise.</quote>
 	<bibl><biblScope type="chapter">XVIII. 1.</biblScope></bibl>
@@ -1092,7 +1097,7 @@ inaction.</quote><lb/>
          </div>
          <pb n="32"/>
 <div n="X(32)" xml:id="X32" type="page">
-<figure><graphic url=""/>
+<figure><graphic url="X32.jpg"/>
   <figDesc>Page image of X(32)</figDesc>
 </figure>
 
@@ -1108,25 +1113,25 @@ inaction.</quote><lb/>
 qu'elle n'est pas de tous.
 <note type="trans" xml:lang="eng" resp="#editor">Holiness is painful as long as it is not shared by all.</note>
 </quote>
-            <bibl><author><name>
-                        <choice><reg>Clement, O.</reg><orig>O. Clement</orig></choice></name></author></bibl>
+            <bibl><author><name key="Clement">
+                        <choice><reg>Clement, O.</reg><sic>O. Clement</sic></choice></name></author></bibl>
 	</cit>
 	<cit>
             <quote xml:lang="eng" xml:id="X32.q02">Every reverse is a pointer to some spiritual truth that we were in
 danger of forgetting. You therefore should strive calmly to settle
 down &amp; examine from this point of view the reverse that has so
 deeply shocked you.</quote>
-            <bibl><author><name>
-                        <choice><reg>Macarius, Staretz of Optino</reg><orig>Staretz Macarius of Optino</orig></choice>
+            <bibl><author><name key="Macarius">
+                        <choice><reg>Macarius, Staretz of Optino</reg><sic>Staretz Macarius of Optino</sic></choice>
 
 k</name></author></bibl>
 	</cit>
 	<cit>
             <quote xml:lang="eng" xml:id="X32.q03">The wood of this cross that now breaks your back first grew in the
 soil of your heart.</quote>
-            <bibl><author><name>
+            <bibl><author><name key="Macarius">
 
-                        <choice><reg>Macarius, Staretz of Optino</reg><orig>Staretz Macarius of Opt</orig></choice>
+                        <choice><reg>Macarius, Staretz of Optino</reg><sic>Staretz Macarius of Opt</sic></choice>
 <ref type="inline-note" target="#X32.q03.n01"/></name></author>
 <note xml:id="X32.q03.n01" place="inline" resp="#editor">[ino]</note>
 </bibl>
@@ -1135,7 +1140,7 @@ soil of your heart.</quote>
          </div>
          <pb n="33"/>
 <div n="X(33)" xml:id="X33" type="page">
-<figure><graphic url=""/>
+<figure><graphic url="X33.jpg"/>
   <figDesc>Page image of X(33)</figDesc>
 </figure>
 
@@ -1151,24 +1156,24 @@ soil of your heart.</quote>
             <quote xml:lang="eng" xml:id="X33.q01">When we are incapable of scaling the peaks of virtue, all we have
 to do is descend into the ravine of humility. Our humility is our
 great intecessor before the face of the Lord.</quote><lb/>
-	<bibl><author><name>
-	            <choice><reg>Macarius, Staretz of Optino</reg><orig>Macarious of Optino</orig></choice>            
+	<bibl><author><name key="Macarius">
+	            <choice><reg>Macarius, Staretz of Optino</reg><sic>Macarious of Optino</sic></choice>            
 	            
 	            </name></author></bibl> 
 	</cit>
 	<cit>
 	<quote xml:lang="eng" xml:id="X33.q02">If
 the soul loves and pities the people its prayer is not
-interrupted.</quote><bibl><author><name>
+interrupted.</quote><bibl><author><name key="Silouan">
 
-            <choice><reg>Silouan, Staretz</reg><orig>Staretz Silouan</orig></choice></name></author></bibl>
+            <choice><reg>Silouan, Staretz</reg><sic>Staretz Silouan</sic></choice></name></author></bibl>
 	</cit>
 	<cit>
 	<quote xml:lang="eng" xml:id="X33.q03">Salvation lies in Christ like humility.</quote><lb/>
 	<bibl><rs key="Silouan">id.</rs></bibl>
 	</cit>
 
-<note resp="#editor">In <title>Conjectures</title>, p. 164, Merton mistakenly
+<note resp="#editor">In <title><rs type="title" key="Conjectures" n="Conjectures of a Guilty Bystander">Conjectures</rs></title>, p. 164, Merton mistakenly
 ascribes the following extended quotation from Staretz Silouan to a
 Staretz Sylvan: He said: 
 
@@ -1176,13 +1181,13 @@ Staretz Sylvan: He said:
 so I pray better at my task than I prayed at the Old Rossikon [where
 he had a solitary hut] where I asked to go for the sake of interior
 silence. If the soul loves and pities the people, prayer is not
-interrupted. <bibl>from <title>The Undistorted Image</title>,
+interrupted. <bibl>from <title><rs type="title" key="Undistorted" n="The Undistorted Image">The Undistorted Image</rs></title>,
 biography of Staretz Sylvan (sic), by <author>Archimandrite
 Sophrony</author>.</bibl></quote>
 
 The correct reference for this quotation of Staretz Silouan, both in
-<title>Conjectures</title> and "The Red Diary 
-is: <bibl><author>Sofrony, Archimandrite</author>. <title>The Undistorted Image</title>. Translated
+<title><rs type="title" key="Conjectures" n="Conjectures of a Guilty Bystander">Conjectures</rs></title> and "The Red Diary 
+is: <bibl><author>Sofrony, Archimandrite</author>. <title><rs type="title" key="Undistorted" n="The Undistorted Image">The Undistorted Image</rs></title>. Translated
 by <editor role="translator">Rosemary Edmonds</editor> from the
 Russian. <pubPlace>London</pubPlace>: <publisher>The Faith
 Press</publisher>, <date>1958</date>.</bibl></note>
@@ -1190,7 +1195,7 @@ Press</publisher>, <date>1958</date>.</bibl></note>
          </div>
          <pb n="34"/>
 <div n="X(34)" xml:id="X34" type="page">
-<figure><graphic url=""/>
+<figure><graphic url="X34.jpg"/>
   <figDesc>Page image of X(34)</figDesc>
 </figure>
 
@@ -1207,8 +1212,8 @@ Press</publisher>, <date>1958</date>.</bibl></note>
 the whole of our life, prove the contrary. And where there is lack of
 humility pride is always present. Where light is wanting, darkness
 reigns.</quote> <lb/>
-            <bibl><author><name>
-                        <choice><reg>Macarius, Staretz of Optino</reg><orig>Staretz Macarius of Opt</orig></choice><ref type="inline-note" target="#X34.q01.n01"/></name></author><note xml:id="X34.q01.n01" place="inline" resp="#editor">[ino]</note></bibl>
+            <bibl><author><name key="Macarius">
+                        <choice><reg>Macarius, Staretz of Optino</reg><sic>Staretz Macarius of Opt</sic></choice><ref type="inline-note" target="#X34.q01.n01"/></name></author><note xml:id="X34.q01.n01" place="inline" resp="#editor">[ino]</note></bibl>
 	</cit>
 	<cit>
             <quote xml:lang="eng" xml:id="X34.q02">In the vast sea which is the life of the church the true tradition
@@ -1219,8 +1224,8 @@ introduced the waters no longer run clear, for God's supreme wisdom
 renun-ciation appears intolerable, insane, to the self-willed, but the
 man who is not afraid to become a fool has found true life &amp;
 true wisdom.</quote>
-            <bibl><author><name>
-                        <choice><reg>Sophrony, Archimandrite</reg><orig>Arch.</orig></choice>
+            <bibl><author><name key="Sophrony">
+                        <choice><reg>Sophrony, Archimandrite</reg><sic>Arch.</sic></choice>
 
 
 
@@ -1231,7 +1236,7 @@ true wisdom.</quote>
          </div>
          <pb n="35"/>
 <div n="X(35)" xml:id="X35" type="page">
-<figure><graphic url=""/>
+<figure><graphic url="X35.jpg"/>
   <figDesc>Page image of X(35)</figDesc>
 </figure>
 
@@ -1248,8 +1253,8 @@ activity does not consist in the manipulation of abstract concepts but
 in participating in being. It is concerned with actual existence, an
 existence which cannot be included within the narrow framework of
 human concepts.</quote>
-            <bibl><author><name>
-                        <choice><reg>Sophrony, Archimandrite</reg><orig>Archimandrite  Sophrony</orig></choice>
+            <bibl><author><name key="Sophrony">
+                        <choice><reg>Sophrony, Archimandrite</reg><sic>Archimandrite  Sophrony</sic></choice>
 
 </name></author></bibl>
 	</cit>
@@ -1257,13 +1262,13 @@ human concepts.</quote>
             <quote xml:lang="eng" xml:id="X35.q02">The certain sign by which to recognize good from evil is not so
 much the end, which may appear to be holy and sublime, as the means
 selected to achieve the end.</quote>
-            <bibl><author><name>
-                        <choice><reg>Sophrony, Archimandrite</reg><orig>Archimandrite Sophrony</orig></choice></name></author></bibl>
+            <bibl><author><name key="Sophrony">
+                        <choice><reg>Sophrony, Archimandrite</reg><sic>Archimandrite Sophrony</sic></choice></name></author></bibl>
 	</cit>
          </div>
          <pb n="36"/>
 <div n="X(36)" xml:id="X36" type="page">
-<figure><graphic url=""/>
+<figure><graphic url="X36.jpg"/>
   <figDesc>Page image of X(36)</figDesc>
 </figure>
 
@@ -1279,12 +1284,12 @@ selected to achieve the end.</quote>
 have to hold fast to Jesus... The meek are those who have truly
 humbled themselves, those who have been truly humiliated, those who
 have truly fallen from the height to the depths.</quote>
-	            <bibl><author><name><choice><reg>Barth, Karl</reg><orig>K. Barth</orig></choice> </name></author></bibl>
+	            <bibl><author><name key="Barth"><choice><reg>Barth, Karl</reg><sic>K. Barth</sic></choice> </name></author></bibl>
 	</cit>
          </div>
          <pb n="37"/>
 <div n="X(37)" xml:id="X37" type="page">
-<figure><graphic url=""/>
+<figure><graphic url="X37.jpg"/>
   <figDesc>Page image of X(37)</figDesc>
 </figure>
 
@@ -1296,14 +1301,14 @@ have truly fallen from the height to the depths.</quote>
 	</dateline> 
             <head>X (37) </head>
 	<cit>
-	            <bibl>(<author><name><choice><reg>Heschel, Abraham Joshua</reg><orig>Heschel</orig></choice></name></author> - <title>Between God &amp; Man</title>)</bibl>
+	            <bibl>(<author><name key="Heschel"><choice><reg>Heschel, Abraham Joshua</reg><sic>Heschel</sic></choice></name></author> - <title><rs type="title" key="Between" n="Between God and Man">Between God &amp; Man</rs></title>)</bibl>
             <quote xml:lang="eng" xml:id="X37.q01">Ultimate meaning and
 ultimate wisdom are not found within the world but in God &amp; the
 only way to wisdom is through our relationship to God. This
 relationship is <hi rend="underline">awe</hi>. Awe in this sense is more than an
 emotion; it is away of understanding. Knowledge is fostered by
 curiosity, wisdom <note place="margin" resp="#auth">p 52</note> is fostered by awe.</quote>
-	            <bibl><author><name><choice><reg>Heschel, Abraham Joshua</reg><orig>A. Heschel</orig></choice></name></author></bibl> 
+	            <bibl><author><name><choice><reg>Heschel, Abraham Joshua</reg><sic>A. Heschel</sic></choice></name></author></bibl> 
 	</cit>
 	<cit>
             <quote xml:lang="eng" xml:id="X37.q02"> The secret of every being is the divine care &amp; concern that
@@ -1316,13 +1321,13 @@ are invested in it.</quote>
 </bibl>
 	</cit>
 
-	<p><note type="bilbliographic"><bibl><author>Heschel, Abraham J.</author> <title>Between God and Man</title>. Edited by
+	<p><note type="bilbliographic"><bibl><author>Heschel, Abraham J.</author> <title><rs type="title" key="Between" n="Between God and Man">Between God and Man</rs></title>. Edited by
 <editor>Fritz A. Rothschild</editor>. <pubPlace>Toronto</pubPlace>: <publisher>Collier-Macmillan</publisher>, <date>1959</date>.</bibl></note></p>
 
          </div>
          <pb n="38"/>
 <div n="X(38)" xml:id="X38" type="page">
-<figure><graphic url=""/>
+<figure><graphic url="X38.jpg"/>
   <figDesc>Page image of X(38)</figDesc>
 </figure>
 
@@ -1339,7 +1344,7 @@ cognition that it is neither possible to know the truth fully nor to
 avoid the error of pretending that he does. It is recognized that
 'grace' always remains in partial contradiction to 'nature' &amp; is
 not merely its fulfillment. </quote>
-	            <bibl><author><name><choice><reg>Niebuhr, Reinhold</reg><orig>R. Niebuhr</orig></choice></name></author></bibl>
+	            <bibl><author><name key="Niebuhr"><choice><reg>Niebuhr, Reinhold</reg><sic>R. Niebuhr</sic></choice></name></author></bibl>
 	</cit>
             <note resp="#editor" anchored="true">In the light of this
 Niebuhr passage, this from <bibl><author>Merton</author>'s private 
@@ -1359,7 +1364,7 @@ biography, but is something deeper</hi> and something that may also
 cut clean through the whole network of my own recent works, ideas,
 writing, experiences and so forth... .  </quote>[emphasis added]
                   <bibl>
-<title>A Vow of Conversation</title>. Edited &amp; introduced by <editor>Naomi
+<title><rs type="title" key="Vow" n="A Vow of Conversation">A Vow of Conversation</rs></title>. Edited &amp; introduced by <editor>Naomi
 Burton Stone</editor>. <pubPlace>New York</pubPlace>:
 <publisher>Farrar, Straus, Giroux</publisher>,
 <date>1988</date>. <biblScope type="pages">p. 88</biblScope></bibl> 
@@ -1367,7 +1372,7 @@ Burton Stone</editor>. <pubPlace>New York</pubPlace>:
          </div>
          <pb n="39"/>
 <div n="X(39)" xml:id="X39" type="page">
-<figure><graphic url=""/>
+<figure><graphic url="X39.jpg"/>
   <figDesc>Page image of X(39)</figDesc>
 </figure>
 
@@ -1384,17 +1389,17 @@ understands man only as a part. Neither advances to the wholeness of
 man, to man as a whole. Individualism sees man only in relation to
 himself, but collectivism does not see '<hi rend="underline">man</hi>' at all, it sees
 only 'society'.</quote>
-	            <bibl><author><name><choice><reg>Buber, Martin</reg><orig>Martin Buber</orig></choice></name></author></bibl>
+	            <bibl><author><name key="Buber"><choice><reg>Buber, Martin</reg><sic>Martin Buber</sic></choice></name></author></bibl>
 	</cit>
 	<cit>
  <quote xml:lang="eng" xml:id="X39.q02"> The individual is not an end in
 himself &amp; cannot live within himself. Love is the law of his
-existence.</quote> <bibl><author><name><choice><reg>Niebuhr, Reinhold</reg><orig>R. Niebuhr</orig></choice></name></author></bibl>
+existence.</quote> <bibl><author><name key="Niebuhr"><choice><reg>Niebuhr, Reinhold</reg><sic>R. Niebuhr</sic></choice></name></author></bibl>
 	</cit>
          </div>
          <pb n="40"/>
 <div n="X(40)" xml:id="X40" type="page">
-<figure><graphic url=""/>
+<figure><graphic url="X40.jpg"/>
   <figDesc>Page image of X(40)</figDesc>
 </figure>
 
@@ -1412,12 +1417,12 @@ be solved at all if the height is not achieved where the sovereign
 source &amp; end of both individual &amp; communal existence are
 discerned; &amp; where the limits are set against the idolatrous
 selfworship of both individuals and communities.</quote>
-	            <bibl><author><name><choice><reg>Niebuhr, Reinhold</reg><orig>R. Niebuhr</orig></choice></name></author></bibl>
+	            <bibl><author><name key="Niebuhr"><choice><reg>Niebuhr, Reinhold</reg><sic>R. Niebuhr</sic></choice></name></author></bibl>
 	</cit>
          </div>
          <pb n="41"/>
 <div n="X(41)" xml:id="X41" type="page">
-<figure><graphic url=""/>
+<figure><graphic url="X41.jpg"/>
   <figDesc>Page image of X(41)</figDesc>
 </figure>
 
@@ -1433,12 +1438,12 @@ selfworship of both individuals and communities.</quote>
 take the crucifix from their altars and substitute the three little
 monkeys who counsel men to 'speak no evil, hear no evil, see no
 evil.'</quote>
-	            <bibl><author><name><choice><reg>Niebuhr, Reinhold</reg><orig>R. Niebuhr</orig></choice></name></author></bibl>
+	            <bibl><author><name key="Niebuhr"><choice><reg>Niebuhr, Reinhold</reg><sic>R. Niebuhr</sic></choice></name></author></bibl>
 	</cit>
 	<cit>
             <quote xml:lang="eng" xml:id="X41.q02">Racial pride is revealed today to be man's primary collective
 sin.</quote>
-	            <bibl><author><name><choice><reg>Niebuhr, Reinhold</reg><orig>R. Niebuhr</orig></choice></name></author></bibl>
+	            <bibl><author><name key="Niebuhr"><choice><reg>Niebuhr, Reinhold</reg><sic>R. Niebuhr</sic></choice></name></author></bibl>
 	</cit>
 
             <note resp="#editor">Merton incorporates the second Niebuhr quotation in a journal
@@ -1461,11 +1466,11 @@ up by discovering that even I is not-I.) But, meanwhile, what is to
 blame is not individualism but collectivism. Reinhold Niebuhr says
 rightly: "Racial pride is revealed today as man's
 primary <hi>collective</hi>
-sin."</quote><bibl><title>Conjectures</title>, <biblScope type="pages">p. 56</biblScope>.</bibl></note>
+sin."</quote><bibl><title><rs type="title" key="Conjectures" n="Conjectures of a Guilty Bystander">Conjectures</rs></title>, <biblScope type="pages">p. 56</biblScope>.</bibl></note>
          </div>
          <pb n="42"/>
 <div n="X(42)" xml:id="X42" type="page">
-<figure><graphic url=""/>
+<figure><graphic url="X42.jpg"/>
   <figDesc>Page image of X(42)</figDesc>
 </figure>
 
@@ -1483,7 +1488,7 @@ justifier auprès des hommes."
             <note type="trans" xml:lang="eng" resp="#editor">Something is always lost in the sight of God when we want to justify
 too much in the sight of men.</note>
 </quote>
-	            <bibl><author><name><choice><reg>Mabillon</reg><orig>Mabillon</orig></choice></name></author></bibl>
+	            <bibl><author><name key="Mabillon"><choice><reg>Mabillon</reg><sic>Mabillon</sic></choice></name></author></bibl>
 	</cit>
 	<cit>
             <quote xml:lang="fre" xml:id="X42.q02">Ceux<note place="inline" resp="#editor">[-]</note>là 
@@ -1503,12 +1508,12 @@ their flame the more, in view of a more luminous and more ardent
 radiance.</note>
 
 </quote>
-	            <bibl><author><name><choice><reg>Festugiere, M</reg><orig>M. Festugière</orig></choice></name></author>.</bibl>
+	            <bibl><author><name key="Festugiere"><choice><reg>Festugiere, M</reg><sic>M. Festugière</sic></choice></name></author>.</bibl>
 	</cit>
          </div>
          <pb n="43"/>
 <div n="X(43)" xml:id="X43" type="page">
-<figure><graphic url=""/>
+<figure><graphic url="X43.jpg"/>
   <figDesc>Page image of X(43)</figDesc>
 </figure>
 
@@ -1538,13 +1543,13 @@ et includere in mediodomus tuae.
 spoke to me and said: Go in and shut thyself up in the midst of thy
 house.</note>
 </quote>
-            <bibl><title>Ezech</title> <biblScope type="verse">3:24</biblScope></bibl>
+            <bibl><title><rs type="title" key="Ezekiel" n="Bible. O.T. Ezekiel">Ezech</rs></title> <biblScope type="verse">3:24</biblScope></bibl>
 	</cit>
 	<cit>
             <quote xml:lang="eng" xml:id="X43.q03">To the extent that each man believes the end concerning future blessings &amp; despises human glory &amp; pleasures, he will have couresponding power to control his
 thoughts &amp; to be more at peace than a man who loves pleasures.</quote>
-	            <bibl><author><name><choice><reg>Mark the Ascetic, Saint</reg><orig>St. Mark The Ascetic</orig></choice></name></author><lb/>
-(<title>Philokalia</title>)</bibl>
+	            <bibl><author><name key="Mark"><choice><reg>Mark the Ascetic, Saint</reg><sic>St. Mark The Ascetic</sic></choice></name></author><lb/>
+(<title><rs type="title" key="EFP" n="Early Fathers from the Philokalia">Philokalia</rs></title>)</bibl>
 	</cit>
 
           <p><note resp="#editor">This and all subsequent translation of
@@ -1553,12 +1558,12 @@ follows the Douay version of the Latin Vulgate text. In November, 1964,
 Merton participates in an important meeting of abbots and novice
 masters, holds a retreat for for[sic] the Fellowship of
 Reconcilliation (FOR), and receives many diverse visitors. See <bibl><author>Michael
-Mott</author>, <title>The Seven Mountains of Thomas Merton</title>.
+Mott</author>, <title><rs type="title" key="SevenMtns" n="The Seven Mountains of Thomas Merton">The Seven Mountains of Thomas Merton</rs></title>.
 <biblScope type="pages">pp. 405-406</biblScope>.</bibl></note></p>
 </div>
             <pb n="44"/>
 <div n="X(44)" xml:id="X44" type="page">
-<figure><graphic url=""/>
+<figure><graphic url="X44.jpg"/>
   <figDesc>Page image of X(44)</figDesc>
 </figure>
 
@@ -1577,7 +1582,7 @@ callidi hostis insidias circumspicere.
 ought to be intent on peace of mind, for without it no one can take
 heed of the traps set for him by the cunning enemy.</note>
 </quote>
-	            <bibl><author><name><choice><reg>Anselm, Saint</reg><orig>St. Anselm</orig></choice></name></author>, Ep. 37 (S___III. 147)</bibl>
+	            <bibl><author><name key="Anselm"><choice><reg>Anselm, Saint</reg><sic>St. Anselm</sic></choice></name></author>, Ep. 37 (S___III. 147)</bibl>
 	</cit>
 	<cit>
 <quote xml:lang="lat" xml:id="X44.q02">Sed vide ne hostes derideant abbata tua, ne illis
@@ -1587,7 +1592,7 @@ that (your) enemies do not make a mockery of your sabbaths, lest your
 inactivity be of service to them, lest your leisure be for them when
 it ought to have been for God.</note>
 </quote>
-	            <bibl><author><name><choice><reg>Gilbert, of Hoyland</reg><orig>Gilbert of Hoyland</orig></choice></name></author><lb/>
+	            <bibl><author><name key="Gilbert"><choice><reg>Gilbert, of Hoyland</reg><sic>Gilbert of Hoyland</sic></choice></name></author><lb/>
 	In Cant. 11.5. PL 184, 60.</bibl>
 	</cit>
             </div>
@@ -1596,7 +1601,7 @@ it ought to have been for God.</note>
 <head>Office of Hermits</head>
 
   <div n="X(45)" xml:id="X45" type="page">
-<figure><graphic url=""/>
+<figure><graphic url="X45.jpg"/>
   <figDesc>Page image of X(45)</figDesc>
 </figure>
 
@@ -1620,7 +1625,7 @@ be worn away like a garment, and the inhabitants thereof shall perish
 in like manner: but my salvation shall be forever, and my justice
 shall not fail.</note>
 </quote>
-               <bibl><title>Isa.</title> <biblScope type="verse">51:6</biblScope></bibl>
+               <bibl><title><rs type="title" key="Isaiah" n="Bible. O.T. Isaiah">Isa.</rs></title> <biblScope type="verse">51:6</biblScope></bibl>
 	</cit>
 	<cit>
                <quote xml:lang="eng" xml:id="X45.q02">Posui verba mea in ore tuo et in umbra manus meae protexi te, ut
@@ -1631,7 +1636,7 @@ thy mouth, and have protected thee in
 the shadow of my hand, that thou mightest plant the heavens, and found
 the earth: and mightest say to Sion: Thou art my people.</note>
 </quote>
-               <bibl><title>Isa</title> <biblScope type="verse">51:16</biblScope></bibl>
+               <bibl><title><rs type="title" key="Isaiah" n="Bible. O.T. Isaiah">Isa.</rs></title> <biblScope type="verse">51:16</biblScope></bibl>
 	</cit>
 
 <note resp="#editor">* Merton is inconsistent in his use of
@@ -1641,7 +1646,7 @@ sometimes he uses the medieval.</note>
             </div>
             <pb n="46"/>
 <div n="X(46)" xml:id="X46" type="page">
-<figure><graphic url=""/>
+<figure><graphic url="X46.jpg"/>
   <figDesc>Page image of X(46)</figDesc>
 </figure>
 
@@ -1661,17 +1666,17 @@ out in a tumult, neither shall you make haste
 by flight: for the Lord will go before you, and the God of Israel will
 gather you together.</note>
 </quote>
-               <bibl><title>Isa.</title> <biblScope type="verse">52:12</biblScope></bibl>
+               <bibl><title><rs type="title" key="Isaiah" n="Bible. O.T. Isaiah">Isa.</rs></title> <biblScope type="verse">52:12</biblScope></bibl>
 	</cit>
 <cit>
 <bibl><author n="Isaac, of Nineveh">Isaac of Neneveh</author></bibl>
                <quote xml:lang="eng" xml:id="X46.q02">Sweep your cell clean of everything superfluous for this will lead
 you to abstinence, however unwillingly. Scarcity of all things teaches
 a man to be abstinent.</quote>
-               <bibl>(<title>Early Fathers from Philokalia</title>
+               <bibl>(<title><rs type="title" key="EFP" n="Early Fathers from the Philokalia">Early Fathers from Philokalia</rs></title>
 <biblScope type="pages">p. 235</biblScope>)
 <note type="bibliographic" resp="#editor"><bibl><editor role="translator">Kadloubovsky, E.</editor>
- and <editor role="translators">Palmer, G.E.H.</editor>, translators. <title>Early Fathers from the Philokalia</title>. <pubPlace>London</pubPlace>: <publisher>Faber and
+ and <editor role="translators">Palmer, G.E.H.</editor>, translators. <title><rs type="title" key="EFP" n="Early Fathers from the Philokalia">Early Fathers from the Philokalia</rs></title>. <pubPlace>London</pubPlace>: <publisher>Faber and
 Faber Limited</publisher>, <date>1954</date></bibl></note>
 </bibl>
 	</cit>
@@ -1683,7 +1688,7 @@ will not be heard.</quote> <bibl><title>EFP</title>. <biblScope type="pages">235
             </div>
             <pb n="47"/>
 <div n="X(47)" xml:id="X47" type="page">
-<figure><graphic url=""/>
+<figure><graphic url="X47.jpg"/>
   <figDesc>Page image of X(47)</figDesc>
 </figure>
 
@@ -1697,7 +1702,7 @@ will not be heard.</quote> <bibl><title>EFP</title>. <biblScope type="pages">235
                <head>X (47)</head>
                <head>("office" - cont<hi rend="superscript underline">d</hi>)</head>
 	<cit>
-	            <bibl>"Sermon" from <author><name><choice><reg>Isaac, of Nineveh</reg><orig>Isaac of N.</orig></choice><ref type="inline-note" target="#X47.q01.n01"/></name></author>
+	            <bibl>"Sermon" from <author><name key="Isaac"><choice><reg>Isaac, of Nineveh</reg><sic>Isaac of N.</sic></choice><ref type="inline-note" target="#X47.q01.n01"/></name></author>
 <note xml:id="X47.q01.n01" place="inline" resp="#editor">[ineveh]</note>
 </bibl>
                <quote xml:lang="eng" xml:id="X47.q01">Is there any need
@@ -1715,13 +1720,13 @@ for the heavenly, imitating the angels, the
                <note resp="#editor"> In a journal entry for January 11, 1965 Merton notes
 Isaac of Nineveh as a favorite:  <cit><quote xml:lang="eng" xml:id="X47.q02">A little Nietzsche is stimulating, no
 doubt, but what I really like to read is Isaac of Neneveh in the
-hermitage or Zen Masters in the fields.</quote><bibl><title>A Vow of Conversation</title>, <biblScope type="pages">p. 133</biblScope>.</bibl></cit></note>
+hermitage or Zen Masters in the fields.</quote><bibl><title><rs type="title" key="Vow" n="A Vow of Conversation">A Vow of Conversation</rs></title>, <biblScope type="pages">p. 133</biblScope>.</bibl></cit></note>
 
 
             </div>
             <pb n="48"/>
 <div n="X(48)" xml:id="X48" type="page">
-<figure><graphic url=""/>
+<figure><graphic url="X48.jpg"/>
   <figDesc>Page image of X(48)</figDesc>
 </figure>
 
@@ -1736,29 +1741,29 @@ hermitage or Zen Masters in the fields.</quote><bibl><title>A Vow of Conversatio
                <quote xml:lang="eng" xml:id="X48.q01"> holy angels themselves have deemed it right not to conceal from
 them their countenance &amp; have fulfilled their every wish, giving
 them all possible help. </quote>
-               <bibl><title>EFP</title>. <biblScope type="pages">p
+               <bibl><title><rs type="title" key="EFP" n="Early Fathers from the Philokalia">EFP</rs></title>. <biblScope type="pages">p
 237</biblScope>.</bibl>
 	</cit>
 	<milestone unit="section" rend="plus"/>
 	<cit>
-	            <bibl>(<author><name><choice><reg>Isaac, of Nineveh</reg><orig>Isaac</orig></choice></name></author>. contd)</bibl>
+	            <bibl>(<author><name key="Isaac"><choice><reg>Isaac, of Nineveh</reg><sic>Isaac</sic></choice></name></author>. contd)</bibl>
                <quote xml:lang="eng" xml:id="X48.q02"> He is a monk who stays outside the world &amp; is
 ever praying to God so that he may gain future blesshings. A monk's
 wealth is the comfort he finds in mourning, &amp; the joy of faith
 which shines in the secret places of his
 mind.</quote>
-               <bibl><title>EFP</title>. <biblScope type="pages">240</biblScope></bibl>
+               <bibl><title><rs type="title" key="EFP" n="Early Fathers from the Philokalia">EFP</rs></title>. <biblScope type="pages">240</biblScope></bibl>
 	</cit>
 	<cit>
                <quote xml:lang="eng" xml:id="X48.q03"> Blessed are those who from love of God have girded their loins
 with unquestioningsimplicity for this sea of suffering &amp; who do not
 turn back.</quote>
-               <bibl><title>EFP</title> <biblScope type="pages">244</biblScope></bibl>
+               <bibl><title><rs type="title" key="EFP" n="Early Fathers from the Philokalia">EFP</rs></title> <biblScope type="pages">244</biblScope></bibl>
 	</cit>
             </div>
             <pb n="49"/>
 <div n="X(49)" xml:id="X49" type="page">
-<figure><graphic url=""/>
+<figure><graphic url="X49.jpg"/>
   <figDesc>Page image of X(49)</figDesc>
 </figure>
 
@@ -1774,19 +1779,19 @@ turn back.</quote>
 first ardour, having no care at all for the body nor deliberating in
 itself as to whether or no its labour begun will in any wise
 succeed.</quote>
-	            <bibl>(<author><name><choice><reg>Isaac, of Nineveh</reg><orig>Isaac</orig></choice></name></author>. <title>EFP</title>. <biblScope type="pages">244</biblScope>)</bibl>
+	            <bibl>(<author><name key="Isaac"><choice><reg>Isaac, of Nineveh</reg><sic>Isaac</sic></choice></name></author>. <title>EFP</title>. <biblScope type="pages">244</biblScope>)</bibl>
 	</cit>
 	<milestone unit="section" rend="plus"/>
 	<cit>
                <quote xml:lang="eng" xml:id="X49.q02">God commands that we should undertake the work with readiness to
 die for the sake of pleasing Him, &amp; He promises to crown the
 faithful laborer with the honour of martyrdom.</quote>
-               <bibl><title>EFP</title>. <biblScope type="pages">246</biblScope></bibl>
+               <bibl><title><rs type="title" key="EFP" n="Early Fathers from the Philokalia">EFP</rs></title>. <biblScope type="pages">246</biblScope></bibl>
 	</cit>
             </div>
             <pb n="50"/>
 <div n="X(50)" xml:id="X50" type="page">
-<figure><graphic url=""/>
+<figure><graphic url="X50.jpg"/>
   <figDesc>Page image of X(50)</figDesc>
 </figure>
 
@@ -1807,7 +1812,7 @@ servos meos ut non disperdam totum.
 it be said: Destroy it not, because it is a blessing: so will I do for
 the sake of my servants, that I may not destroy the whole.</note>
 </quote>
-               <bibl><title>Isa.</title> <biblScope type="verse">65:8</biblScope></bibl>
+               <bibl><title><rs type="title" key="Isaiah" n="Bible. O.T. Isaiah">Isa.</rs></title> <biblScope type="verse">65:8</biblScope></bibl>
 	</cit>
 	<cit>
               <quote xml:lang="lat" xml:id="X50.q02">Ad quem autem respiciam nisi ad pauperculum et contritum spiritu
@@ -1815,7 +1820,7 @@ et trementem sermones meos.
                <note type="trans" xml:lang="eng" resp="#editor">But to whom shall I look but to him that is poor and little,
 and of a contrite spirit, and that trembleth at my words?</note>
 </quote>
-               <bibl><title>Isa</title>. <biblScope type="verse">66:2</biblScope></bibl>
+               <bibl><title><rs type="title" key="Isaiah" n="Bible. O.T. Isaiah">Isa.</rs></title> <biblScope type="verse">66:2</biblScope></bibl>
 	</cit>
 <p>	⊛ <!-- asterisk with a circle around it --></p>
 	<cit>
@@ -1826,7 +1831,7 @@ laetitiam et gaudium.
 conversation hath no bitterness, nor her company any tediousness, but
 joy and gladness.</note>
 </quote>
-               <bibl><title>Sap</title> <biblScope type="verse">8:16</biblScope></bibl><lb/>
+               <bibl><title><rs type="title" key="WisdomSol" n="Bible. O.T. Apocrypha. Wisdom of Solomon">Sap</rs></title> <biblScope type="verse">8:16</biblScope></bibl><lb/>
 	</cit>
 <p> (<date when="1965-01-31">Jan 31, 1965</date>)<ref target="#X50.n01">*</ref></p>
 
@@ -1846,7 +1851,7 @@ Was it limited only to the quotation of Sap 8:16 marked by Merton's
 marginalia which signals its importance? Merton's birth date at this
 place may well have been added later by him, though this does not
 lessen the significance of either the entire page or the one
-passage.In any case, the passages of Merton's "office" can be
+passage. In any case, the passages of Merton's "office" can be
 allowed to "sing" with journal entries marked as written on the
 vigil of his birthday and the anniversary itself (<date from="1965-01-30" to="1965-01-31">Jan. 30-31, 1965</date>):
 <quote xml:lang="eng" xml:id="X50.q04">What I find most in my whole life is illusion, wanting to be something
@@ -1863,15 +1868,15 @@ birth from my mother's womb you have been my God'</quote> (Jan 30) I can
 imagine no greater cause for gratitude on my fiftieth birthday than:
 that, on it, I woke up in a hermitage. Fierce cold all night,
 ... . Inside the house, it almost froze, though embers still glowed
-under the ashes in the fireplace. The cold woke meup at one point, but
+under the ashes in the fireplace. The cold woke me up at one point, but
 I adjusted the blankets and went back to sleep.  What more do I seek
 than this silence, this simplicity, this living together with
 wisdom ? For me, there is nothing else...</quote> [emphasis added]
-(Jan 31) <bibl><title>A Vow of Conversation</title>, <biblScope type="pages">pp. 141-142</biblScope>.</bibl></note> 
+(Jan 31) <bibl><title><rs type="title" key="Vow" n="A Vow of Conversation">A Vow of Conversation</rs></title>, <biblScope type="pages">pp. 141-142</biblScope>.</bibl></note> 
             </div>
             <pb n="51"/>
 <div n="X(51)" xml:id="X51" type="page">
-<figure><graphic url=""/>
+<figure><graphic url="X51.jpg"/>
   <figDesc>Page image of X(51)</figDesc>
 </figure>
 
@@ -1885,8 +1890,8 @@ wisdom ? For me, there is nothing else...</quote> [emphasis added]
 	<cit>
                <quote xml:lang="eng" xml:id="X51.q01"> The Lord suffers all human weaknesses but abhors a man who is
 always complaining, &amp; does not leave him without a lesson. </quote>
-	            <bibl><author><name><choice><reg>Isaac, of Nineveh</reg><orig>Isaac of N.</orig></choice></name></author>
-<title>EFP</title>. <biblScope type="pages">p. 269</biblScope></bibl>
+	            <bibl><author><name key="Isaac"><choice><reg>Isaac, of Nineveh</reg><sic>Isaac of N.</sic></choice></name></author>
+<title><rs type="title" key="EFP" n="Early Fathers from the Philokalia">EFP</rs></title>. <biblScope type="pages">p. 269</biblScope></bibl>
 	</cit>
 	<cit>
                <quote xml:lang="eng" xml:id="X51.q02">A man who remembering God respects every man, by a
@@ -1899,12 +1904,12 @@ cogitatus illius.
          <note type="trans" xml:lang="eng" resp="#editor">The heart of a fool is as a wheel of a cart, and his thoughts
 are like a rolling axletree.</note>
 </quote>
-               <bibl><title>Eccli. <note place="inline" resp="#editor">[Ecclesiasticus]</note></title> <biblScope type="verse">33:5</biblScope> </bibl> 
+               <bibl><title><rs type="title" key="Ecclesiasticus" n="Bible. O.T. Apocrypha. Ecclesiasticus">Eccli.</rs> <note place="inline" resp="#editor">[Ecclesiasticus]</note></title> <biblScope type="verse">33:5</biblScope> </bibl> 
 	</cit>
             </div>
             <pb n="52"/>
 <div n="X(52)" xml:id="X52" type="page">
-<figure><graphic url=""/>
+<figure><graphic url="X52.jpg"/>
   <figDesc>Page image of X(52)</figDesc>
 </figure>
 
@@ -1938,7 +1943,7 @@ the fruit of its womb.</note>
             </div>
             <pb n="53"/>
 <div n="X(53)" xml:id="X53" type="page">
-<figure><graphic url=""/>
+<figure><graphic url="X53.jpg"/>
   <figDesc>Page image of X(53)</figDesc>
 </figure>
 
@@ -1964,12 +1969,12 @@ have not been sated: you have drunk, but have not been inebriated: you
 have clothed yourselves, but have not been warmed: and he that hath
 earned wages, put them into a bag with holes.</note>
 </quote>
-               <bibl><title>Aggaeus</title> <biblScope type="verse">1:5-6</biblScope></bibl>
+               <bibl><title><rs type="title" key="Haggai" n="Bible. O.T. Haggai">Aggaeus</rs></title> <biblScope type="verse">1:5-6</biblScope></bibl>
 	</cit>
             </div>
             <pb n="54"/>
 <div n="X(54)" xml:id="X54" type="page">
-<figure><graphic url=""/>
+<figure><graphic url="X54.jpg"/>
   <figDesc>Page image of X(54)</figDesc>
 </figure>
 
@@ -1997,12 +2002,12 @@ without quarrel. Let not the discourse of the ancients escape thee,
 for they have learned of their fathers: for of them thou shalt learn
 understanding, and to given an answer in time of need.</note>
 </quote>
-               <bibl><title>Ecclus.</title> <biblScope type="verse">VIII. 9-12</biblScope>.</bibl>
+               <bibl><title><rs type="title" key="Ecclesiasticus" n="Bible. O.T. Apocrypha. Ecclesiasticus">Ecclus.</rs></title> <biblScope type="verse">VIII. 9-12</biblScope>.</bibl>
 	</cit>
             </div>
             <pb n="55"/>
 <div n="X(55)" xml:id="X55" type="page">
-<figure><graphic url=""/>
+<figure><graphic url="X55.jpg"/>
   <figDesc>Page image of X(55)</figDesc>
 </figure>
 
@@ -2033,12 +2038,12 @@ understanding, and to given an answer in time of need.</note>
                      <l> Be wilderness.</l>
                   </lg>
                </quote>
-	            <bibl><author><name><choice><reg>Mccharius, A of Mazt</reg><orig>Mccha, A. of Mazt.</orig></choice></name></author></bibl>
+	            <bibl><author><name key="Mccharius"><choice><reg>Mccharius, A of Mazt</reg><sic>Mccha, A. of Mazt.</sic></choice></name></author></bibl>
 	</cit>
             </div>
             <pb n="56"/>
 <div n="X(56)" xml:id="X56" type="page">
-<figure><graphic url=""/>
+<figure><graphic url="X56.jpg"/>
   <figDesc>Page image of X(56)</figDesc>
 </figure>
 
@@ -2070,12 +2075,12 @@ manifested himself to the world through you, so too, I beg, may he
 have pity on me without delay for your sake. Who lives and
 reigns.</note>
 </quote>
-	            <bibl>(<author><name><choice><reg>Odo, Saint, Abbot of Cluny</reg><orig>St. Odo</orig></choice></name></author>)</bibl>	
+	            <bibl>(<author><name key="Odo"><choice><reg>Odo, Saint, Abbot of Cluny</reg><sic>St. Odo</sic></choice></name></author>)</bibl>	
 	</cit>
             </div>
             <pb n="57"/>
 <div n="X(57)" xml:id="X57" type="page">
-<figure><graphic url=""/>
+<figure><graphic url="X57.jpg"/>
   <figDesc>Page image of X(57)</figDesc>
 </figure>
 
@@ -2093,7 +2098,7 @@ meritum tuum.
 keep thy soul in meekness, and give it 
 honor according to its desert.</note>
 </quote>
-               <bibl><title>Eccli.</title> <biblScope type="verse">10:31</biblScope></bibl>
+               <bibl><title><rs type="title" key="Ecclesiasticus" n="Bible. O.T. Apocrypha. Ecclesiasticus">Eccli.</rs></title> <biblScope type="verse">10:31</biblScope></bibl>
 	</cit>
 	<p>(Stability in solitude.)</p>
 	<cit>
@@ -2107,12 +2112,12 @@ conversant therein, and grow old in the work of thy
 commandments. Abide not in the works of sinners, <hi rend="underline">but trust in God
 and stay in thy place</hi>.</note>
 </quote>
-               <bibl><title>Eccli.</title> <biblScope type="verse">11:21-22</biblScope>.</bibl>
+               <bibl><title><rs type="title" key="Ecclesiasticus" n="Bible. O.T. Apocrypha. Ecclesiasticus">Eccli.</rs></title> <biblScope type="verse">11:21-22</biblScope>.</bibl>
 	</cit>
             </div>
             <pb n="58"/>
 <div n="X(58)" xml:id="X58" type="page">
-<figure><graphic url=""/>
+<figure><graphic url="X58.jpg"/>
   <figDesc>Page image of X(58)</figDesc>
 </figure>
 
@@ -2125,7 +2130,7 @@ and stay in thy place</hi>.</note>
                <head>X (58)</head>
                <head rend="underline">office</head>
 	<cit>
-	            <bibl>Prayer of <author><name><choice><reg>Fulbert, Saint, Bishop of Chartres</reg><orig>Fulbert of Chartres</orig></choice></name></author> (<biblScope>excerpt</biblScope>)</bibl>
+	            <bibl>Prayer of <author><name key="Fulbert"><choice><reg>Fulbert, Saint, Bishop of Chartres</reg><sic>Fulbert of Chartres</sic></choice></name></author> (<biblScope>excerpt</biblScope>)</bibl>
                <quote xml:id="X58.q01" xml:lang="lat"> Impetra
 michi sancta Virgo Maria spatium et locum penitentiae ut non sinar in
 vacuum ducere dies huic mortali vitae concessos. Sancta Dei Genitrix
@@ -2147,7 +2152,7 @@ only for my own sins but also for those committed by others.</note>
             </div>
             <pb n="59"/>
 <div n="X(59)" xml:id="X59" type="page">
-<figure><graphic url=""/>
+<figure><graphic url="X59.jpg"/>
   <figDesc>Page image of X(59)</figDesc>
 </figure>
 
@@ -2159,7 +2164,7 @@ only for my own sins but also for those committed by others.</note>
 	</dateline> 
                <head>X (59) </head>
 	<cit>
-	            <bibl>From Psalter of <author><name><choice><reg>Robert of Molesme, Saint</reg><orig>Robert of Molesme</orig></choice></name></author></bibl>
+	            <bibl>From Psalter of <author><name key="Robert"><choice><reg>Robert of Molesme, Saint</reg><sic>Robert of Molesme</sic></choice></name></author></bibl>
                <quote xml:id="X59.q01" xml:lang="lat">O intemerata et in
 aeternum benedicta, specialis et incomparabilis Dei Genitrix Virgo
 Maria, gratissimum Dei templum, Spiritus Sancti sacrarium, ianua
@@ -2179,7 +2184,7 @@ well-disposed helper.</note>
             </div>
             <pb n="60"/>
 <div n="X(60)" xml:id="X60" type="page">
-<figure><graphic url=""/>
+<figure><graphic url="X60.jpg"/>
   <figDesc>Page image of X(60)</figDesc>
 </figure>
 
@@ -2220,7 +2225,7 @@ up to the clouds.</note>
             </div>
             <pb n="61"/>
 <div n="X(61)" xml:id="X61" type="page">
-<figure><graphic url=""/>
+<figure><graphic url="X61.jpg"/>
   <figDesc>Page image of X(61)</figDesc>
 </figure>
 
@@ -2241,13 +2246,13 @@ from one thing to another, searching for the goods of your soul and of
 your body? Love the one good in which are all goods, and that will
 suffice.</note>
 </quote>
-	            <bibl><author><name><choice><reg>Anselm, Saint</reg><orig>Anselm</orig></choice></name></author>. <title>Proslogion</title>
+	            <bibl><author><name key="Anselm"><choice><reg>Anselm, Saint</reg><sic>Anselm</sic></choice></name></author>. <title><rs type="title" key="Proslogion" n="Proslogion">Proslogion</rs></title>
 <biblScope type="chapter">XXV</biblScope></bibl>
 	</cit>
             </div>
             <pb n="62"/>
 <div n="X(62)" xml:id="X62" type="page">
-<figure><graphic url=""/>
+<figure><graphic url="X62.jpg"/>
   <figDesc>Page image of X(62)</figDesc>
 </figure>
 
@@ -2269,7 +2274,7 @@ infirmity. But they that hope in the Lord shall renew their strength,
 they shall take wings as eagles, they shall run and not be weary, they
 shall walk and not faint.</note>
 </quote>
-               <bibl><title>Isa.</title> <biblScope type="verse">40:30-31</biblScope></bibl>
+               <bibl><title><rs type="title" key="Isaiah" n="Bible. O.T. Isaiah">Isa.</rs></title> <biblScope type="verse">40:30-31</biblScope></bibl>
 	</cit>
 	<cit>
                <quote xml:id="X62.q02" xml:lang="lat">Et exspectabo Dominum qui abscondit faciem suam a domo Jacob et
@@ -2278,7 +2283,7 @@ praestolabor eum.
 the Lord, who hath hid his face from the house of Jacob, and I will look for
 him.</note>
 </quote>
-               <bibl><title>Isa.</title> <biblScope type="verse">8:17</biblScope></bibl>
+               <bibl><title><rs type="title" key="Isaiah" n="Bible. O.T. Isaiah">Isa.</rs></title> <biblScope type="verse">8:17</biblScope></bibl>
 	</cit>
 
 <note anchored="true" resp="#editor">That Isaias be included in the
@@ -2297,13 +2302,13 @@ me room to dwell in</quote> <bibl>(<title>Isaias</title>,
 <biblScope type="verse">49:20</biblScope>)</bibl>. I die of love for you, 
 Compassion: I take you for my Lady, as Francis married poverty I marry
 you, the Queen of hermits and the Mother of the poor.</quote> 
-<bibl><title>The Sign of Jonas</title>. <pubPlace>New York</pubPlace>:
+<bibl><title><rs type="title" key="SignJonas" n="The Sign of Jonas">The Sign of Jonas</rs></title>. <pubPlace>New York</pubPlace>:
 <publisher>Image Books</publisher> edition,
 <date>1956</date>. <biblScope type="pages">pp. 323-324</biblScope>.</bibl></note> 
             </div>
             <pb n="63"/>
 <div n="X(63)" xml:id="X63" type="page">
-<figure><graphic url=""/>
+<figure><graphic url="X63.jpg"/>
   <figDesc>Page image of X(63)</figDesc>
 </figure>
 
@@ -2327,14 +2332,14 @@ weak, and he gave salvation to his creation, destroying sin. Thus, he
 is a most faithful and merciful Lord, one who loves the human
 race.</note>
                </quote>
-	            <bibl><author><name><choice><reg>Irenaeus, Saint, Bishop of Lyon</reg><orig>t. Irenaeus</orig></choice></name></author> <title>Adv.</title>
+	            <bibl><author><name key="Irenaeus"><choice><reg>Irenaeus, Saint, Bishop of Lyon</reg><sic>t. Irenaeus</sic></choice></name></author> <title>Adv.</title>
 	<biblScope type="section">III.xix.5</biblScope>  (_____
 <biblScope type="pages">p. 47n</biblScope>.)</bibl>
 	</cit>
             </div>
             <pb n="64"/>
 <div n="X(64)" xml:id="X64" type="page">
-<figure><graphic url=""/>
+<figure><graphic url="X64.jpg"/>
   <figDesc>Page image of X(64)</figDesc>
 </figure>
 
@@ -2353,7 +2358,7 @@ them also my sabbaths to be a sign between me and them: and that they
 might know that I am the Lord that sanctify
 them.</note>
                </quote>
-               <bibl><title>Ezech.</title> <biblScope type="verse">XX. 12</biblScope></bibl>
+               <bibl><title><rs type="title" key="Ezekiel" n="Bible. O.T. Ezekiel">Ezech.</rs></title> <biblScope type="verse">XX. 12</biblScope></bibl>
 	</cit>
 	<cit>
                <quote xml:id="X64.q02" xml:lang="lat">Dixi autem ad filios eorum in solitudine: In praeceptis patrum
@@ -2369,12 +2374,12 @@ am the Lord your God: walk ye in my statutes and observe my judgments,
 and do them. And sanctify my sabbaths, that they may be a sign between
 me and you: and that you may know that I am the Lord your God.</note>
                </quote>
-               <bibl><title>Ezech.</title> <biblScope type="verse">XX. 18-20</biblScope></bibl>
+               <bibl><title><rs type="title" key="Ezekiel" n="Bible. O.T. Ezekiel">Ezech.</rs></title> <biblScope type="verse">XX. 18-20</biblScope></bibl>
 	</cit>
             </div>
             <pb n="65"/>
 <div n="X(65)" xml:id="X65" type="page">
-<figure><graphic url=""/>
+<figure><graphic url="X65.jpg"/>
   <figDesc>Page image of X(65)</figDesc>
 </figure>
 
@@ -2400,12 +2405,12 @@ for a man that might set up a hedge and stand in the gap before me in
 favor of the land, that I might not destroy it: and I found
 none.</note>
                </quote>
-               <bibl><title>Ezech.</title> <biblScope type="chapter">XXII. </biblScope><note place="inline" resp="#editor">[26b, 30]</note></bibl>
+               <bibl><title><rs type="title" key="Ezekiel" n="Bible. O.T. Ezekiel">Ezech.</rs></title> <biblScope type="chapter">XXII. </biblScope><note place="inline" resp="#editor">[26b, 30]</note></bibl>
 	</cit>
             </div>
             <pb n="66"/>
 <div n="X(66)" xml:id="X66" type="page">
-<figure><graphic url=""/>
+<figure><graphic url="X66.jpg"/>
   <figDesc>Page image of X(66)</figDesc>
 </figure>
 
@@ -2424,7 +2429,7 @@ misericordiam et judicium custodi et spera in Deo tuo semper.
 wind and followeth the heat all the day long. He multiplies lies and
 desolation... Therefore turn thou to thy God: keep mercy and judgment
 and hope in thy God always.</note></quote>
-               <bibl><title>Osee.</title> <biblScope type="verse">12:2,7</biblScope>.
+               <bibl><title><rs type="title" key="Hosea" n="Bible. O.T. Hosea">Osee.</rs></title> <biblScope type="verse">12:2,7</biblScope>.
 <note resp="#editor">[in standard editions, verses are 1 and
 6.]</note></bibl>
 	</cit>
@@ -2438,34 +2443,34 @@ and hope in thy God always.</note></quote>
 
   <listBibl>
 
-<bibl><author>A Friend of God (14th Century)</author>. <title>The Book of the Poor in Spirit</title>. Edited by
+<bibl><author>A Friend of God (14th Century)</author>. <title><rs type="title" key="PoorinSpirit" n="The Book of the Poor in Spirit">The Book of the Poor in Spirit</rs></title>. Edited by
 <editor>C.F. Kelley</editor>. <pubPlace>New York</pubPlace>,
 <publisher>Harper &amp; Brothers</publisher>,
 <date>1954</date>.</bibl>
 
-<bibl><author><name><choice><reg></reg><orig></orig></choice>="Bars">Bars, Henry</name></author>. <title>Maritain en Notre Temps</title>. <pubPlace>Paris</pubPlace>, <publisher>Editions Bernard
+<bibl><author><name key="Bars">Bars, Henry</name></author>. <title><rs type="title" key="Maritain-NT" n="Maritain en Notre Temps">Maritain en Notre Temps</rs></title>. <pubPlace>Paris</pubPlace>, <publisher>Editions Bernard
 Grasset</publisher>, <date>1959</date>.</bibl>
 
-<bibl><author><name><choice><reg></reg><orig></orig></choice>="Basetti-Sani">Basetti-Sani, Giulio</name></author>. <title>Mohammed et Saint Francois</title>. <pubPlace>Ottawa</pubPlace>, <publisher>Commissariat
+<bibl><author><name key="Basetti-Sani">Basetti-Sani, Giulio</name></author>. <title><rs type="title" key="Mohammed" n="Mohammed et St. Francois">Mohammed et Saint Francois</rs></title>. <pubPlace>Ottawa</pubPlace>, <publisher>Commissariat
 De TerreSainte</publisher>, <date>1959</date>.</bibl>
 
-<bibl><author><name><choice><reg></reg><orig></orig></choice>="Frankl">Frankl, Victor E.</name></author> <title>From Death Camp to Existentialism</title>. <pubPlace>Boston</pubPlace>, <publisher>Beacon
+<bibl><author><name key="Frankl">Frankl, Victor E.</name></author> <title><rs type="title" key="DeathCamp" n="From Death Camp to Existentialism">From Death Camp to Existentialism</rs></title>. <pubPlace>Boston</pubPlace>, <publisher>Beacon
 Press</publisher>, <date>1959</date>.</bibl>
 
-<bibl><author><name><choice><reg></reg><orig></orig></choice>="Heschel">Heschel, Abraham J.</name></author>
-<title>Between God and Man</title>. Edited by <editor>Fritz
+<bibl><author><name key="Heschel">Heschel, Abraham J.</name></author>
+<title><rs type="title" key="Between" n="Between God and Man">Between God and Man</rs></title>. Edited by <editor>Fritz
 A. Rothschild</editor>. <pubPlace>Toronto</pubPlace>,
 <publisher>Collier Macmillan</publisher>, <date>1959</date>.</bibl>
 
-<bibl><editor role="translator">Kadloubovsky, E.</editor> and <editor role="translator">Palmer, G.E.H.</editor>, translators. <title>Early Fathers from the Philokalia</title>. <pubPlace>London</pubPlace>,
+<bibl><editor role="translator">Kadloubovsky, E.</editor> and <editor role="translator">Palmer, G.E.H.</editor>, translators. <title><rs type="title" key="EFP" n="Early Fathers from the Philokalia">Early Fathers from the Philokalia</rs></title>. <pubPlace>London</pubPlace>,
 <publisher>Faber &amp; Faber, Ltd.</publisher>,
 <date>1953</date>.</bibl>
 
-<bibl><author><name><choice><reg></reg><orig></orig></choice>="Scholem">Scholem, Gershom G.</name></author> <title>Major Trends in Jewish Mysticism</title>. <pubPlace>New York</pubPlace>,
+<bibl><author><name key="Scholem">Scholem, Gershom G.</name></author> <title><rs type="title" key="JewishMysticism" n="Major Trends in Jewish Mysticism">Major Trends in Jewish Mysticism</rs></title>. <pubPlace>New York</pubPlace>,
 <publisher>Schocken Books, Inc.</publisher>, <date>1946</date>.</bibl>
 
 
-<bibl><author><name><choice><reg></reg><orig></orig></choice>="Sophrony">Sofrony, Archimandrite</name></author>. <title>The Undistorted Image</title>. Translated by <editor role="translator">Rosemary
+<bibl><author><name key="Sophrony">Sofrony, Archimandrite</name></author>. <title><rs type="title" key="Undistorted" n="The Undistorted Image">The Undistorted Image</rs></title>. Translated by <editor role="translator">Rosemary
 Edmunds</editor>. <pubPlace>London</pubPlace>, <publisher>The Faith
 Press</publisher>, <date>1958</date>.</bibl>
 </listBibl>
@@ -2474,13 +2479,13 @@ Press</publisher>, <date>1958</date>.</bibl>
 <div xml:id="index" type="index">
  <head>Index to Thomas Merton's Journal # 10, "The Red Diary"</head>
 <list>
-<item><title>A Vow of Conversation</title>, <ref target="#X38">n. 38</ref>, <ref target="#X47">n. 47</ref>, <ref target="#X50">n. 50</ref></item>
+<item><title><rs type="title" key="Vow" n="A Vow of Conversation">A Vow of Conversation</rs></title>, <ref target="#X38">n. 38</ref>, <ref target="#X47">n. 47</ref>, <ref target="#X50">n. 50</ref></item>
 <item>Akasakov, I., <ref target="#X06">6</ref></item>
 <item>Anselm, Saint, <ref target="#X44">44</ref>, <ref target="#X61">61</ref></item>
 <item>Bars, H., <ref target="#X23">23</ref></item>
 <item>Barth, Karl, <ref target="#X36">36</ref></item>
 <item>Basetti-Sani, G., <ref target="#X29">29</ref></item>
-<item><title>Between God and Man</title>, <ref target="#X37">37</ref></item>
+<item><title><rs type="title" key="Between" n="Between God and Man">Between God and Man</rs></title>, <ref target="#X37">37</ref></item>
 <item>Boulgakov, S., <ref target="#X12">12</ref></item>
 <item>Buber, Martin, <ref target="#X39">39</ref></item>
 <item>Bukharev, A.M., <ref target="#X09">9</ref>, <ref target="#X10">10</ref>, <ref target="#X11">11</ref></item>
@@ -2489,11 +2494,11 @@ Press</publisher>, <date>1958</date>.</bibl>
 <item>Chuang Tzu, <ref target="#X24">24</ref>-<ref target="#X28">28</ref>, <ref target="#X31">31</ref></item>
 <item>Clement, O., <ref target="#X32">32</ref></item>
 <item>Collectivism, <ref target="#X39">39</ref>-<ref target="#X41">41</ref></item>
-<item><title>Conjectures of A Guilty Bystander</title>, <ref target="#X07">n. 7</ref>, <ref target="#X28">n. 28</ref>,
+<item><title><rs type="title" key="Conjectures" n="Conjectures of a Guilty Bystander">Conjectures of A Guilty Bystander</rs></title>, <ref target="#X07">n. 7</ref>, <ref target="#X28">n. 28</ref>,
 <ref target="#X33">n. 33</ref>, <ref target="#X41">n. 41</ref></item>
 <item>Del Vasto, Lanza, <ref target="#X18">18</ref></item>
 <item>Dostoievsky, Fyodor, <ref target="#X05">5</ref></item>
-<item><title>Early Fathers from the Philokalia</title>, <ref target="#X43">43</ref>, <ref target="#X46">46</ref>-<ref target="#X49">49</ref>, <ref target="#X51">51</ref></item>
+<item><title><rs type="title" key="EFP" n="Early Fathers from the Philokalia">Early Fathers from the Philokalia</rs></title>, <ref target="#X43">43</ref>, <ref target="#X46">46</ref>-<ref target="#X49">49</ref>, <ref target="#X51">51</ref></item>
 <item><title n="Bible. O.T. Apocrypha. Ecclesiasticus">Ecclesiasticus</title>, <ref target="#X51">51</ref>, <ref target="#X54">54</ref>, <ref target="#X57">57</ref></item>
 <item>Ephraim, Saint, <ref target="#X05">5</ref></item>
 <item>Essence of Christianity, <ref target="#X05">5</ref></item>
@@ -2536,7 +2541,7 @@ Press</publisher>, <date>1958</date>.</bibl>
 <item><title n="Bible. O.T. Hosea">Osee</title>, <ref target="#X66">66</ref></item>
 <item>Our Father, the prayer, in Greek, <ref target="#X04">4</ref></item>
 <item>Palmer, G.E.H., <ref target="#X46">46</ref></item>
-<item><title>Philokalia</title>, <ref target="#X16">16</ref>, <ref target="#X43">43</ref>, <ref target="#X46">46</ref>-<ref target="#X49">49</ref>, <ref target="#X51">51</ref></item>
+<item><title><rs type="title" key="EFP" n="Early Fathers from the Philokalia">Philokalia</rs></title>, <ref target="#X16">16</ref>, <ref target="#X43">43</ref>, <ref target="#X46">46</ref>-<ref target="#X49">49</ref>, <ref target="#X51">51</ref></item>
 <item>Prajnaparamita Sutra, <ref target="#X29">29</ref></item>
 <item>Prayer, <ref target="#X33">33</ref>, <ref target="#X35">35</ref></item>
 <item>Prayers, Our Father, <ref target="#X04">4</ref>, of St. Ephrain, <ref target="#X05">5</ref>, of St. Odo, <ref target="#X56">56</ref>, of
@@ -2553,10 +2558,10 @@ Fulbert of Chartres, <ref target="#X58">58</ref>, from Psalter of Robert of Mole
 <item>Stability in solitude, <ref target="#X57">57</ref></item>
 <item>Suffering as a task, <ref target="#X19">19</ref>-<ref target="#X20">20</ref>, <ref target="#X48">48</ref></item>
 <item>Sylvan, Staretz, <ref target="#X33">33</ref></item>
-<item><title>The Book of the Poor in Spirit</title>, <ref target="#X30">30</ref></item>
-<item><title>The Seven Mountains of Thomas Merton</title>, <ref target="#X43">n. 43</ref></item>
-<item><title>The Sign of Jonas</title>, <ref target="#X62">n. 62</ref></item>
-<item><title>The Undistorted Image</title>, <ref target="#X33">33</ref></item>
+<item><title><rs type="title" key="PoorinSpirit" n="The Book of the Poor in Spirit">The Book of the Poor in Spirit</rs></title>, <ref target="#X30">30</ref></item>
+<item><title><rs type="title" key="SevenMtn" n="The Seven Mountains of Thomas Merton">The Seven Mountains of Thomas Merton</rs></title>, <ref target="#X43">n. 43</ref></item>
+<item><title><rs type="title" key="SignJonas" n="The Sign of Jonas">The Sign of Jonas</rs></title>, <ref target="#X62">n. 62</ref></item>
+<item><title><rs type="title" key="Undistorted" n="The Undistorted Image">The Undistorted Image</rs></title>, <ref target="#X33">33</ref></item>
 <item>Wisdom, <ref target="#X26">26</ref>, <ref target="#X29">29</ref>, <ref target="#X34">34</ref>, <ref target="#X37">37</ref>, <ref target="#X50">50</ref>, <ref target="#X54">54</ref></item>
 </list>
 </div>
@@ -2582,55 +2587,55 @@ Fulbert of Chartres, <ref target="#X58">58</ref>, from Psalter of Robert of Mole
 <item><label><ref target="#X16">16</ref></label> Peter Favre, S.J. [French]</item>
 <item><label><ref target="#X17">17</ref></label> Peter Canisius, S.J. [French]</item>
 <item><label><ref target="#X18">18</ref></label> Lanza del Vasto [French]</item>
-<item><label><ref target="#X19">19</ref> - <ref target="#X20">20</ref></label> Victor Frankl, <title>from Death Camp to Existentialism</title></item> 
+<item><label><ref target="#X19">19</ref> - <ref target="#X20">20</ref></label> Victor Frankl, <title><rs type="title" key="DeathCamp" n="From Death Camp to Existentialism">From Death Camp to Existentialism</rs></title></item> 
 <item><label><ref target="#X21">21</ref></label> blank</item>
 <item><label><ref target="#X22">22</ref></label> Rabbi Hanina from
-<title>Major Trends in Jewish Mysticism</title></item>
+<title><rs type="title" key="JewishMysticism" n="Major Trends in Jewish Mysticism">Major Trends in Jewish Mysticism</rs></title></item>
 <item><label><ref target="#X23">23</ref></label> Jaques Maritain</item>
 <item><label><ref target="#X24">24</ref> - <ref target="#X28">28</ref></label> Chuang Tzu</item>
 <item><label><ref target="#X29">29</ref></label> Prajnaparamita Sutra</item>
-<item><label><ref target="#X30">30</ref></label> <title>Book of the Poor in Spirit</title></item>
+<item><label><ref target="#X30">30</ref></label> <title><rs type="title" key="PoorinSpirit" n="The Book of the Poor in Spirit">Book of the Poor in Spirit</rs></title></item>
 <item><label><ref target="#X31">31</ref></label> Chuang Tzu</item>
 <item><label><ref target="#X32">32</ref></label> O. Clement; Staretz Macarius of Optino</item>
 <item><label><ref target="#X33">33</ref></label> Macarius of Optino; Staretz Sylvan</item>
 <item><label><ref target="#X34">34</ref></label> Macarius of Optino; Archimandrite Sophrony</item>
 <item><label><ref target="#X35">35</ref></label> Archimandrite Sophrony</item>
 <item><label><ref target="#X36">36</ref></label> Karl Barth</item>
-<item><label><ref target="#X37">37</ref></label> Abraham J. Heschel, <title>Between God and Man</title></item>
+<item><label><ref target="#X37">37</ref></label> Abraham J. Heschel, <title><rs type="title" key="Between" n="Between God and Man">Between God and Man</rs></title></item>
 <item><label><ref target="#X38">38</ref></label> Reinhold Niebuhr</item>
 <item><label><ref target="#X39">39</ref></label> Martin Buber; Reinhold Niebuhr</item>
 <item><label><ref target="#X40">40</ref> - <ref target="#X41">41</ref></label> Reinhold Niebuhr</item>
 <item><label><ref target="#X42">42</ref></label> Mabillon; M. Festugiere [French]</item>
-<item><label><ref target="#X43">43</ref></label> Nov, 1964; <title>Ezechiel</title> [Latin]; St. Mark the Ascetic from
-	  <title>Early Fathers from the Philokalia (EFP)</title></item>
+<item><label><ref target="#X43">43</ref></label> Nov, 1964; <title><rs type="title" key="Ezekiel" n="Bible. O.T. Ezekiel">Ezechiel</rs></title> [Latin]; St. Mark the Ascetic from
+	  <title><rs type="title" key="EFP" n="Early Fathers from the Philokalia">Early Fathers from the Philokalia (EFP)</rs></title></item>
 <item><label><ref target="#X44">44</ref></label> Anselm; Gilbert of Hoyland</item>
 <item><label><ref target="#X45">45</ref></label> Texts for an Office of
-Hermits ("office"); <title>Isaias</title>
+Hermits ("office"); <title><rs type="title" key="Isaiah" n="Bible. O.T. Isaiah">Isaias</rs></title>
 		[Latin]</item>
 <item><label><ref target="#X46">46</ref></label> "office":
-<title>Isaias</title> [Latin]; Isaac of Nineveh from <title>EFP</title></item>
+<title><rs type="title" key="Isaiah" n="Bible. O.T. Isaiah">Isaias</rs></title> [Latin]; Isaac of Nineveh from <title><rs type="title" key="EFP" n="Early Fathers in the Philokalia">EFP</rs></title></item>
 <item><label><ref target="#X47">47</ref> - <ref target="#X49">49</ref></label> "office": Isaac of Nineveh</item>
 <item><label><ref target="#X50">50</ref></label> "office":
-<title>Isaias</title>; Book of Wisdom [Latin]; January
+<title><rs type="title" key="Isaiah" n="Bible. O.T. Isaiah">Isaias</rs></title>; Book of Wisdom [Latin]; January
 		31, 1965</item>
 <item><label><ref target="#X51">51</ref></label> "office":
-Isaac of Nineveh; <title>Ecclesiasticus</title> [Latin]</item>
+Isaac of Nineveh; <title><rs type="title" key="Ecclesiasticus" n="Bible. O.T. Apocrypha. Ecclesiasticus">Ecclesiasticus</rs></title> [Latin]</item>
 <item><label><ref target="#X52">52</ref></label> "office": Unidentified author [Latin]</item>
-<item><label><ref target="#X53">53</ref></label> "office": from <title>Aggaeus</title> [Latin]</item>
-<item><label><ref target="#X54">54</ref></label> "office": <title>Ecclesiasticus</title> [Latin]</item>
+<item><label><ref target="#X53">53</ref></label> "office": from <title><rs type="title" key="Haggai" n="Bible. O.T. Haggai">Aggaeus</rs></title> [Latin]</item>
+<item><label><ref target="#X54">54</ref></label> "office": <title><rs type="title" key="Ecclesiasticus" n="Bible. O.T. Apocrypha. Ecclesiasticus">Ecclesiasticus</rs></title> [Latin]</item>
 <item><label><ref target="#X55">55</ref></label> "office": Mccha, A. of Mazt.</item>
 <item><label><ref target="#X56">56</ref></label> "office": Prayer of St. Odo to Mary, Mother of God
 		[Latin]</item>
-<item><label><ref target="#X57">57</ref></label> "office": <title>Ecclesiasticus</title> [Latin]</item>
+<item><label><ref target="#X57">57</ref></label> "office": <title><rs type="title" key="Ecclesiasticus" n="Bible. O.T. Apocrypha. Ecclesiasticus">Ecclesiasticus</rs></title> [Latin]</item>
 <item><label><ref target="#X58">58</ref></label> "office": Prayer of Fulbert of Chartres to Mary, Mother of God [Latin]</item>
 <item><label><ref target="#X59">59</ref></label> "office": Prayer from the Psalter of Robert of Molesme
 	to Mary, Mother of God [Latin]</item>
-<item><label><ref target="#X60">60</ref></label> "office": <title>Jeremias</title> [Latin]</item>
-<item><label><ref target="#X61">61</ref></label> "office": Anselm from <title>Proslogion</title> [Latin]</item>
-<item><label><ref target="#X62">62</ref></label> "office": <title>Isaias</title> [Latin]</item>
+<item><label><ref target="#X60">60</ref></label> "office": <title><rs type="title" key="Jeremiah" n="Bible. O.T. Jeremiah">Jeremias</rs></title> [Latin]</item>
+<item><label><ref target="#X61">61</ref></label> "office": Anselm from <title><rs type="title" key="Proslogion" n="Proslogion">Proslogion</rs></title> [Latin]</item>
+<item><label><ref target="#X62">62</ref></label> "office": <title><rs type="title" key="Isaiah" n="Bible. O.T. Isaiah">Isaias</rs></title> [Latin]</item>
 <item><label><ref target="#X63">63</ref></label> "office": Irenaeus [Latin]</item>
-<item><label><ref target="#X64">64</ref>, <ref target="#X65">65</ref></label> "office": <title>Ezechiel</title> [Latin]</item>
-<item><label><ref target="#X66">66</ref></label> "office": <title>Osee</title> [Latin]</item>
+<item><label><ref target="#X64">64</ref>, <ref target="#X65">65</ref></label> "office": <title><rs type="title" key="Ezekiel" n="Bible. O.T. Ezekiel">Ezechiel</rs></title> [Latin]</item>
+<item><label><ref target="#X66">66</ref></label> "office": <title><rs type="title" key="Hosea" n="Bible. O.T. Hosea">Osee</rs></title> [Latin]</item>
 <item><label>67 - 365</label> blank</item>
 </list>
 </div>
