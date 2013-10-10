@@ -313,7 +313,7 @@ meets in books or in life whom one does not merely observe, meet, or
 know.  A deep resonance of one's entire being is immediately set up
 with the entire being of the other (<foreign xml:lang="lat">Cor ad cor
 loquitur</foreign>)--heart speaks to heart in the wholeness of the language
-of music; true friendship is a kind of singing."</quote><bibl>:<title><rs type="title" key="Conjectures" n="Conjectures of a Guilty Bystander">Conjectures of A Guilty Bystander</rs></title>. (<pubPlace>New York</pubPlace>: <publisher>Image Books</publisher>, <date>1968</date>),
+of music; true friendship is a kind of singing."</quote><bibl><title><rs type="title" key="Conjectures" n="Conjectures of a Guilty Bystander">Conjectures of A Guilty Bystander</rs></title>. (<pubPlace>New York</pubPlace>: <publisher>Image Books</publisher>, <date>1968</date>),
 p. 188.</bibl></note>
 </quote>
             <bibl><author><name key="Newman">
@@ -352,7 +352,7 @@ mind as it was of Christ Jesus."</quote>
          </div>
 <pb n="9"/>
 	<div n="X(9)" xml:id="X09" type="page">
-<figure><graphic url="X09"/>
+<figure><graphic url="X09.jpg"/>
   <figDesc>Page image of X(9)</figDesc>
 </figure>
 
@@ -383,7 +383,7 @@ k</name></author>.</bibl>
          </div>
 	<pb n="10"/>
 <div n="X(10)" xml:id="X10" type="page">
-<figure><graphic url="X10"/>
+<figure><graphic url="X10.jpg"/>
   <figDesc>Page image of X(10)</figDesc>
 </figure>
 
@@ -413,7 +413,7 @@ even in spite of the foreseen infidelity of the world to its meaning
          </div>
          <pb n="11"/>
 <div n="X(11)" xml:id="X11" type="page">
-<figure><graphic url="X11"/>
+<figure><graphic url="X11.jpg"/>
   <figDesc>Page image of X(11)</figDesc>
 </figure>
 
@@ -437,7 +437,7 @@ art &amp; thought so often suspected by the clergy as an enemy."</quote>
          </div>
          <pb n="12"/>
 <div n="X(12)" xml:id="X12" type="page">
-<figure><graphic url="X12"/>
+<figure><graphic url="X12.jpg"/>
   <figDesc>Page image of X(12)</figDesc>
 </figure>
 
@@ -471,7 +471,7 @@ not only in His glorification but in His kenosis also.</quote>
  <head>Heraclitus</head>
 
   <div n="X(13)" xml:id="X13" type="page">
-<figure><graphic url="X13"/>
+<figure><graphic url="X13.jpg"/>
   <figDesc>Page image of X(13)</figDesc>
 </figure>
 
@@ -482,7 +482,7 @@ not only in His glorification but in His kenosis also.</quote>
 	<lb/>12th day - 353 days to come
 	</dateline> 
             <head>X (13) </head>
-            <bibl><author rend="underline"><name key=">Heraclitus">
+            <bibl><author rend="underline"><name key="Heraclitus">
                         <choice><reg>Heraclitus</reg><sic>HERACLITUS</sic></choice>
 
 k</name></author></bibl>
@@ -871,7 +871,7 @@ reached the Tao.</quote>
 hatred of death ... They accepted their life &amp; rejoiced in it, they
 forgot all fear of death ... Thus there was in them what is called the
 <hi rend="underline">want of any mind to resist the Tao</hi> &amp; 
-<hi rend="underline">of all attempts by means of the human to assist theHeavenly</hi>.</quote>
+<hi rend="underline">of all attempts by means of the human to assist the Heavenly</hi>.</quote>
             <bibl><biblScope type="part">V1. 2.</biblScope></bibl>
 	</cit>
 	<cit>
@@ -1186,7 +1186,7 @@ biography of Staretz Sylvan (sic), by <author>Archimandrite
 Sophrony</author>.</bibl></quote>
 
 The correct reference for this quotation of Staretz Silouan, both in
-<title><rs type="title" key="Conjectures" n="Conjectures of a Guilty Bystander">Conjectures</rs></title> and "The Red Diary 
+<title><rs type="title" key="Conjectures" n="Conjectures of a Guilty Bystander">Conjectures</rs></title> and "The Red Diary" 
 is: <bibl><author>Sofrony, Archimandrite</author>. <title><rs type="title" key="Undistorted" n="The Undistorted Image">The Undistorted Image</rs></title>. Translated
 by <editor role="translator">Rosemary Edmonds</editor> from the
 Russian. <pubPlace>London</pubPlace>: <publisher>The Faith
