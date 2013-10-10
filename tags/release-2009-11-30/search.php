@@ -16,14 +16,15 @@ $kwarray = processterms($kw);
 
 
 if ($kw)
-  $query = "declare option exist:serialize 'highlight-matches=elements';";
-  $query .= "for \$a in /TEI.2/text//div[ft:query(., \"$kw\")]
+  $query = 'declare namespace tei="http://www.tei-c.org/ns/1.0";
+declare option exist:serialize "highlight-matches=elements";';
+  $query .= "for \$a in /tei:TEI/tei:text//tei:div[ft:query(., \"$kw\")]
    let \$matchcount := ft:score(\$a)
    order by \$matchcount descending
    return <div>
      {\$a/@type}
-     {\$a/@id}
-     {\$a/head}
+     {\$a/@xml:id}
+     {\$a/tei:head}
      <matches><total>{\$matchcount}</total></matches>
    </div>";
 

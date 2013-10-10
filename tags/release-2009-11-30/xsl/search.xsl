@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+		xmlns:tei="http://www.tei-c.org/ns/1.0"
 		xmlns:exist="http://exist.sourceforge.net/NS/exist"
                   version="1.0" exclude-result-prefixes="exist">
 
@@ -24,8 +25,8 @@
     <p>
       <xsl:attribute name="class"><xsl:value-of select="@type"/></xsl:attribute>
       <a>
-        <xsl:attribute name="href">view.php?id=<xsl:value-of select="@id"/><xsl:if test="$keyword">&amp;keyword=<xsl:value-of select="$keyword"/></xsl:if></xsl:attribute>
-        <xsl:apply-templates select="head"/>
+        <xsl:attribute name="href">view.php?id=<xsl:value-of select="@xml:id"/><xsl:if test="$keyword">&amp;keyword=<xsl:value-of select="$keyword"/></xsl:if></xsl:attribute>
+        <xsl:apply-templates select="tei:head"/>
       </a>
         (<xsl:value-of select="@type"/>)
       <xsl:apply-templates select="matches"/>
@@ -34,7 +35,7 @@
 
   <xsl:template match="matches">
     <br/>
-    <xsl:apply-templates select="total"/> match<xsl:if test="total > 1">es</xsl:if>
+    <xsl:apply-templates select="total"/> <xsl:text> - relevance score</xsl:text>
       <!-- only display counts for each term if there is more than one term -->
     <xsl:if test="count(term) > 1">
       <xsl:apply-templates select="term"/>
@@ -45,7 +46,7 @@
     <span class="term"><xsl:value-of select="text()"/> : <xsl:value-of select="count"/></span>
   </xsl:template>
 
-  <xsl:template match="head">
+  <xsl:template match="tei:head">
     <b><xsl:apply-templates/></b>
   </xsl:template>
 
