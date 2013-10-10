@@ -48,10 +48,10 @@ return <div>{$div/@xml:id}{$div/tei:head}{$cit}</div>';
 
 } else {
   $xquery{"language"} = 'declare namespace tei="http://www.tei-c.org/ns/1.0";
-let $doc := /tei:TEI.2
-for $a in distinct-values($doc/tei:text/tei:body//tei:div/tei:cit/tei:quote/@lang)
-let $b := $doc/tei:teiHeader/tei:profileDesc/tei:langUsage/tei:language[@xml:id=$a]
-let $c := count($doc/tei:text/tei:body//tei:div/tei:cit/tei:quote[@lang=$a])
+let $doc := /tei:TEI
+for $a in distinct-values($doc/tei:text/tei:body//tei:div/tei:cit/tei:quote/@xml:lang)
+let $b := $doc/tei:teiHeader/tei:profileDesc/tei:langUsage/tei:language[@ident=$a]
+let $c := count($doc/tei:text/tei:body//tei:div/tei:cit/tei:quote[@xml:lang=$a])
 order by $b
 return <lang>
 {$b}
@@ -68,7 +68,7 @@ return <div>{$div/@xml:id}{$div/tei:head}{$cit}</div>';
 $xquery{"title"} = 'declare namespace tei="http://www.tei-c.org/ns/1.0";
 let $doc := /tei:TEI
 for $a in distinct-values($doc/tei:text/tei:body//tei:div/tei:cit/tei:bibl/tei:title/tei:rs/@key)
-let $b := distinct-values($doc/tei:text/tei:body//tei:div/tei:cit/tei:bibl/tei:title/tei:rs[@key=$a]/@reg)
+let $b := distinct-values($doc/tei:text/tei:body//tei:div/tei:cit/tei:bibl/tei:title/tei:rs[@key=$a]/@n)
 let $c := count($doc/tei:text/tei:body//tei:div/tei:cit[tei:bibl//tei:rs/@key=$a])
 order by $b
 return <title>

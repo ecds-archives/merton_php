@@ -9,6 +9,7 @@
   <!-- <xsl:variable name="figure-suffix">.jpg</xsl:variable> -->
   <xsl:variable name="thumbnail-path">http://beck.library.emory.edu/merton/image-content/thumbnails/</xsl:variable>
   <xsl:variable name="thumbnail-suffix">.gif</xsl:variable>
+  <xsl:variable name="target"><xsl:value-of select="substring-after(@target, '#')"/></xsl:variable>
 
 
   <xsl:template match="tei:div">
@@ -70,7 +71,14 @@
   </xsl:template>
   
   <xsl:template match="tei:title">
-    <i><xsl:apply-templates/></i>
+    <xsl:choose>
+      <xsl:when test="child::tei:rs">
+          <i><xsl:apply-templates select="tei:rs"/></i>
+      </xsl:when>
+      <xsl:otherwise>
+	<xsl:apply-templates/>
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
 
   <xsl:template match="tei:author">
@@ -105,7 +113,7 @@
   </xsl:template>
 
   <xsl:template match="tei:ref">
-    <xsl:variable name="target"><xsl:value-of select="substring-after(@target, '#')"/></xsl:variable> 
+  <xsl:variable name="target"><xsl:value-of select="substring-after(@target, '#')"/></xsl:variable>
     <xsl:choose>
       <xsl:when test="ancestor::tei:div//tei:note/@xml:id=$target">
         <!-- if the ref refers to a note in this section but is NOT inline,
@@ -124,23 +132,23 @@
 
   <xsl:template match="tei:ref[@type='inline-note']">
     <!-- apply-templates for inline note matching target id... -->
-    <xsl:apply-templates select="key('note-by-id', @target)" mode="ref"/>
+    <xsl:apply-templates select="key('note-by-id', $target)" mode="ref"/>
   </xsl:template>
 
   <xsl:template match="tei:note[@place='inline']" mode="ref">
     <span>
-      <xsl:attribute name="class">inline-note-<xsl:value-of select="@resp"/></xsl:attribute>
+      <xsl:attribute name="class">inline-note-<xsl:value-of select="substring-after(@resp, '#')"/></xsl:attribute>
       <xsl:apply-templates/>
     </span>
   </xsl:template>
 
   <xsl:template match="tei:note[@place='inline']">
     <xsl:choose>
-      <xsl:when test="//tei:ref[@type='inline-note']/@target = @xml:id"> 
+      <xsl:when test="//tei:ref[@type='inline-note']/@target = concat('#', @xml:id)"> 
           <!-- if there is a ref targetting this note, don't display;
              the note will display via ref -->
         </xsl:when> 
-      <xsl:when test="@resp = 'auth'">
+      <xsl:when test="@resp = '#auth'">
         <!-- no special formatting for author's notes -->
         <xsl:apply-templates/>
       </xsl:when>
@@ -210,16 +218,37 @@
   </div>
 </xsl:template>
 
-<xsl:template match="tei:author[tei:name/tei:choice/tei:sic] | tei:title[tei:rs][not(ancestor::tei:note)]">
+<xsl:template match="tei:author[tei:name] | tei:title[tei:rs][not(ancestor::tei:note)] | tei:title[not(child::tei:rs)][not(ancestor::tei:note)]">
 <xsl:variable name="selection">
 <xsl:choose>
-  <xsl:when test="name()='author'">
-    <xsl:value-of select="normalize-space(tei-name/tei:choice/tei:sic)"/>
+  <xsl:when test="name()='author'"> 
+    <xsl:choose>
+      <xsl:when test="child::tei:name/tei:choice">
+    <xsl:value-of select="normalize-space(tei:name/tei:choice/tei:sic)"/>
+      </xsl:when>
+      <xsl:otherwise>
+	<xsl:value-of select="normalize-space(tei:name)"/>
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:when>
   <xsl:when test="name()='title'">
-    <xsl:value-of select="normalize-space(tei:title/tei:rs)"/>
+    <xsl:choose>
+      <xsl:when test="child::tei:rs">
+	<xsl:value-of select="normalize-space(tei:rs)"/>
+      </xsl:when>
+      <xsl:otherwise>
+	<xsl:value-of select="."/>
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:when>
 </xsl:choose></xsl:variable>
-  <a><xsl:attribute name="href">browse.php?category=<xsl:value-of select="name()"/>&amp;amp;key=<xsl:value-of select="*/@key"/></xsl:attribute><xsl:value-of select="$selection"/></a>
+<xsl:choose>
+  <xsl:when test="name()='title' and not(child::tei:rs)">
+	    <!-- <a><xsl:attribute name="href">browse.php?category=<xsl:value-of select="name()"/></xsl:attribute><xsl:value-of select="$selection"/></a> --><i><xsl:apply-templates/></i>
+  </xsl:when>
+  <xsl:otherwise>
+  <a><xsl:attribute name="href">browse.php?category=<xsl:value-of select="name()"/>&amp;key=<xsl:value-of select="*/@key"/></xsl:attribute><xsl:value-of select="$selection"/></a>
+</xsl:otherwise>
+</xsl:choose>
 </xsl:template>
 </xsl:stylesheet>

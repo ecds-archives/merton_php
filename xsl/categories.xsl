@@ -33,8 +33,8 @@
 
   <xsl:template match="lang">
     <li><a>
-    <xsl:attribute name="href">browse.php?category=language&amp;key=<xsl:value-of select="language/@xml:id"/></xsl:attribute>
-    <xsl:apply-templates select="language"/></a>
+    <xsl:attribute name="href">browse.php?category=language&amp;key=<xsl:value-of select="tei:language/@ident"/></xsl:attribute>
+    <xsl:apply-templates select="tei:language"/></a>
 	 - <xsl:apply-templates select="count"/></li>
   </xsl:template>
 

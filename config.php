@@ -28,6 +28,12 @@ if ($in_production) {
   $basedir = "/Users/~ahickco/Sites";              // on beck-dev: /data/html
   $base_url = "http://$server$base_path/";
  }
+/*else {
+  $server = "beck-dev.ecdsweb.org";
+  $base_path = "/data/html";
+  $basedir = "/merton";
+  $baseurl = "http://$server$base_path/";
+  }*/
 
 // add basedir to the php include path (for header/footer files and lib directory)
 set_include_path(get_include_path() . ":" . $basedir . ":" . "$basedir/lib");
