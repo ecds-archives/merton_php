@@ -47,7 +47,8 @@ return <result>
 
 // special cases: cover & frontispiece have no text & no div
 if (($id == "cover")||($id == "frontispiece")) {
-  $xquery = 'let $a := /tei:TEI/tei:text//tei:figure[tei:graphic/@url="' . $id . '"]
+  $xquery = 'declare namespace tei="http://www.tei-c.org/ns/1.0";
+let $a := /tei:TEI/tei:text//tei:figure[tei:graphic/@url="' . $id . '.jpg"]
 return $a';
  }
 

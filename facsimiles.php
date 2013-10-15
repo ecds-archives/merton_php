@@ -11,9 +11,10 @@ $xmldb = new xmlDbConnection($myargs);
 $pos = 1;
 $max = 65;
 
-$xquery = 'for $fig in /TEI.2/text//figure
+$xquery = 'declare namespace tei="http://www.tei-c.org/ns/1.0";
+for $fig in /tei:TEI/tei:text//tei:figure
 return <figure>{$fig/@*}{$fig/*}
-<parent>{$fig/../@id}{$fig/../@type}{local-name($fig/..)}</parent>
+<parent>{$fig/../@xml:id}{$fig/../@type}{local-name($fig/..)}</parent>
 </figure>';
 
 $xsl = "xsl/facsimiles.xsl"; 

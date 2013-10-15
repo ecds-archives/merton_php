@@ -30,8 +30,8 @@ if ($in_production) {
  }
 /*else {
   $server = "beck-dev.ecdsweb.org";
-  $base_path = "/data/html";
-  $basedir = "/merton";
+  $basedir = "/data/html";
+  $base_path = "/merton";
   $baseurl = "http://$server$base_path/";
   }*/
 

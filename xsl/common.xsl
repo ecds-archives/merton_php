@@ -5,9 +5,9 @@
 
   <xsl:output method="xml"/>
 
-  <xsl:variable name="figure-path">http://beck.library.emory.edu/merton/image-content/</xsl:variable>
+  <xsl:variable name="figure-path">http://beck-dev.ecdsweb.org/merton/image-content/</xsl:variable>
   <!-- <xsl:variable name="figure-suffix">.jpg</xsl:variable> -->
-  <xsl:variable name="thumbnail-path">http://beck.library.emory.edu/merton/image-content/thumbnails/</xsl:variable>
+  <xsl:variable name="thumbnail-path">http://beck-dev.ecdsweb.org/merton/image-content/thumbnails/</xsl:variable>
   <xsl:variable name="thumbnail-suffix">.gif</xsl:variable>
   <xsl:variable name="target"><xsl:value-of select="substring-after(@target, '#')"/></xsl:variable>
 
