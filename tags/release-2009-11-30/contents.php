@@ -3,10 +3,10 @@
 include("config.php");
 include_once("lib/xmlDbConnection.class.php");
 
-
 //$myargs = $tamino_args;
 $myargs =  $exist_args;
-$myargs{"debug"} = true;
+$myargs{"debug"} = false;
+#$myargs{"debug"} = true;
 //$tamino = new xmlDbConnection($myargs);
 $xmldb = new xmlDbConnection($myargs);
 

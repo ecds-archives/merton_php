@@ -22,18 +22,18 @@ if ($in_production) {
   $basedir = "/home/httpd/html/beck$base_path";
   $base_url = "http://beck.library.emory.edu$base_path/";
 
-} else {
+}/* else {
   $server = "beckcady.library.emory.edu";         // test (on staging beck-dev.ecdsweb.org)
   $base_path = "/~ahickco/merton";
   $basedir = "/Users/~ahickco/Sites";              // on beck-dev: /data/html
   $base_url = "http://$server$base_path/";
- }
-/*else {
+ }*/
+else {
   $server = "beck-dev.ecdsweb.org";
   $basedir = "/data/html";
   $base_path = "/merton";
   $baseurl = "http://$server$base_path/";
-  }*/
+  }
 
 // add basedir to the php include path (for header/footer files and lib directory)
 set_include_path(get_include_path() . ":" . $basedir . ":" . "$basedir/lib");
