@@ -72,6 +72,8 @@ if ($title == '')
 print "<html>
   <head> 
     <link rel='stylesheet' type='text/css' href='merton.css'>
+    <link rel='shortcut icon' type='image/x-icon' href='images/favicon.ico'>
+    <link rel='icon' type='image/x-icon' href='images/favicon.ico'>
     <title>Merton's Red Diary : $title</title> 
     <meta http-equiv='Content-Type' content='text/html; charset=utf-8'> 
   </head> 

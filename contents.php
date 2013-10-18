@@ -31,7 +31,9 @@ $xmldb->xslTransform($xsl);
 print "<html>
   <head> 
     <link rel='stylesheet' type='text/css' href='merton.css'>
-    <title>Merton's Red Diary : Contents</title> 
+    <title>Merton's Red Diary : Contents</title>     
+    <link rel='shortcut icon' type='image/x-icon' href='images/favicon.ico'>
+    <link rel='icon' type='image/x-icon' href='images/favicon.ico'>
     <meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'> 
     <base href='$base_url'> 
   </head> 

@@ -91,6 +91,8 @@ $xmldb->xslTransform($xsl);
 print "<html>
   <head>
    <link rel='stylesheet' type='text/css' href='merton.css'>
+    <link rel='shortcut icon' type='image/x-icon' href='images/favicon.ico'>
+    <link rel='icon' type='image/x-icon' href='images/favicon.ico'>
     <title>Merton's Red Diary : Browse by Category</title>  
     <meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'> 
   </head> 
