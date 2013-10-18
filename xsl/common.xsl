@@ -246,9 +246,16 @@
   <xsl:when test="name()='title' and not(child::tei:rs)">
 	    <!-- <a><xsl:attribute name="href">browse.php?category=<xsl:value-of select="name()"/></xsl:attribute><xsl:value-of select="$selection"/></a> --><i><xsl:apply-templates/></i>
   </xsl:when>
+  <xsl:when test="name()='title' and parent::tei:item">
+    <i><xsl:value-of select="normalize-space(tei:rs)"/></i>
+  </xsl:when>
   <xsl:otherwise>
   <a><xsl:attribute name="href">browse.php?category=<xsl:value-of select="name()"/>&amp;key=<xsl:value-of select="*/@key"/></xsl:attribute><xsl:value-of select="$selection"/></a>
 </xsl:otherwise>
 </xsl:choose>
 </xsl:template>
+
+<!-- <xsl:template match="tei:title/tei:rs"> -->
+<!--   <xsl:value-of select="normalize-space()"/> -->
+<!-- </xsl:template> -->
 </xsl:stylesheet>

@@ -14,6 +14,7 @@ $key = $_REQUEST["key"];	// key of specific author/title/lang to retrieve
 //$myargs = $tamino_args;
 $myargs = $exist_args;
 $myargs{"debug"} = false;
+//$myargs{"debug"} = true;
 //$tamino = new xmlDbConnection($myargs);
 $xmldb = new xmlDbConnection($myargs);
 $pos = 1;
